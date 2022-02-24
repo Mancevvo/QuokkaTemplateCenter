@@ -1,5 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-*{
-  font-family: 'Open Sans', sans-serif;
+* {
+  font-family: "Open Sans", sans-serif;
 }
+
+body {
+  background-color: #11121a;
+}
+
+/* NAVIGATION BAR */
+.QuokkaCustom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 100;
+  transition: all 200ms;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #34E7CE;
+  border-bottom: solid #34E7CE 1px;
+}
+
+
+.navbar-light .navbar-toggler {
+  border-radius: 0px;
+  border: solid rgba(52, 231, 206,0.25) 1px;
+  transition: all 300ms;
+}
+
+.navbar-light .navbar-toggler:hover {
+
+  border-color: rgba(52, 231, 206,0.25);
+  background-color: rgba(52, 231, 206,0.25);
+}
+
+
+/*Search */
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.0);
+  font-size: 0.8rem;
+  border-radius: 0px;
+}
+
+.form-control::placeholder {
+  color: white;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+
+/* END OF NAVIGATION BAR */

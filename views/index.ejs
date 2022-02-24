@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    
-  </head>
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <%- include('./partials/scripts.ejs'); %>
+    <link rel='stylesheet' href='/stylesheets/mainSite.css' />
+</head>
+
+<%- include('./partials/mainMenu.ejs'); %>
+
+
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div id="backgroundIMGB1">
+      <div class="container spacer-2">
+
+
+        <h5 class="Green30" id="h3-Banner1">Find what you need</h5>
+        <h1 class="White" id="h1-Banner1">Quokka Template Center<br>New Convention</h1>
+        <p class="White" id="text-Banner1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit beatae magnam ut, culpa cupiditate non vitae voluptatum laudantium, obcaecati quo cum, perferendis aut odio in perspiciatis officiis! Minima, rerum.</p>
+        <div class="spacer-3"></div>
+        
+        <a href="#" class="BTN-1">See components</a>
+        <a href="#" class="BTN-2">Color palette</a>
+      </div>
+    </div>
 
   </body>
+
 </html>
