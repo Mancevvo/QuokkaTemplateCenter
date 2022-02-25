@@ -46,9 +46,15 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
+/*
 //Listener
 app.listen(process.env.PORT || 3031, function () {
   console.log("Quokka Template Center running on port: 3031");
 });
+*/
+
+app.listen(3000, function() {
+  console.log('Quokka Template Center running on port: 3000');
+})
 
 module.exports = app;
