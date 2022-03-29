@@ -2,6 +2,35 @@
     color: #ffffff;
 }
 
+
+
 .Green30{
     color: #34E7CE;
+}
+
+
+.Blue10{
+    color: #CAEBFF;
+}
+
+.Blue20{
+    color: #96DCFF;
+}
+
+.Blue30{
+    color: #53CBFF;
+}
+
+.Blue40{
+    color: #06BBFA;
+}
+
+.Blue50{
+    color: #008FD3;
+}
+
+/* Backgrounds */
+
+.White10{
+    background-color: rgba(255, 255, 255, 0.1);
 }

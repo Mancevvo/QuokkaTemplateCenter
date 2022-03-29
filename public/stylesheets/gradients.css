@@ -1,0 +1,14 @@
+.gradient1 {
+  background: linear-gradient(90deg, #53cbff 5%, #877eff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient2 {
+    background: rgb(16,16,25);
+    background: -moz-linear-gradient(114deg, rgba(16,16,25,1) 51%, rgba(27,62,107,0.5032387955182073) 100%);
+    background: -webkit-linear-gradient(114deg, rgba(16,16,25,1) 51%, rgba(27,62,107,0.5032387955182073) 100%);
+    background: linear-gradient(114deg, rgba(16,16,25,1) 51%, rgba(27,62,107,0.5032387955182073) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101019",endColorstr="#1b3e6b",GradientType=1);
+}
