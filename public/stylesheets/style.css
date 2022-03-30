@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #11121a;
+  /*background-color: #11121a; */
+  background-color: #000000;
+
 }
 
 /* NAVIGATION BAR */
@@ -26,29 +28,26 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #34E7CE;
-  border-bottom: solid #34E7CE 1px;
+  color: #34e7ce;
+  border-bottom: solid #34e7ce 1px;
 }
-
 
 .navbar-light .navbar-toggler {
   border-radius: 0px;
-  border: solid rgba(52, 231, 206,0.25) 1px;
+  border: solid rgba(52, 231, 206, 0.25) 1px;
   transition: all 300ms;
 }
 
 .navbar-light .navbar-toggler:hover {
-
-  border-color: rgba(52, 231, 206,0.25);
-  background-color: rgba(52, 231, 206,0.25);
+  border-color: rgba(52, 231, 206, 0.25);
+  background-color: rgba(52, 231, 206, 0.25);
 }
-
 
 /*Search */
 
 .form-control {
   background-color: rgba(255, 255, 255, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.0);
+  border: 1px solid rgba(255, 255, 255, 0);
   font-size: 0.8rem;
   border-radius: 0px;
 }
@@ -59,7 +58,25 @@ body {
   font-size: 0.8rem;
 }
 
-
 /* END OF NAVIGATION BAR */
 
+.quokkaForm{
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.1);
+  min-height: 55px;
+  border: none;
+  color: rgba(255, 255, 255, 0.406);
+  font-weight: 300;
+}
 
+.alternativeText{
+  color: rgba(255, 255, 255, 0.406);
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+#labelForm{
+  font-weight: 300;
+  font-size: 20px;
+}

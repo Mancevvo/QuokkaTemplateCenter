@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <%- include('./partials/scripts.ejs'); %>
+        <link rel='stylesheet' href='/stylesheets/mainSite.css' />
+
+</head>
+
+<%- include('./partials/mainMenu.ejs'); %>
+
+
+    <body>
+        <div id="backgroundIMGB3" class="adjustPaddingBanner">
+            <div class="container">
+                <h5 class="Green30" id="h3-Banner1">
+                    <%= title %>
+                </h5>
+                <h1 class="White" id="h1-Banner1">Find your component</h1>
+                <p class="White" id="text-Banner1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
+                    beatae
+                    magnam ut, culpa cupiditate non vitae voluptatum laudantium, obcaecati quo cum, perferendis aut odio
+                    in
+                    perspiciatis officiis! Minima, rerum.</p>
+                <div class="spacer-3"></div>
+                <a href="#componentPageIndex" class="BTN-1">See Devo tags</a>
+            </div>
+        </div>
+
+        <div class="gradient2" id="componentPageIndex">
+            <div class="container spacer-2-low alignCenter">
+                <h5 class="Green30" id="h3-Banner1">Naming convention</h5>
+                <h1 class="White" id="h1-Banner1">How to name our <span class="gradient1">components?</span></h1>
+                <div class="spacer-3"></div>
+
+                <form action="">
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="White" id="labelForm">Component's code</p>
+                            <select class="form-select quokkaForm" aria-label="Default select example" name="Component"
+                                id="Component">
+                                <option selected>Select code</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <p class="White" id="labelForm">Quokka Template</p>
+                            <select class="form-select quokkaForm" aria-label="Default select example" name="Template"
+                                id="Template">
+                                <option selected>Select template</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <p class="White" id="labelForm">Identifier(page)</p>
+                            <input type="text" class="form-control quokkaForm" name="Identifier" id="Identifier"
+                                style="text-transform: uppercase;">
+                        </div>
+                        <div class="col">
+                            <p class="White" id="labelForm">Number of component</p>
+                            <input type="number" class="form-control quokkaForm" name="Position" id="Position"
+                                value="0">
+                        </div>
+                    </div>
+
+                    <div class="spacer-3"></div>
+
+                    <a href="#componentPageIndex" class="BTN-1" id="createName">See Devo pages</a>
+                    <div class="spacer-5"></div>
+
+                    <div class="doubleColumnFour" id="resultsComponentsNaming">
+                        <div>
+                            <h2 class="White" id="h1-Banner1"><span class="gradient1">Name</span></h2>
+                            <p id="newComponentsName" class="White alternativeText">Here will go the name preview</p>
+                        </div>
+
+                        <div>
+                            <h2 class="White" id="h1-Banner1"><span class="gradient1">Tags</span></h2>
+                            <p id="newComponentsTags" class="White alternativeText">Here will go the tags preview</p>
+                        </div>
+
+                        <div>
+                            <h2 class="White" id="h1-Banner1"><span class="gradient1">Description</span></h2>
+                            <p id="newComponentsDescription" class="White alternativeText">Here will go the name preview
+                            </p>
+                        </div>
+
+                        <div>
+                            <h2 class="White" id="h1-Banner1"><span class="gradient1">Collection</span></h2>
+                            <p id="newComponentsCollections" class="White alternativeText">Here will go the collection
+                                preview</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        </form>
+        </div>
+        </div>
+    </body>
+
+</html>

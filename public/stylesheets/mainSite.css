@@ -1,42 +1,64 @@
-#h3-Banner1{
-    font-weight: 100;
+#h3-Banner1 {
+  font-weight: 100;
 }
 
-#h1-Banner1{
-    font-weight: 600;
+#h1-Banner1 {
+  font-weight: 600;
 }
 
-#hbold-Banner1{
-    font-weight: 600;
+#hbold-Banner1 {
+  font-weight: 600;
 }
 
-#backgroundIMGB1{
-    background-image: url('/images/Backgrounds/B1.jpg');
-    background-size: cover;
-    background-position: center right;
+#backgroundIMGB1 {
+  background-image: url("/images/Backgrounds/B1.jpg");
+  background-size: cover;
+  background-position: center right;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
-#text-Banner1{
-    font-weight: 100;
-    font-size: 0.8rem;
-    padding-right: 50%;
+#backgroundIMGB2 {
+  background-image: url("/images/Backgrounds/B2.png");
+  background-size: cover;
+  background-position: center center;
 }
 
-#text-GeneralCard{
-    font-weight: 100;
-    font-size: 0.8rem;
-    margin-bottom: 0px;
+#backgroundIMGB3 {
+  background-image: url("/images/Backgrounds/B3.png");
+  background-size: cover;
+  background-position: center center;
 }
 
-.textCardContainer{
-    margin-left: 25px;
+#text-Banner1 {
+  font-weight: 100;
+  font-size: 0.8rem;
+  padding-right: 50%;
 }
 
-.cardContainer{
-    display: flex;
-    padding: 20px 25px;
-    min-height: 200px;
-    width: 410px;
+#text-GeneralCard {
+  font-weight: 100;
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+}
+
+.textCardContainer {
+  margin-left: 25px;
+}
+
+.cardContainer {
+  display: flex;
+  padding: 20px 25px;
+  min-height: 200px;
+  width: 410px;
+  transition: all 500ms;
+}
+
+.cardContainer:hover {
+  background-color: #ffffff20;
+}
+
+.iconBackground svg path {
+  fill: url(#mygradient);
 }
 
 /*
