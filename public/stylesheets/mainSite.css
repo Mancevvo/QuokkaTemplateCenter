@@ -29,6 +29,12 @@
   background-position: center center;
 }
 
+#backgroundIMGB4 {
+  background-image: url("/images/Backgrounds/B4.png");
+  background-size: cover;
+  background-position: center center;
+}
+
 #text-Banner1 {
   font-weight: 100;
   font-size: 0.8rem;
