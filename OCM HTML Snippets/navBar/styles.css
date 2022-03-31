@@ -1,0 +1,20 @@
+.navBarTop-container{
+    padding: 8px 0;
+    background-color: #3A3632;
+    z-index: 7;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.maxWidth-container{
+    max-width: 1400px;
+    background-color: red;
+}
+
+/* LOGOS */
+
+.u30-oicn{
+
+}
+
