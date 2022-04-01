@@ -1,20 +1,134 @@
-.navBarTop-container{
-    padding: 8px 0;
-    background-color: #3A3632;
-    z-index: 7;
-    position: relative;
-    top: 0;
-    width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
 }
 
-.maxWidth-container{
-    max-width: 1400px;
-    background-color: red;
+/* STICKY MENU*/
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+/* MAIN CONTAINER*/
+.navBarTop-container {
+  padding: 8px 0;
+  background-color: #3a3632;
+  z-index: 7;
+  min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
+  /*top: 0;*/
+  /*max-width: 1600px; */
+  /* margin: 0 auto; */
+}
+
+/* Grid Column system*/
+.gridThreeColumn {
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 121px 1fr auto;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  max-width: 1400px;
+  overflow-x: hidden;
+}
+
+/* Right buttons*/
+.gridTwoColumn {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 /* LOGOS */
 
-.u30-oicn{
-
+.u30-oicn {
 }
 
+.u30-oicn-mobile {
+  display: none;
+}
+
+/* NAV-BAR*/
+.u30navitem {
+  background-color: #ffffff00;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+  position: relative;
+  transform: translate(0, 0);
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 14px;
+}
+
+/* BTNS */
+.BTN-1 {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #312d2a;
+  width: auto;
+  padding: 11px 20px;
+  color: #fbf9f8;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  width: 210px;
+}
+
+@media (max-width: 1500px) {
+  .gridThreeColumn {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 1199px) {
+  body {
+    background-color: lightblue;
+  }
+
+  /*LOGO CHANGE */
+  .u30-oicn-mobile {
+    display: block;
+  }
+
+  .u30-oicn {
+    display: none;
+  }
+
+  .gridThreeColumn {
+    grid-template-columns: 32px 1fr auto;
+  }
+  /*END LOGO CHANGE */
+}
+
+@media (max-width: 767px) {
+  body {
+    background-color: rgb(30, 67, 80);
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    background-color: rgb(230, 173, 222);
+  }
+}
