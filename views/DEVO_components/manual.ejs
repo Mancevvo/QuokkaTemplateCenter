@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <%- include('../partials/scripts.ejs'); %>
+        <link rel='stylesheet' href='../stylesheets/mainSite.css' />
+        <link rel='stylesheet' href='../stylesheets/components.css' />
+
+</head>
+
+<%- include('../partials/mainMenu.ejs'); %>
+
+
+    <body>
+        <div id="backgroundIMGB3" class="adjustPaddingBanner">
+            <div class="container">
+                <h5 class="Green30" id="h3-Banner1">
+                    <%= title %>
+                </h5>
+                <h1 class="White" id="h1-Banner1">Steps</h1>
+            </div>
+        </div>
+        <div class="spacer-5"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <!--SINGLE COMPONENT-->
+                    <div class="White White10 cardContainer">
+                        <div class="verticalCenter iconBackground">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+                                class="bi bi-textarea" viewBox="0 0 16 16">
+                                <defs>
+                                    <linearGradient id="mygradient" x1="80.86%" x2="19.14%" y1="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#ffffff40" />
+                                        <stop offset="100%" stop-color="#877eff" />
+                                    </linearGradient>
+                                </defs>
+                                <path
+                                    d="M1.5 2.5A1.5 1.5 0 0 1 3 1h10a1.5 1.5 0 0 1 1.5 1.5v3.563a2 2 0 0 1 0 3.874V13.5A1.5 1.5 0 0 1 13 15H3a1.5 1.5 0 0 1-1.5-1.5V9.937a2 2 0 0 1 0-3.874V2.5zm1 3.563a2 2 0 0 1 0 3.874V13.5a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V9.937a2 2 0 0 1 0-3.874V2.5A.5.5 0 0 0 13 2H3a.5.5 0 0 0-.5.5v3.563zM2 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                            </svg>
+                        </div>
+
+                        <div class="alignLeft verticalCenter textCardContainer">
+                            <h5>
+                                <%= title %>
+                            </h5>
+
+                            <p id="text-GeneralCard" style="padding-bottom: 0px;"><strong>Contains: <br></strong>Custom
+                                Banner component,
+                                Custom Feature component &
+                                Custom Hero component.</p>
+
+                                
+                        </div>
+
+                    </div>
+                    <!--END SINGLE COMPONENT-->
+
+                </div>
+                <div class="col-sm-8">
+                    <h3>Step 1: Create all your assets</h3>
+                    <p>Probably one of the most used components. As you may noticed, DEVO_components have nested
+                        components. This component includes:</p>
+                    <ol>
+                        <li>Custom Banner component,</li>
+                        <li>Custom Feature component &</li>
+                        <li>Custom Hero component</li>
+                    </ol>
+
+                    But we will get to that part later... First we need an inital configuration.
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </body>
+    <script src="../javascripts/headerCorrectionsComponents.js"></script>
+
+</html>

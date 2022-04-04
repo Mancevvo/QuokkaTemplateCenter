@@ -22,7 +22,7 @@ window.addEventListener("load", function () {
     //console.log(Component + Template + Identifier);
 
     result.innerHTML =
-      Component + "--" + Template + "--" + Identifier + "--" + Position;
+    Identifier + "--" + Template + "--" + Component + "--" + Position;
     result.style.display = "block";
 
     description.innerHTML =
