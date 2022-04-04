@@ -1,0 +1,7 @@
+.col-section-list {
+    gap: 32px!important;
+}
+
+.card.query-text {
+    max-width: 100%!important;
+}
