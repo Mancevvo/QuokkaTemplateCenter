@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <%- include('./partials/scripts.ejs'); %>
+        <link rel='stylesheet' href='/stylesheets/mainSite.css' />
+        <link rel='stylesheet' href='/stylesheets/video.css' />
+
+</head>
+
+<%- include('./partials/mainMenu.ejs'); %>
+
+
+    <body>
+        <div id="backgroundIMGB2" class="adjustPaddingBanner">
+            <div class="container">
+                <h5 class="Green30" id="h3-Banner1">
+                    <%= title %>
+                </h5>
+                <h1 class="White" id="h1-Banner1">Tutorials</h1>
+                <p class="White" id="text-Banner1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
+                    beatae
+                    magnam ut, culpa cupiditate non vitae voluptatum laudantium, obcaecati quo cum, perferendis aut odio
+                    in
+                    perspiciatis officiis! Minima, rerum.</p>
+                <div class="spacer-3"></div>
+                <a href="#componentPageIndex" class="BTN-1">See tutorials</a>
+            </div>
+        </div>
+
+        <div class="Black" id="componentPageIndex">
+            <div class="container spacer-2-low alignCenter">
+                <h5 class="Green30" id="h3-Banner1">Learn</h5>
+                <h1 class="White" id="h1-Banner1">Video <span class="gradient1">tutorials</span></h1>
+                <div class="spacer-3"></div>
+
+                <div class="doublColumnComplete">
+
+                    <!--Single video-->
+                    <div class="videoContainer">
+                        <div class="videoContainerInset">
+                            <video width="100%" controls preload="none">
+                                <source src="/videos/OverviewSession_Kaleb_31Mar.mp4" type="video/mp4">
+                                Your browser does not support HTML video.
+                            </video>
+                        </div>
+                        <div class="textVideoContainer White White10 ">
+                            <p class="White alignLeft" id="text-Banner1" style="padding-right: 0px;"><strong>Date:</strong> 03/31/2022</p>
+                            <div class="spacer-4"></div>
+                            <p class="White alignLeft" id="text-Banner1" style="padding-right: 0px;">First page creation session on OCM. Kaleb shows the basic composition of components, how to create pages, quick tips and more. This video must be seen to have a general overview of the OCM DEVO_Components.</p>
+                        </div>
+                    </div>
+                    <!--End Single video-->
+
+                    <!--Single video-->
+                    <div class="videoContainer">
+                        <div class="videoContainerInset">
+                            <video width="100%" controls preload="none">
+                                <source src="/videos/VideoOne-Spanish.mp4" type="video/mp4">
+                                Your browser does not support HTML video.
+                            </video>
+                        </div>
+                        <div class="textVideoContainer White White10 ">
+                            <p class="White alignLeft" id="text-Banner1" style="padding-right: 0px;"><strong>Date:</strong> 04/04/2022</p>
+                            <div class="spacer-4"></div>
+                            <p class="White alignLeft" id="text-Banner1" style="padding-right: 0px;">Carlos explain to Sonia some design techniques. Branches and push commits to the Master branch on OCM. <br>This session is recorded in Spanish</p>
+                        </div>
+                    </div>
+                    <!--End Single video-->
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>

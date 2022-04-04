@@ -81,6 +81,16 @@
   justify-content: space-evenly;
 }
 
+.doublColumnComplete {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 600px);
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 16px;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 /*Center*/
 .verticalCenter {
   margin-top: auto;

@@ -19,7 +19,7 @@
                 <h5 class="Green30" id="h3-Banner1">
                     <%= title %>
                 </h5>
-                <h1 class="White" id="h1-Banner1">Find your component</h1>
+                <h1 class="White" id="h1-Banner1">Name your component</h1>
                 <p class="White" id="text-Banner1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
                     beatae
                     magnam ut, culpa cupiditate non vitae voluptatum laudantium, obcaecati quo cum, perferendis aut odio
@@ -39,6 +39,25 @@
                 <form action="">
 
                     <div class="row">
+
+                        <div class="col">
+                            <p class="White" id="labelForm">Identifier(page)</p>
+                            <input type="text" class="form-control quokkaForm" name="Identifier" id="Identifier"
+                                style="text-transform: uppercase;">
+                        </div>
+
+                        <div class="col">
+                            <p class="White" id="labelForm">Quokka Template</p>
+                            <select class="form-select quokkaForm" aria-label="Default select example" name="Template"
+                                id="Template">
+                                <option selected>Select template</option>
+                                <option value="EVENTS">EVENTS</option>
+                                <option value="LANGUAGES">LANGUAGES</option>
+                                <option value="TECHNOLOGIES">TECHNOLOGIES</option>
+                                <option value="TUTORIALS">TUTORIALS</option>
+                            </select>
+                        </div>
+
                         <div class="col">
                             <p class="White" id="labelForm">Component's code</p>
                             <select class="form-select quokkaForm" aria-label="Default select example" name="Component"
@@ -136,35 +155,45 @@
                                 <option value="AL01">AL01</option>
                                 <option value="AL02">AL02</option>
                                 <option value="AL03">AL03</option>
-                            
+
                             </select>
                         </div>
-                        <div class="col">
-                            <p class="White" id="labelForm">Quokka Template</p>
-                            <select class="form-select quokkaForm" aria-label="Default select example" name="Template"
-                                id="Template">
-                                <option selected>Select template</option>
-                                <option value="EVENTS">EVENTS</option>
-                                <option value="LANGUAGES">LANGUAGES</option>
-                                <option value="TECHNOLOGIES">TECHNOLOGIES</option>
-                                <option value="TUTORIALS">TUTORIALS</option>
-                            </select>
-                        </div>
-                        <div class="col">
-                            <p class="White" id="labelForm">Identifier(page)</p>
-                            <input type="text" class="form-control quokkaForm" name="Identifier" id="Identifier"
-                                style="text-transform: uppercase;">
-                        </div>
+
                         <div class="col">
                             <p class="White" id="labelForm">Number of component</p>
                             <input type="number" class="form-control quokkaForm" name="Position" id="Position"
                                 value="0">
                         </div>
+
+                        <div class="col">
+                            <p class="White" id="labelForm">LINK?</p>
+                            <select class="form-select quokkaForm" aria-label="Default select example" name="Link"
+                                id="Link">
+                                <option value="2" selected>NO</option>
+                                <option value="1">YES</option>
+                            </select>
+
+                        </div>
+
+
                     </div>
+
 
                     <div class="spacer-3"></div>
 
-                    <a href="#componentPageIndex" class="BTN-1" id="createName">See Devo pages</a>
+                    <div class="row">
+
+                        <div class="col">
+                            <a href="#componentPageIndex" class="BTN-1" id="createName">Generate name</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
                     <div class="spacer-5"></div>
 
                     <div class="doubleColumnFour" id="resultsComponentsNaming">

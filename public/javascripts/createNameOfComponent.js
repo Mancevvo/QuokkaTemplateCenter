@@ -12,6 +12,8 @@ window.addEventListener("load", function () {
 
   nameComponentBTN.addEventListener("click", getName);
   function getName() {
+    const Link = document.getElementById("Link").value;
+
     const Component = document.getElementById("Component").value;
     const Template = document.getElementById("Template").value;
     const Identifier = document
@@ -19,18 +21,43 @@ window.addEventListener("load", function () {
       .value.toUpperCase();
     const Position = document.getElementById("Position").value;
 
-    //console.log(Component + Template + Identifier);
+    console.log(Link);
 
-    result.innerHTML =
-    Identifier + "--" + Template + "--" + Component + "--" + Position;
-    result.style.display = "block";
+    if (Link == 2) {
+      result.innerHTML =
+        Identifier + "--" + Template + "--" + Component + "--" + Position;
+      result.style.display = "block";
 
-    description.innerHTML =
-      "This component( " +
+      description.innerHTML =
+        "This component( " +
+        Component +
+        " ) belongs to the page: " +
+        Identifier +
+        ". UniqueID: " +
+        Component +
+        Template +
+        Identifier +
+        Position;
+      description.style.display = "block";
+
+      Tags.innerHTML =
+        Component + " | " + Template + " | " + Identifier + " | " + Position;
+      Tags.style.display = "block";
+
+      Collections.innerHTML = Component + " | " + Template + " | " + Identifier;
+      Collections.style.display = "block";
+    } else {
+      result.innerHTML =
+        Identifier + "--" + Template + "--" + Component + "--LINK--" + Position;
+      result.style.display = "block";
+
+
+      description.innerHTML =
+      "This LINK( " +
       Component +
       " ) belongs to the page: " +
       Identifier +
-      ". UniqueID: " +
+      ". UniqueID: LINK" +
       Component +
       Template +
       Identifier +
@@ -38,10 +65,11 @@ window.addEventListener("load", function () {
     description.style.display = "block";
 
     Tags.innerHTML =
-      Component + " | " + Template + " | " + Identifier + " | " + Position;
+      Component + " | " + Template + " | " + Identifier + " | " + Position + " LINK ";
     Tags.style.display = "block";
 
-    Collections.innerHTML = Component + " | " + Template + " | " + Identifier;
+    Collections.innerHTML = Component + " | " + Template + " | " + Identifier+ " LINK ";
     Collections.style.display = "block";
+    }
   }
 });

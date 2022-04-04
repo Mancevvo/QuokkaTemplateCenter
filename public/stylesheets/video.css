@@ -1,0 +1,10 @@
+.videoContainerInset{
+    background-color: #ffffff20;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.textVideoContainer{
+    padding: 15px;
+    font-weight: 300;
+}
