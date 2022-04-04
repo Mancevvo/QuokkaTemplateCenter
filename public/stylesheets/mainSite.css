@@ -67,6 +67,11 @@
   fill: url(#mygradient);
 }
 
+li {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
 /*
 .iconBackground{
     width: 110px;

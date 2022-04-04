@@ -51,25 +51,33 @@ window.addEventListener("load", function () {
         Identifier + "--" + Template + "--" + Component + "--LINK--" + Position;
       result.style.display = "block";
 
-
       description.innerHTML =
-      "This LINK( " +
-      Component +
-      " ) belongs to the page: " +
-      Identifier +
-      ". UniqueID: LINK" +
-      Component +
-      Template +
-      Identifier +
-      Position;
-    description.style.display = "block";
+        "This LINK( " +
+        Component +
+        " ) belongs to the page: " +
+        Identifier +
+        ". UniqueID: LINK" +
+        Component +
+        Template +
+        Identifier +
+        Position;
+      description.style.display = "block";
 
-    Tags.innerHTML =
-      Component + " | " + Template + " | " + Identifier + " | " + Position + " LINK ";
-    Tags.style.display = "block";
+      Tags.innerHTML =
+        Component +
+        " | " +
+        Template +
+        " | " +
+        Identifier +
+        " | " +
+        Position +
+        " | LINK ";
+      Tags.style.display = "block";
 
-    Collections.innerHTML = Component + " | " + Template + " | " + Identifier+ " LINK ";
-    Collections.style.display = "block";
+      Collections.innerHTML =
+        Component + " | " + Template + " | " + Identifier + " | LINK ";
+      Collections.style.display = "block";
+      
     }
   }
 });
