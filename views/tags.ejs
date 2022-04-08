@@ -42,8 +42,13 @@
 
                         <div class="col">
                             <p class="White" id="labelForm">Identifier(page)</p>
-                            <input type="text" class="form-control quokkaForm" name="Identifier" id="Identifier"
-                                style="text-transform: uppercase;">
+
+                                <select class="form-select quokkaForm" aria-label="Default select example" name="Identifier" id="Identifier">
+                                <option selected>Select template</option>
+                                <option value="DEVELOPERHOME">DEVELOPERHOME</option>
+                            </select>
+
+
                         </div>
 
                         <div class="col">
@@ -51,8 +56,8 @@
                             <select class="form-select quokkaForm" aria-label="Default select example" name="Template"
                                 id="Template">
                                 <option selected>Select template</option>
+                                <option value="HOME">HOME</option>
                                 <option value="EVENTS">EVENTS</option>
-                                <option value="EVENTS">HOME</option>
                                 <option value="LANGUAGES">LANGUAGES</option>
                                 <option value="TECHNOLOGIES">TECHNOLOGIES</option>
                                 <option value="TUTORIALS">TUTORIALS</option>
@@ -163,7 +168,7 @@
                         <div class="col">
                             <p class="White" id="labelForm">Number of component</p>
                             <input type="number" class="form-control quokkaForm" name="Position" id="Position"
-                                value="0">
+                                value="1">
                         </div>
 
                         <div class="col">
