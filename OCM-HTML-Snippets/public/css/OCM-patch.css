@@ -9,3 +9,7 @@
 .card.scheme-gray-70 {
     border: none;
 }
+
+.cta-btn.tertiary.text-color-primary {
+    font-size: 16px;
+}
