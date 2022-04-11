@@ -5,3 +5,7 @@
 .card.query-text {
     max-width: 100%!important;
 }
+
+.card.scheme-gray-70 {
+    border: none;
+}
