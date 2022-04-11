@@ -13,3 +13,12 @@
 .cta-btn.tertiary.text-color-primary {
     font-size: 16px;
 }
+
+.sectionHeader.darkBg {
+    background-color: #060b1800!important;
+}
+
+.background-layout .background.angled {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%)!important;
+    /* clip-path: polygon(0 22%,100% 0,100% 78%,0 100%); */
+}
