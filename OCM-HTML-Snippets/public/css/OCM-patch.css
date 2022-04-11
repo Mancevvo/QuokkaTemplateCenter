@@ -7,7 +7,7 @@
 }
 
 .card.scheme-gray-70 {
-    border: 0.125rem solid #3e475e00;
+    border: 0.125rem solid #3e475e00!important;
 }
 
 .cta-btn.tertiary.text-color-primary {
