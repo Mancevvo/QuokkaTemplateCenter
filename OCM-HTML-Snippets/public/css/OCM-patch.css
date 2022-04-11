@@ -19,6 +19,6 @@
 }
 
 .background-layout .background.angled {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%)!important;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%)!important;
     /* clip-path: polygon(0 22%,100% 0,100% 78%,0 100%); */
 }
