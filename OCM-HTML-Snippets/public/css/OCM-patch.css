@@ -1,25 +1,46 @@
 .col-section-list {
-    gap: 32px!important;
+  gap: 32px !important;
 }
 
 .card.query-text {
-    max-width: 100%!important;
+  max-width: 100% !important;
 }
 
 .card.scheme-gray-70 {
-    border: 0.125rem solid #3e475e00!important;
+  border: 0.125rem solid #3e475e00 !important;
 }
 
 .cta-btn.tertiary.text-color-primary {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .sectionHeader.darkBg {
-    background-color: #060b1800!important;
+  background-color: #060b1800 !important;
 }
 
-#f249b9e5-3e4e-4be4-8e0d-3b513b09e22c > div > div > div > div{
-    margin-bottom: -300px;
-    position: relative;
-    z-index: 1;
+#f249b9e5-3e4e-4be4-8e0d-3b513b09e22c > div > div > div > div {
+  margin-bottom: -300px;
+  position: relative;
+  z-index: 1;
+}
+
+#f0095758-992d-4da5-946c-f873c93fc41c > div > div > div > div.background {
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 100%);
+  margin-top: -200px;
+}
+
+#ebc72f59-c752-4753-8c1c-54dd898f8f22 {
+  margin-top: -200px;
+}
+
+div.card-container {
+  z-index: 2 !important;
+}
+
+.card .bg {
+  z-index: 1 !important;
+}
+
+#e3f22d60-a423-4b48-bd5c-0c18a5943b5b {
+  margin-bottom: -6rem;
 }
