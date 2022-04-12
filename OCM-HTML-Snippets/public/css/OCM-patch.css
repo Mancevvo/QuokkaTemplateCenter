@@ -22,3 +22,9 @@
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%)!important;
     /* clip-path: polygon(0 22%,100% 0,100% 78%,0 100%); */
 }
+
+#f249b9e5-3e4e-4be4-8e0d-3b513b09e22c > div > div > div > div{
+    margin-bottom: -300px;
+    position: relative;
+    z-index: 1;
+}
