@@ -1,7 +1,3 @@
-.col-section-list {
-  gap: 32px !important;
-}
-
 .card.query-text {
   max-width: 100% !important;
 }
@@ -12,10 +8,6 @@
 
 .cta-btn.tertiary.text-color-primary {
   font-size: 16px;
-}
-
-.sectionHeader.darkBg {
-  background-color: #060b1800 !important;
 }
 
 #f249b9e5-3e4e-4be4-8e0d-3b513b09e22c > div > div > div > div {

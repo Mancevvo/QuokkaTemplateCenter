@@ -1,0 +1,8 @@
+/* Section Header */
+.sectionHeader.darkBg {
+    background-color: #060b1800 !important;
+  }
+
+.col-section-list {
+    gap: 32px !important;
+}
