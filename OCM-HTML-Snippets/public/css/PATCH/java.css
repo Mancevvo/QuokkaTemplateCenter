@@ -1,3 +1,8 @@
+/* Background generator */
+.background-layout .componentContainer {
+    padding: 0px 0!important;
+}
+
 /* Cards Min Height */
 .card.query-text {
     min-height: 295px;
