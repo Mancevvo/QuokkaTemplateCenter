@@ -1,7 +1,6 @@
 /*HERO PADDING */
-
 .hero {
-    padding: 5rem;
+  padding: 5rem !important;
 }
 
 /* Tertiary BTN */
