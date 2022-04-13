@@ -13,3 +13,11 @@
 .card .card-container .outer-secondary-media {
     flex-grow: 0!important;
 } 
+
+/* CARDS ICON MODIFICATION*/
+.card .card-container .outer-secondary-media-icon {
+    object-fit: contain !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: 0 !important;
+}

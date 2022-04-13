@@ -36,3 +36,18 @@ div.card-container {
 #e3f22d60-a423-4b48-bd5c-0c18a5943b5b {
   margin-bottom: -6rem;
 }
+
+
+/* REMOVE PADDING*/
+.card .card-container .outer-secondary-media {
+  flex-grow: 0!important;
+}
+
+/* CARDS ICON MODIFICATION*/
+.card .card-container .outer-secondary-media-icon {
+  height: 4.5rem!important;
+  width: 4.5rem!important;
+  object-fit: contain!important;
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
