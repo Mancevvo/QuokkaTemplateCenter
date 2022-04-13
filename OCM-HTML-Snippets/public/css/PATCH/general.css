@@ -1,3 +1,9 @@
+/*HERO PADDING */
+
+.hero {
+    padding: 5rem;
+}
+
 /* Tertiary BTN */
 .cta-btn.tertiary.text-color-primary {
     font-size: 16px;
