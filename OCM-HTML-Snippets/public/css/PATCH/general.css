@@ -1,3 +1,8 @@
+/* Tertiary BTN */
+.cta-btn.tertiary.text-color-primary {
+    font-size: 16px;
+  }
+
 /* Section Header */
 .sectionHeader.darkBg {
     background-color: #060b1800 !important;
@@ -7,3 +12,4 @@
 .col-section-list {
     gap: 32px !important;
 }
+

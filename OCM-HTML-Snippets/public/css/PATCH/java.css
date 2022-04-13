@@ -3,7 +3,13 @@
     padding: 0px 0!important;
 }
 
-/* Cards Min Height */
+/* Cards Min Height 
 .card.query-text {
     min-height: 295px;
 }
+*/
+
+/* Align content to the top*/
+.card .card-container .outer-secondary-media {
+    flex-grow: 0!important;
+} 
