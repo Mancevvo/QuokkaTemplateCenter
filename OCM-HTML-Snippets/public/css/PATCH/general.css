@@ -3,6 +3,7 @@
     background-color: #060b1800 !important;
   }
 
+/*Columns Section Gap */
 .col-section-list {
     gap: 32px !important;
 }
