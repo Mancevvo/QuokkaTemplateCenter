@@ -21,3 +21,8 @@
     margin-bottom: auto !important;
     margin-left: 0 !important;
 }
+
+/* LIST PADDING */
+.list.text-left {
+    padding: 0px !important;
+}
