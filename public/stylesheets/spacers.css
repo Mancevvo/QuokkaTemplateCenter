@@ -24,6 +24,12 @@
   height: 60px;
 }
 
+.divider-1{
+  border-bottom: solid #EDEEF1 1px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
 /*TEXTS */
 
 .alignCenter {

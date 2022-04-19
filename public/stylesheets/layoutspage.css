@@ -1,0 +1,21 @@
+.layoutCard {
+  padding: 1rem;
+}
+
+.layoutGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.layoutIMG {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+  .layoutGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

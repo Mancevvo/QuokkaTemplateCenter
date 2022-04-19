@@ -8,6 +8,9 @@ const manualController = {
   videos: (req, res) => {
     return res.render("videos", { title: "Videos" });
   },
+  layouts: (req, res) => {
+    return res.render("layouts", { title: "Layouts" });
+  },
 };
 
 module.exports = manualController;

@@ -9,6 +9,17 @@
 }
 
 
+.Green60{
+    color: #00747A;
+}
+
+.Green70{
+    color: #004F59;
+}
+.Green80{
+    color: #003841;
+}
+
 .Blue10{
     color: #CAEBFF;
 }
@@ -41,4 +52,8 @@
 
 .WhiteBack{
     background-color: #fff;
+}
+
+.Gray10{
+    background-color: #EDEEF1;
 }
