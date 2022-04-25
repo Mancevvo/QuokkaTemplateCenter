@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
       description.style.display = "block";
 
       Tags.innerHTML =
-        Component + " | " + Template + " | " + Identifier + " | " + Position;
+        Component + "," + Template + "," + Identifier + "," + Position+ ",";
       Tags.style.display = "block";
 
       Collections.innerHTML = Component + " | " + Template + " | " + Identifier;
@@ -65,13 +65,13 @@ window.addEventListener("load", function () {
 
       Tags.innerHTML =
         Component +
-        " | " +
+        "," +
         Template +
-        " | " +
+        "," +
         Identifier +
-        " | " +
+        "," +
         Position +
-        " | LINK ";
+        ",LINK,";
       Tags.style.display = "block";
 
       Collections.innerHTML =
