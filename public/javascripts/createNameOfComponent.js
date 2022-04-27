@@ -102,11 +102,9 @@ window.addEventListener("load", function () {
 
   function copyName() {
     console.log("Copied to clipboard: " + name);
-    /* Copy the text inside the text field
+    /* Copy the text inside the text field  */
     navigator.clipboard.writeText(name);
-    */
-
-
+    
     var input = document.body.appendChild(name);
     input.value = text;
     input.focus();
