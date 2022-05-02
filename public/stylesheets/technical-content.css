@@ -1,6 +1,6 @@
 .ocode:not(code):not(.ocode-simple) {
     margin-top: 3.5em;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0,0.1);
     border-radius: 8px;
 }
 
@@ -8,8 +8,10 @@
     position: relative;
     width: 100%;
     margin: 1em 0;
-    background-color: rgba(33, 30, 28, 0.03);
+    background-color: rgba(33,30,28,0.03);
 }
+
+
 
 .ocode-bttn {
     transform: translateY(calc(-100% - 0.2em));
@@ -19,17 +21,32 @@
     font-size: 1.78rem;
 }
 
+.ocode-bttn a {
+    display: block;
+    padding: 0.25em 0.666em;
+    color: #227E9E;
+    background: transparent;
+    border: 0;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.ocode-bttn :first-child {
+    position: relative;
+    z-index: 1;
+}
+
+.ocode-bttn button::before {
+    content: "\f200";
+    font-family: 'redwoodicons' !important;
+    position: absolute;
+    left: -1.58rem;
+}
+
 .ocode pre {
     padding: 1.5em;
     overflow: auto;
     line-height: 1.25;
-}
-
-pre {
-    display: block;
-    font-family: monospace;
-    white-space: pre;
-    margin: 1em 0px;
 }
 
 .ocode textarea {
