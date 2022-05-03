@@ -27,6 +27,7 @@ img {
   font-size: 12px;
   line-height: 16px;
   margin: 0px;
+  margin-bottom: 48px;
 }
 
 .ocode:not(code):not(.ocode-simple) {
