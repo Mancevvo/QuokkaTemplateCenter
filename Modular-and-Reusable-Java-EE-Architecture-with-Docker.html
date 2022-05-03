@@ -131,23 +131,22 @@
         run the following command:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
 docker build -t postgres-javaone .
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>Don't forget the period at the end. This command will build a new image based on the PostgreSQL Dockerfile, which
         was provided in the downloaded project:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
@@ -163,20 +162,24 @@ RUN chmod a+x /docker-entrypoint-initdb.d/init-user-db.sh
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8 
 ENV LANG en_US.utf8
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>We just built our own PostgreSQL image! We can use it in this or other projects. Let's start it and get it up and
         running:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
 docker run --name postgresdb -p 5432:5432 postgres-javaone
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>We are giving it a name, so we can access it from our application container. We are also exporting the port, so
@@ -202,14 +205,15 @@ docker run --name postgresdb -p 5432:5432 postgres-javaone
         command. The <code>docker</code> daemon will download the image, create a container, and run it.</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
 docker run --name activemq webcenter/activemq:5.13.2
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <h3>How About Some Big Data?</h3>
@@ -225,14 +229,15 @@ docker run --name activemq webcenter/activemq:5.13.2
         from the registry and run it:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
 docker run --name cassandradb cassandra:3.7
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>Isn't this fun? In just a few commands, we have a complete infrastructure ready for our application! Now we can
@@ -243,35 +248,35 @@ docker run --name cassandradb cassandra:3.7
     <p>To build the application container, we change to the following directory:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
 javaoneus2016/tree/master/tomee-db
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>And then we build the image:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
 docker build -t tomee-db --build-arg WAR_FILE=javaonedb.war .
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>Here is the Dockerfile we are using in the above command:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
@@ -298,6 +303,9 @@ ADD postgresql-9.4-1206.jdbc42.jar /usr/local/tomee/lib/postgresql-9.4-1206.jdbc
 ARG WAR_FILE=warfile.war 
 ADD ${WAR_FILE} /usr/local/tomee/webapps/${WAR_FILE}
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>So, now we have a new image with the latest version of the application. This version adds code to use all the
@@ -312,9 +320,7 @@ ADD ${WAR_FILE} /usr/local/tomee/webapps/${WAR_FILE}
     <p>Here's the <code>index.jsp</code> file:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
@@ -330,14 +336,15 @@ ADD ${WAR_FILE} /usr/local/tomee/webapps/${WAR_FILE}
      <%}%>
 <%} %>
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>Here's the DataServlet file:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
@@ -352,14 +359,15 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
      dispatcher.forward(request, response); 
 }
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>And here's the DataBean file:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
@@ -372,6 +380,9 @@ public void create(){
      data.setNameData(new Date().toString());     
      em.persist(data); }
      </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>As you can see, containers allow us to deploy virtually any Java EE application in this way. This is a simple
@@ -393,9 +404,7 @@ public void create(){
         other services:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
@@ -403,6 +412,9 @@ docker create --name hostdb1 -p 8080:8080 --link postgresdb:postgresdb --link ca
 docker create --name hostdb2 -p 8081:8080 --link postgresdb:postgresdb --link cassandradb:cassandradb tomee-db 
 docker create --name hostdb3 -p 8082:8080 --link postgresdb:postgresdb --link cassandradb:cassandradb tomee-db
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <p>And to finish, we add another important service: our load balancer. For this, we are still using the ready-to-run
@@ -415,9 +427,7 @@ docker create --name hostdb3 -p 8082:8080 --link postgresdb:postgresdb --link ca
     <p>Now that all the containers have been created, let's start them:</p>
 
     <div class="ocode">
-        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
-            <div><a href="#copy">Copy</a></div>
-        </div>
+
 
         <pre>
 <code>
@@ -426,6 +436,9 @@ docker start hostdb2
 docker start hostdb3 
 docker start loadbalancerdb
 </code></pre>
+        <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
+            <div><a href="#copy">Copy</a></div>
+        </div>
     </div>
 
     <h3>Conclusion</h3>

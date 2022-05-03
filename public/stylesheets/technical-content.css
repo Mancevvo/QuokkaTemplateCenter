@@ -3,7 +3,6 @@ h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  color: #000000;
   margin-bottom: 24px;
 }
 
@@ -12,7 +11,50 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  color: #000000;
+  margin-bottom: 24px;
+}
+
+img {
+  margin-top: 24px;
 }
 
 
+
+
+.ocode:not(code):not(.ocode-simple) {
+  margin-top: 24px;
+  margin-bottom: 63px;
+}
+
+.ocode {
+  position: relative;
+  width: 100%;
+  background-color: #2b3244;
+}
+
+.ocode pre {
+  font-style: normal;
+  padding: 24px;
+  overflow: auto;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ocode-bttn {
+  text-align: right;
+  position: absolute;
+}
+
+.ocode-bttn a {
+  font-style: normal;
+  display: block;
+  text-decoration: none;
+  padding: 0.25em 0.666em;
+  color: #00747a;
+  background: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
