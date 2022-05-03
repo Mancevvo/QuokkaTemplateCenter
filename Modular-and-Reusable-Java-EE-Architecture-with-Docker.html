@@ -335,7 +335,8 @@ ADD ${WAR_FILE} /usr/local/tomee/webapps/${WAR_FILE}
           <p><%= data.print() %></p>    
      <%}%>
 <%} %>
-</code></pre>
+</code>
+</pre>
         <div class="ocode-bttn" data-error="Error: Could not Copy" data-success="Copied to Clipboard">
             <div><a href="#copy">Copy</a></div>
         </div>
@@ -493,9 +494,15 @@ docker start loadbalancerdb
         certifications for various courses. </p>
 
 
+    <script>
+        document.querySelectorAll("code").forEach(el => el.innerText = el.innerHTML);
+    </script>
+
+
     <!--STOP COPYING-->
 
 
 </body>
+
 
 </html>

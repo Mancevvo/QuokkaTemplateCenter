@@ -69,3 +69,8 @@ img {
   font-size: 16px;
   line-height: 22px;
 }
+
+
+.hero .content-container {
+    max-width: 1056px;
+}
