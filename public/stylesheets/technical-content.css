@@ -16,10 +16,18 @@ p {
 
 img {
   margin-top: 24px;
+  margin-bottom: 11px;
+  width: 100% !important;
 }
 
-
-
+.xsml {
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+}
 
 .ocode:not(code):not(.ocode-simple) {
   margin-top: 24px;
