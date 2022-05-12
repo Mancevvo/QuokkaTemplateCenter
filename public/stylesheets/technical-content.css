@@ -70,7 +70,25 @@
   line-height: 22px;
 }
 
-
 .hero.heightShort {
   height: 12.5rem !important;
+}
+
+.headingM {
+  font-size: 2.5rem;
+}
+
+.hero .content-container .content .title {
+  margin-bottom: 0rem !important;
+}
+
+#c27e1038-2284-486c-8d50-cbdded31c492customComponentDiv
+  > section
+  > div.content-container
+  > div
+  > div.body
+  > p:nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
 }
