@@ -69,3 +69,8 @@
   font-size: 16px;
   line-height: 22px;
 }
+
+
+.hero.heightShort {
+  height: 12.5rem !important;
+}
