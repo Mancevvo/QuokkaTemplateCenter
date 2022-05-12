@@ -18,7 +18,7 @@
   margin-bottom: 24px;
 }
 
-.cc01w1 p > a {
+.cc01w1 p > a, .cc01w1 li > a {
   color: #00747a;
 }
 
