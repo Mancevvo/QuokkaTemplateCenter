@@ -100,6 +100,10 @@ p > .ocode, td > .ocode, li > .ocode {
   margin-bottom: -0.5rem !important;
 }
 
+.hero .content-container .content {
+  max-width: 60%!important;
+}
+
 #c27e1038-2284-486c-8d50-cbdded31c492customComponentDiv
   > section
   > div.content-container
