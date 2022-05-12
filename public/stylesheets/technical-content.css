@@ -1,6 +1,7 @@
 /*CONTENT */
-.cc01w1 > h3, .cc01w1 > h4 {
-  font-family: 'Oracle Sans Semi Bold';
+.cc01w1 > h3,
+.cc01w1 > h4 {
+  font-family: "Oracle Sans Semi Bold";
   font-style: normal;
   font-weight: 600;
   font-size: 1.2rem;
@@ -9,7 +10,6 @@
   margin-bottom: 24px;
   border-bottom: solid 1px #b0b9ce;
   padding-bottom: 0.5rem;
-
 }
 
 .cc01w1 > p {
@@ -20,7 +20,8 @@
   margin-bottom: 24px;
 }
 
-.cc01w1 p > a, .cc01w1 li > a {
+.cc01w1 p > a,
+.cc01w1 li > a {
   color: #00747a;
   text-decoration: none;
 }
@@ -32,12 +33,12 @@ p > img {
   margin-left: auto;
   margin-right: auto;
   width: 100% !important;
-  max-width: 600px!important;
-  border: solid 1px #919DB8;
+  max-width: 600px !important;
+  border: solid 1px #919db8;
 }
 
-strong{
-  font-family: 'Oracle Sans Semi Bold';
+strong {
+  font-family: "Oracle Sans Semi Bold";
 }
 
 /*Image Description*/
@@ -64,7 +65,10 @@ strong{
   background-color: #2b3244;
 }
 
-p > .ocode, td > .ocode, li > .ocode, strong > .ocode {
+p > .ocode,
+td > .ocode,
+li > .ocode,
+strong > .ocode {
   position: relative;
   width: 100%;
   padding: 0.25em 0.5rem;
@@ -99,7 +103,7 @@ p > .ocode, td > .ocode, li > .ocode, strong > .ocode {
 }
 
 .ocode-bttn a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .ocode-bttn {
@@ -111,7 +115,6 @@ p > .ocode, td > .ocode, li > .ocode, strong > .ocode {
 
 /*End for Codes Section */
 
-
 /*HERO MODIFICATIONS */
 .hero.heightShort {
   height: 12.5rem !important;
@@ -122,7 +125,7 @@ p > .ocode, td > .ocode, li > .ocode, strong > .ocode {
 }
 
 .hero .content-container .content {
-  max-width: 60%!important;
+  max-width: 60% !important;
 }
 
 #c27e1038-2284-486c-8d50-cbdded31c492customComponentDiv
@@ -131,6 +134,7 @@ p > .ocode, td > .ocode, li > .ocode, strong > .ocode {
   > div
   > div.body
   > p:nth-child(2) {
+  font-family: "Oracle Sans Light";
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
