@@ -20,6 +20,7 @@
 
 .cc01w1 p > a, .cc01w1 li > a {
   color: #00747a;
+  text-decoration: none;
 }
 
 /*Image Sizing*/
@@ -86,6 +87,17 @@ p > .ocode, td > .ocode, li > .ocode {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+}
+
+.ocode-bttn a:hover {
+  text-decoration:underline;
+}
+
+.ocode-bttn {
+  transform: translateY(calc(-100% - 0.2em));
+  text-align: right;
+  position: absolute;
+  right: -1px;
 }
 
 /*End for Codes Section */
