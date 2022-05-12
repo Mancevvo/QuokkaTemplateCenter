@@ -22,8 +22,7 @@
 
 .cc01w1 p > a,
 .cc01w1 li > a {
-  color: #00747a;
-  text-decoration: none;
+  color: #00747a!important;
 }
 
 /*Image Sizing*/
