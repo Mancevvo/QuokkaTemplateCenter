@@ -18,12 +18,12 @@
   margin-bottom: 24px;
 }
 
-.cc01w1 > a {
+.cc01w1 p > a {
   color: #00747a;
 }
 
 /*Image Sizing*/
-img {
+p > img {
   margin-top: 24px;
   margin-bottom: 11px;
   width: 100% !important;
