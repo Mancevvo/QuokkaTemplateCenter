@@ -36,10 +36,14 @@ p > img {
   border: solid 1px #919DB8;
 }
 
+strong{
+  font-family: 'Oracle Sans Semi Bold';
+}
+
 /*Image Description*/
 .cc01w1 > .xsml {
   font-style: normal;
-  text-align: left;
+  text-align: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -60,7 +64,7 @@ p > img {
   background-color: #2b3244;
 }
 
-p > .ocode, td > .ocode, li > .ocode {
+p > .ocode, td > .ocode, li > .ocode, strong > .ocode {
   position: relative;
   width: 100%;
   padding: 0.25em 0.5rem;
