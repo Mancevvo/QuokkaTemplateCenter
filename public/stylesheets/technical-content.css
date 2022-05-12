@@ -1,3 +1,5 @@
+
+/*CONTENT */
 .cc01w1 > h3 {
   font-style: normal;
   font-weight: 600;
@@ -15,12 +17,14 @@
   margin-bottom: 24px;
 }
 
-.cc01w1 > img {
+/*Image Sizing*/
+img {
   margin-top: 24px;
   margin-bottom: 11px;
   width: 100% !important;
 }
 
+/*Image Description*/
 .cc01w1 > .xsml {
   font-style: normal;
   text-align: left;
@@ -32,6 +36,8 @@
   margin-bottom: 48px;
 }
 
+
+/*Codes Section */
 .ocode:not(code):not(.ocode-simple) {
   margin-top: 24px;
   margin-bottom: 63px;
@@ -69,6 +75,10 @@
   font-size: 16px;
   line-height: 22px;
 }
+
+/*End for Codes Section */
+
+
 
 .hero.heightShort {
   height: 12.5rem !important;
