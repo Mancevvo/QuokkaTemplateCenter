@@ -6,9 +6,8 @@
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 32px;
-  margin-top: 45px;
+  margin-top: 48px;
   margin-bottom: 24px;
-  border-bottom: solid 1px #b0b9ce;
   padding-bottom: 0.5rem;
 }
 
@@ -116,7 +115,7 @@ strong > .ocode {
 
 /*HERO MODIFICATIONS */
 .hero.heightShort {
-  height: 12.5rem !important;
+  min-height: 12.5rem !important;
 }
 
 .hero .content-container .content .title {
