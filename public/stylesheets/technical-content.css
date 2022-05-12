@@ -53,6 +53,13 @@ img {
   background-color: #2b3244;
 }
 
+p > .ocode, td > .ocode {
+  position: relative;
+  width: 100%;
+  padding: 0.25em 0.5rem;
+  background-color: rgba(33, 30, 28, 0.03);
+}
+
 .ocode pre {
   font-style: normal;
   padding: 0px 24px 24px 24px;
