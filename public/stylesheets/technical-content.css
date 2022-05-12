@@ -27,6 +27,7 @@ img {
   margin-top: 24px;
   margin-bottom: 11px;
   width: 100% !important;
+  border: none!important;
 }
 
 /*Image Description*/
