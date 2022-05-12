@@ -1,3 +1,7 @@
+.content-container .technical-content {
+  gap: 2rem;
+}
+
 /*CONTENT */
 .cc01w1 > h3,
 .cc01w1 > h4 {
@@ -6,8 +10,8 @@
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 32px;
-  margin-top: 48px;
-  margin-bottom: 24px;
+  margin-top: 60px;
+  margin-bottom: 16px;
   padding-bottom: 0.5rem;
 }
 
@@ -115,7 +119,7 @@ strong > .ocode {
 
 /*HERO MODIFICATIONS */
 .hero.heightShort {
-  min-height: 12.5rem !important;
+  height: 12.5rem !important;
 }
 
 .hero .content-container .content .title {
@@ -132,8 +136,11 @@ strong > .ocode {
   > div
   > div.body
   > p:nth-child(2) {
-  font-family: "Oracle Sans Light";
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
+}
+
+@media screen {
+  
 }
