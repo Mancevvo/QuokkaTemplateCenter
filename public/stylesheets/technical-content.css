@@ -1,4 +1,3 @@
-
 /*CONTENT */
 .cc01w1 > h3 {
   font-style: normal;
@@ -15,6 +14,10 @@
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 24px;
+}
+
+.cc01w1 > a {
+  color: #00747a;
 }
 
 /*Image Sizing*/
@@ -35,7 +38,6 @@ img {
   margin-top: -35px;
   margin-bottom: 48px;
 }
-
 
 /*Codes Section */
 .ocode:not(code):not(.ocode-simple) {
@@ -79,7 +81,7 @@ img {
 /*End for Codes Section */
 
 
-
+/*HERO MODIFICATIONS */
 .hero.heightShort {
   height: 12.5rem !important;
 }
