@@ -81,7 +81,7 @@ p > .ocode, td > .ocode, li > .ocode {
   font-style: normal;
   display: block;
   text-decoration: none;
-  padding: 0.25em 0.666em;
+  padding: 0.25em 0em;
   color: #00747a;
   background: transparent;
   font-weight: 600;
