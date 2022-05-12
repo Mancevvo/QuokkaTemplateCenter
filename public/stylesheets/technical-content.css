@@ -2,10 +2,12 @@
 .cc01w1 > h3 {
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.2rem;
   line-height: 32px;
   margin-top: 45px;
   margin-bottom: 24px;
+  border-bottom: solid 1px #b0b9ce;
+  padding-bottom: 0.5rem;
 }
 
 .cc01w1 > p {
