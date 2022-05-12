@@ -45,7 +45,7 @@ p > img {
 
 /*Codes Section */
 .ocode:not(code):not(.ocode-simple) {
-  margin-top: 48px;
+  margin-top: 39px;
   margin-bottom: 24px;
 }
 
