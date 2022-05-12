@@ -94,7 +94,7 @@ strong > .ocode {
   display: block;
   text-decoration: none;
   padding: 0.25em 0em;
-  color: #00747a;
+  color: #00747a!important;
   background: transparent;
   font-weight: 600;
   font-size: 16px;
