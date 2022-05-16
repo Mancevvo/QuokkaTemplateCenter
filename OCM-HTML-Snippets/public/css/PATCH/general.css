@@ -1,20 +1,3 @@
-/*HERO PADDING */
-.hero {
-  padding: 5rem !important;
+.list-container {
+  padding: 0rem 0 !important;
 }
-
-/* Tertiary BTN */
-.cta-btn.tertiary.text-color-primary {
-    font-size: 16px;
-  }
-
-/* Section Header */
-.sectionHeader.darkBg {
-    background-color: #060b1800 !important;
-  }
-
-/*Columns Section Gap */
-.col-section-list {
-    gap: 32px !important;
-}
-
