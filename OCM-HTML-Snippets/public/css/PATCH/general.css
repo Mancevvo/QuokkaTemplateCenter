@@ -1,3 +1,7 @@
 .list-container {
   padding: 0rem 0 !important;
 }
+
+.card .no-padding {
+  padding: 1rem 0rem 0rem 0rem !important;
+}
