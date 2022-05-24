@@ -1,0 +1,384 @@
+.content-container .technical-content {
+  gap: 2rem;
+}
+
+strong {
+  font-family: "Oracle Sans Semi Bold";
+}
+
+/* ================== TAGS ================== */
+
+h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+li {
+  margin-right: 25px;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+ul li,
+ol li {
+  margin-bottom: 0.5em;
+}
+
+li::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+/* ================== CLASSES ================== */
+
+.tag {
+  background: #d4e6ec;
+  border-left: 8px solid #264759;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin: 0 2px;
+  padding: 0 6px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.tag2 {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  transform: translateX(-40px);
+}
+
+.tags {
+  margin-top: 25px;
+}
+
+/* ================== CODES ================== */
+
+div.highlighter-rouge,
+figure.highlight {
+  position: relative;
+  margin-bottom: 1em;
+  background: #263238;
+  color: #eeffff;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 0.75em;
+  line-height: 1.8;
+  border-radius: 4px;
+}
+
+div.highlighter-rouge > pre,
+div.highlighter-rouge pre.highlight,
+figure.highlight > pre,
+figure.highlight pre.highlight {
+  margin: 0;
+  padding: 1em;
+}
+
+.highlight pre {
+  width: 100%;
+}
+
+.highlight .p {
+  color: #eeffff;
+}
+
+.highlight .c1 {
+  color: #b2ccd6;
+}
+
+.highlight .w {
+  color: #eeffff;
+}
+
+.highlight .cp {
+  color: #b2ccd6;
+}
+
+.highlight .se {
+  color: #f78c6c;
+}
+
+.highlight .nv {
+  color: #f07178;
+}
+
+.highlight .nl {
+  color: #eeffff;
+}
+
+.highlight .p {
+  color: #eeffff;
+}
+
+.highlight .s1 {
+  color: #c3e88d;
+}
+
+.highlight .s2 {
+  color: #c3e88d;
+}
+
+.highlight .kc {
+  color: #c792ea;
+}
+
+.highlight .mi {
+  color: #f78c6c;
+}
+
+.highlight .nf {
+  color: #82aaff;
+}
+
+.highlight .k {
+  color: #c792ea;
+}
+
+.highlight .ow {
+  color: #89ddff;
+}
+
+.highlight .s {
+  color: #c3e88d;
+}
+
+.highlight .nb {
+  color: #eeffff;
+}
+
+.highlight .n {
+  color: #eeffff;
+}
+
+.highlight .o {
+  color: #89ddff;
+}
+
+.highlight .na {
+  color: #82aaff;
+}
+
+.highlight .err {
+  color: #f07178;
+}
+
+.highlight .nt {
+  color: #89ddff;
+}
+
+.highlight .kt {
+  color: #ffcb6b;
+}
+
+.highlight .m {
+  color: #f78c6c;
+}
+
+.highlight .mf {
+  color: #f78c6c;
+}
+
+.highlight .nx {
+  color: #82aaff;
+}
+
+.highlight .gp {
+  color: #b2ccd6;
+  font-weight: bold;
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size: 0.8em;
+  background: #efefef;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-bottom: 0.5em;
+  color: #646769;
+  font-family: "Oracle Sans", "Noto Sans Hebrew", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.75em;
+}
+
+/* ================== PICTURES ================== */
+
+picture {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 1em 0.5em;
+}
+
+.aligncenter {
+  width: 100%;
+  text-align: center;
+}
+
+.alignright,
+.alignleft {
+  max-width: 50%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* ================== TABLES ================== */
+table {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: "Oracle Sans", "Noto Sans Hebrew", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.75em;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
+  orphans: 3;
+  widows: 3;
+}
+
+thead {
+  background-color: #f2f3f3;
+  border-bottom: 2px solid #b6b6b6;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+/* ================== NOTES ================== */
+blockquote.notice {
+  background: #8fe3ff;
+}
+
+.notice {
+  margin: 2em 0 !important;
+  padding: 1em;
+  color: #3d4144;
+  font-family: "Oracle Sans", "Noto Sans Hebrew", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.75em !important;
+  text-indent: initial;
+  background-color: #f2f3f3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(189 193 196 / 25%);
+}
+
+.notice p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.page__content p {
+  margin: 0 0 1.3em;
+}
+
+/* ================== New Titles ================== */
+.slide__title {
+  background: #264759;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 35px;
+  padding: 0.25em;
+  position: relative;
+}
+
+.slide__num {
+  background: #7a8288;
+  border-radius: 4px;
+  color: white;
+  /* font-size: 1.2rem; */
+  padding: 0 0.35ch;
+}
+
+#icon-imageLam {
+  max-width: 18px;
+}
