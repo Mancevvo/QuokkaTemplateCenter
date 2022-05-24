@@ -15,7 +15,7 @@ h2 {
 }
 */
 
-article > p {
+p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -23,7 +23,7 @@ article > p {
     margin-bottom: 24px;
   }
 
-article > img {
+img {
     margin-top: 24px;
     margin-bottom: 11px;
     margin-left: auto;
@@ -33,7 +33,7 @@ article > img {
     border: solid 1px #919db8;
 }
 
-article > li {
+li {
   margin-right: 25px;
 }
 
@@ -49,7 +49,7 @@ pre {
   font-family: Monaco, Consolas, "Lucida Console", monospace;
 }
 
-article > ul {
+ul {
   display: block;
   list-style-type: disc;
   margin-block-end: 1em;
@@ -57,12 +57,12 @@ article > ul {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
-article > ul li,
-article > ol li {
+ul li,
+ol li {
   margin-bottom: 0.5em;
 }
 
-article > li::marker {
+li::marker {
   unicode-bidi: isolate;
   font-variant-numeric: tabular-nums;
   text-transform: none;
@@ -388,8 +388,8 @@ blockquote.notice {
   padding-bottom: 0.5rem;
 }
 
-article > h3,
-article > h4 {
+h3,
+h4 {
   font-family: "Oracle Sans Semi Bold";
   font-style: normal;
   font-weight: 600;
@@ -411,7 +411,7 @@ article > h4 {
 }
 
 /* ================== NEW STYLES ================== */
-article > html body .container a {
+html body .container a {
   text-decoration: none;
   color: #00747a;
 }
