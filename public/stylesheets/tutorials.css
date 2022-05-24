@@ -24,8 +24,13 @@ p {
   }
 
 img {
-  width: 100%;
-  border-radius: 4px;
+    margin-top: 24px;
+    margin-bottom: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+    max-width: 600px !important;
+    border: solid 1px #919db8;
 }
 
 li {
@@ -71,7 +76,6 @@ li::marker {
 .tag {
   background: #d4e6ec;
   border-left: 8px solid #264759;
-  border-radius: 4px;
   display: inline-block;
   font-size: 0.8em;
   font-weight: 600;
@@ -112,7 +116,6 @@ figure.highlight {
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 0.75em;
   line-height: 1.8;
-  border-radius: 0px;
 }
 
 div.highlighter-rouge > pre,
@@ -243,7 +246,6 @@ figcaption > code,
 td > code {
   padding: 0.25em 0.5rem;
   background: #efefef;
-  border-radius: 0px;
 }
 
 figcaption {
@@ -277,6 +279,7 @@ picture {
   height: auto;
 }
 
+/*
 img {
   max-width: 100%;
   width: auto\9;
@@ -285,6 +288,7 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
+*/
 
 /* ================== TABLES ================== */
 table {
@@ -359,7 +363,6 @@ blockquote.notice {
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #f2f3f3;
-  border-radius: 4px;
   box-shadow: 0 1px 1px rgb(189 193 196 / 25%);
 }
 
@@ -399,7 +402,6 @@ h4 {
 
 .slide__num {
   background: #00747a;
-  border-radius: 0px;
   color: white;
   padding: 0 0.7ch;
 }
