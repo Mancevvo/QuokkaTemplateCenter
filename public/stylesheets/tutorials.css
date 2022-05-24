@@ -15,7 +15,7 @@ h2 {
 }
 */
 
-p {
+.page > p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -23,7 +23,7 @@ p {
     margin-bottom: 24px;
   }
 
-img {
+.page > img {
     margin-top: 24px;
     margin-bottom: 11px;
     margin-left: auto;
@@ -33,7 +33,7 @@ img {
     border: solid 1px #919db8;
 }
 
-li {
+.page > li {
   margin-right: 25px;
 }
 
@@ -49,7 +49,7 @@ pre {
   font-family: Monaco, Consolas, "Lucida Console", monospace;
 }
 
-ul {
+.page > ul {
   display: block;
   list-style-type: disc;
   margin-block-end: 1em;
@@ -57,50 +57,18 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
-ul li,
-ol li {
+.page > ul li,
+.page > ol li {
   margin-bottom: 0.5em;
 }
 
-li::marker {
+.page > li::marker {
   unicode-bidi: isolate;
   font-variant-numeric: tabular-nums;
   text-transform: none;
   text-indent: 0px !important;
   text-align: start !important;
   text-align-last: start !important;
-}
-
-/* ================== CLASSES ================== */
-
-.tag {
-  background: #d4e6ec;
-  border-left: 8px solid #264759;
-  display: inline-block;
-  font-size: 0.8em;
-  font-weight: 600;
-  margin: 0 2px;
-  padding: 0 6px;
-  text-decoration: none;
-  text-transform: lowercase;
-}
-
-.tag2 {
-  display: inline-block;
-  font-size: 0.8em;
-  font-weight: 600;
-  margin-top: 10px;
-  text-decoration: none;
-}
-
-.social-icons {
-  list-style: none;
-  display: flex;
-  transform: translateX(-40px);
-}
-
-.tags {
-  margin-top: 25px;
 }
 
 /* ================== CODES ================== */
@@ -388,8 +356,8 @@ blockquote.notice {
   padding-bottom: 0.5rem;
 }
 
-h3,
-h4 {
+.page > h3,
+.page > h4 {
   font-family: "Oracle Sans Semi Bold";
   font-style: normal;
   font-weight: 600;
@@ -411,7 +379,7 @@ h4 {
 }
 
 /* ================== NEW STYLES ================== */
-html body .container a {
+.page > a {
   text-decoration: none;
   color: #00747a;
 }
