@@ -33,10 +33,6 @@ h2 {
   border: solid 1px #919db8;
 }
 
-.page li {
-  margin-right: 25px;
-}
-
 pre {
   overflow-x: auto;
 }
@@ -281,6 +277,10 @@ table,
 fieldset {
   orphans: 3;
   widows: 3;
+}
+
+page ol {
+    margin-left: 5vh;
 }
 
 thead {
