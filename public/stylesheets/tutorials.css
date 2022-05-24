@@ -16,21 +16,21 @@ h2 {
 */
 
 .page p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    margin-bottom: 24px;
-  }
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
 
 .page img {
-    margin-top: 24px;
-    margin-bottom: 11px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100% !important;
-    max-width: 600px !important;
-    border: solid 1px #919db8;
+  margin-top: 24px;
+  margin-bottom: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100% !important;
+  max-width: 600px !important;
+  border: solid 1px #919db8;
 }
 
 .page li {
@@ -331,7 +331,6 @@ blockquote.notice {
   font-size: 0.75em !important;
   text-indent: initial;
   background-color: #f2f3f3;
-  box-shadow: 0 1px 1px rgb(189 193 196 / 25%);
 }
 
 .notice p:last-child {
@@ -379,30 +378,30 @@ blockquote.notice {
 }
 
 /* ================== NEW STYLES ================== */
-.page a {
+html body .container a {
   text-decoration: none;
   color: #00747a;
 }
 
 /*HERO MODIFICATIONS */
 .hero.heightShort {
-    height: 12.5rem !important;
-  }
-  
-  .hero .content-container .content .title {
-    margin-bottom: -0.5rem !important;
-  }
-  
-  .hero .content-container .content {
-    max-width: 60% !important;
-  }
-  
-  #c27e1038-2284-486c-8d50-cbdded31c492customComponentDiv
-    > section
-    > div.content-container
-    > div
-    > div.body
-    > p:nth-child(2) {
-    font-weight: 400;
-    line-height: 26px;
-  }
+  height: 12.5rem !important;
+}
+
+.hero .content-container .content .title {
+  margin-bottom: -0.5rem !important;
+}
+
+.hero .content-container .content {
+  max-width: 60% !important;
+}
+
+#c27e1038-2284-486c-8d50-cbdded31c492customComponentDiv
+  > section
+  > div.content-container
+  > div
+  > div.body
+  > p:nth-child(2) {
+  font-weight: 400;
+  line-height: 26px;
+}
