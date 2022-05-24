@@ -8,10 +8,12 @@ strong {
 
 /* ================== TAGS ================== */
 
+/* 
 h2 {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #f2f3f3;
 }
+*/
 
 img {
   width: 100%;
@@ -109,13 +111,8 @@ div.highlighter-rouge > pre,
 div.highlighter-rouge pre.highlight,
 figure.highlight > pre,
 figure.highlight pre.highlight {
-    font-style: normal;
-    padding: 0px 24px 24px 24px;
-    overflow: auto;
-    line-height: 22px;
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
+  margin: 0;
+  padding: 1em;
 }
 
 .highlight pre {
@@ -236,11 +233,9 @@ a > code,
 li > code,
 figcaption > code,
 td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: 0.8em;
+    padding: 0.25em 0.5rem;
   background: #efefef;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 figcaption {
@@ -370,9 +365,7 @@ blockquote.notice {
 
 /* ================== New Titles ================== */
 .slide__title {
-  background: #264759;
-  border-radius: 4px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-top: 35px;
   padding: 0.25em;
   position: relative;
