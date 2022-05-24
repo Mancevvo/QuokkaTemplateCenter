@@ -415,3 +415,26 @@ html body .container a {
   text-decoration: none;
   color: #00747a;
 }
+
+/*HERO MODIFICATIONS */
+.hero.heightShort {
+    height: 12.5rem !important;
+  }
+  
+  .hero .content-container .content .title {
+    margin-bottom: -0.5rem !important;
+  }
+  
+  .hero .content-container .content {
+    max-width: 60% !important;
+  }
+  
+  #c27e1038-2284-486c-8d50-cbdded31c492customComponentDiv
+    > section
+    > div.content-container
+    > div
+    > div.body
+    > p:nth-child(2) {
+    font-weight: 400;
+    line-height: 26px;
+  }
