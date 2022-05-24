@@ -279,7 +279,7 @@ fieldset {
   widows: 3;
 }
 
-page ol {
+.page ol {
     margin-left: 5vh;
 }
 
