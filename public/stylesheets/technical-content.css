@@ -25,7 +25,7 @@
 
 .cc01w1 p > a,
 .cc01w1 li > a {
-  color: #00747a!important;
+  color: #00747a !important;
 }
 
 .cc01w1 ul {
@@ -94,9 +94,9 @@ strong {
   background-color: #2b3244;
 }
 
+/*li > .ocode, */
 p > .ocode,
 td > .ocode,
-li > .ocode,
 strong > .ocode {
   position: relative;
   width: 100%;
@@ -124,7 +124,7 @@ strong > .ocode {
   display: block;
   text-decoration: none;
   padding: 0.25em 0em;
-  color: #00747a!important;
+  color: #00747a !important;
   background: transparent;
   font-weight: 600;
   font-size: 16px;
