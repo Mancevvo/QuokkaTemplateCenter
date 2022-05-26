@@ -2,7 +2,8 @@
   gap: 2rem;
 }
 
-.cc01w1 h2, .rc24w1 h2 {
+.cc01w1 h2,
+.rc24w1 h2 {
   font-family: "Oracle Sans Semi Bold";
   font-style: normal;
   font-weight: 600;
@@ -13,7 +14,8 @@
   padding-bottom: 0.5rem;
 }
 
-.cc01w1 h3, .rc24w1 h3 {
+.cc01w1 h3,
+.rc24w1 h3 {
   font-family: "Oracle Sans Semi Bold";
   font-style: normal;
   font-weight: 600;
@@ -24,19 +26,20 @@
   padding-bottom: 0.5rem;
 }
 
-.cc01w1 h4, .rc24w1 h4 {
+.cc01w1 h4,
+.rc24w1 h4 {
   font-family: "Oracle Sans Semi Bold";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 32px;
   margin-top: 30px;
   margin-bottom: 16px;
   padding-bottom: 0.5rem;
 }
 
-
-.rc24w1 > p, .cc01w1 > p {
+.rc24w1 > p,
+.cc01w1 > p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -187,3 +190,51 @@ strong > .ocode {
   font-weight: 400;
   line-height: 26px;
 }
+
+/*
+.obttns a,
+.obttns button {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  line-height: 1.2;
+  padding: 1.2rem 1.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  border: 0;
+  min-height: 4.3rem;
+  height: 100%;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-flow: column wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: red;
+}
+
+.obttns {
+  width: 100%;
+  font-size: 1.4rem;
+  margin-bottom: -1.6rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+*/
