@@ -2,20 +2,41 @@
   gap: 2rem;
 }
 
-/*CONTENT */
-.cc01w1 > h3,
-.cc01w1 > h4 {
+.cc01w1 h2, .rc24w1 h2 {
   font-family: "Oracle Sans Semi Bold";
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 32px;
   margin-top: 60px;
   margin-bottom: 16px;
   padding-bottom: 0.5rem;
 }
 
-.cc01w1 > p {
+.cc01w1 h3, .rc24w1 h3 {
+  font-family: "Oracle Sans Semi Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 32px;
+  margin-top: 60px;
+  margin-bottom: 16px;
+  padding-bottom: 0.5rem;
+}
+
+.cc01w1 h4, .rc24w1 h4 {
+  font-family: "Oracle Sans Semi Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.0rem;
+  line-height: 32px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  padding-bottom: 0.5rem;
+}
+
+
+.rc24w1 > p, .cc01w1 > p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
