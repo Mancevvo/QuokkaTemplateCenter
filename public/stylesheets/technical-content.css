@@ -199,14 +199,16 @@ strong > .ocode {
   align-items: center;
   background-color: #00747a;
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   padding: 0.75rem 1.875rem;
   text-align: center;
+  margin-right: 1.25rem;
 }
 
 .obttns a:hover,
 .obttns button {
   text-decoration:underline;
+  background-color: #004f59;
 }
 
 .obttns {
