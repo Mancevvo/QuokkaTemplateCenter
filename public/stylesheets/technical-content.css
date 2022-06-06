@@ -204,6 +204,11 @@ strong > .ocode {
   text-align: center;
 }
 
+.obttns a:hover,
+.obttns button {
+  text-decoration:underline;
+}
+
 .obttns {
   width: 100%;
   -webkit-touch-callout: none;
