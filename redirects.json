@@ -367,7 +367,16 @@
     {"type": "string","comment": "WCS to OCM","expression": "/visual-builder","location": "/technologies/visual-builder.html"},
   
     {"type": "string","comment": "WCS to OCM","expression": "/tutorials/","location": "learn/dev-tutorials.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/tutorials","location": "learn/dev-tutorials.html"}
+    {"type": "string","comment": "WCS to OCM","expression": "/tutorials","location": "learn/dev-tutorials.html"},
+
+    {"type": "string","comment": "WCS to OCM","expression": "/technologies.html","location": "/"},
+    {"type": "string","comment": "WCS to OCM","expression": "/technologies.html/","location": "/"},
+
+    {"type": "string","comment": "WCS to OCM","expression": "/learn.html","location": "/"},
+    {"type": "string","comment": "WCS to OCM","expression": "/learn.html/","location": "/"},
+
+    {"type": "string","comment": "WCS to OCM","expression": "/languages.html/","location": "/"},
+    {"type": "string","comment": "WCS to OCM","expression": "/languages.html","location": "/"}
   
     ]
 }
