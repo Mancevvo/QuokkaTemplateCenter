@@ -97,10 +97,11 @@
 .card.bg-standard .card-container {
   padding: 3rem 1.875rem !important;
 }
-
-#b904b7df-b20e-45fa-8e8d-e9c10f6c55e0 {
-  margin-bottom: -180px !important;
-}
+/*
+    #b904b7df-b20e-45fa-8e8d-e9c10f6c55e0 {
+        margin-bottom: -180px !important;
+    }
+*/
 
 #d26fd39c-54b5-40e5-bc95-849d9988ad1dcustomComponentDiv > div > div.background,
 #dcf412a1-10df-4cf2-a70c-b4128a9baf54customComponentDiv > div > div.background {

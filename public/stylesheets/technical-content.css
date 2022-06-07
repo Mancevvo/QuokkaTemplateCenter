@@ -118,14 +118,11 @@ strong {
   background-color: #2b3244;
 }
 
-/*li > .ocode, */
-p > .ocode,
-td > .ocode,
-strong > .ocode {
+p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
   position: relative;
   width: 100%;
-  padding: 0.25em 0.5rem;
-  background-color: #efefef;
+  padding: 0.1em 0.25em 0.1em 0.25em;
+  background-color: #efefef!important;
 }
 
 .ocode pre {
