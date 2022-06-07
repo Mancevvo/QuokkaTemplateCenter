@@ -8,25 +8,23 @@
 }
 */
 
-strong{
-  font-family: 'Oracle Sans Bold';
+strong {
+  font-family: "Oracle Sans Bold";
 }
 
-ul{
+ul {
   margin: 0.5rem 0rem 0.5rem 0rem;
-  line-height: 22px!important;
+  line-height: 22px !important;
 }
-
-
 
 .feature .content-container .message-container {
-  font-family: 'Oracle Sans Regular'!important;
+  font-family: "Oracle Sans Regular" !important;
 }
 .feature .content-container {
-  gap: 0rem!important;
+  gap: 0rem !important;
 }
 .feature .content-container .message-container.left-text-position {
-  margin: 5.96875rem 2rem 5.96875rem 0rem!important;
+  margin: 5.96875rem 2rem 5.96875rem 0rem !important;
 }
 
 /*
@@ -43,3 +41,9 @@ ul{
 }
 
 */
+
+@media (max-width: 1199px) {
+  .hero .bg.pinBackgroundCenter .bg-image {
+    background-position: left!important;
+  }
+}
