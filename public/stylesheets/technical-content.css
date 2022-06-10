@@ -1,7 +1,10 @@
+
+/*Modification to space between Title and Article's content */
 .content-container .technical-content {
   gap: 2rem;
 }
 
+/*Styles to Headers an P*/
 .cc01w1 h2,
 .rc24w1 h2 {
   font-family: "Oracle Sans Semi Bold";
@@ -47,11 +50,55 @@
   margin-bottom: 24px;
 }
 
+strong {
+  font-family: "Oracle Sans Semi Bold";
+}
+
+/*For Links -> Changes the color of links in the Footer*/
 .cc01w1 p > a,
 .cc01w1 li > a {
   color: #00747a !important;
 }
 
+/*Internla Btns*/
+.obttns a,
+.obttns button {
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #00747a;
+  text-decoration: none;
+  color: #fff !important;
+  padding: 0.75rem 1.875rem;
+  text-align: center;
+  margin-right: 1.25rem;
+}
+
+.obttns a:hover,
+.obttns button {
+  text-decoration:underline;
+  background-color: #004f59;
+}
+
+.obttns {
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+/*Lists, margins, etc.*/
 .cc01w1 ul {
   display: block;
   list-style-type: disc;
@@ -88,10 +135,6 @@ p > img {
   width: 100% !important;
   max-width: 600px !important;
   border: solid 1px #919db8;
-}
-
-strong {
-  font-family: "Oracle Sans Semi Bold";
 }
 
 /*Image Description*/
@@ -163,8 +206,6 @@ p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
   right: -1px;
 }
 
-/*End for Codes Section */
-
 /*HERO MODIFICATIONS */
 .hero.heightShort {
   height: 12.5rem !important;
@@ -186,42 +227,4 @@ p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
   > p:nth-child(2) {
   font-weight: 400;
   line-height: 26px;
-}
-
-
-.obttns a,
-.obttns button {
-  border: none;
-  display: flex;
-  align-items: center;
-  background-color: #00747a;
-  text-decoration: none;
-  color: #fff !important;
-  padding: 0.75rem 1.875rem;
-  text-align: center;
-  margin-right: 1.25rem;
-}
-
-.obttns a:hover,
-.obttns button {
-  text-decoration:underline;
-  background-color: #004f59;
-}
-
-.obttns {
-  width: 100%;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-flow: row wrap;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -ms-flex-align: stretch;
-  align-items: stretch;
 }
