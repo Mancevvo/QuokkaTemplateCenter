@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Generate Sitemap</h2>
+
+    <button type="button" onclick="loadXMLDoc()">
+        Generate</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "DEVOsitemap.xml", true);
+            xmlhttp.send();
+        }
+
+        function generateSection(title, className, listContent) {
+            contentP1 = '<div class="' + className + ' category">' + '\n<h3 class="categoryTitle"><a href="/' + className + '.html">' + title + '</a></h3>\n<div class="links">\n'
+            contentP2 = '\n</div>\n</div>'
+
+            txt = "";
+            for (i = 0; i < listContent.length; i++) {
+
+                if (listContent[i].len == '3') {
+                    txt += '<a href="' + listContent[i].link + '" class="parentLink">' + listContent[i].title + '</a>\n';
+
+                } else if ((listContent[i].len == '4')) {
+                    txt += '<a href="' + listContent[i].link + '" class="childLink">' + listContent[i].title + '</a>\n';
+                }
+            }
+
+            finalCode = contentP1 + txt + contentP2;
+            //console.log(finalCode);
+
+            return finalCode
+        }
+
+        function generateCode(languages, community, learn, technologies) {
+            //console.log(languages, community, learn, technologies);
+
+            var contentP1, contentP2, A, B, C, D;
+
+            contentP1 = '<section class="sitemapContainer"> \n <div class="contentGrid">';
+            contentP2 = '\n</div>\n</section>'
+
+            A = generateSection("Languages", "languages", languages);
+            B = generateSection("Community", "community", community);
+            C = generateSection("Learn", "learn", learn);
+            D = generateSection("Technologies", "technologies", technologies);
+            return contentP1 + D + A + C + B + contentP2
+        }
+
+        function capitalizeName(name) {
+            const str = name;
+
+            const arr = str.split("-");
+
+            for (var i = 0; i < arr.length; i++) {
+                arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+
+            }
+            const str2 = arr.join(" ");
+
+            return str2;
+        }
+
+        function createBlocks(list) {
+
+            newBlockList = [];
+
+
+            for (i = 0; i < list.length; i++) {
+                separation = list[i].split('/');
+                newItem = {}
+
+                if (separation.length == '3') {
+                    newItem['title'] = capitalizeName(separation[2].replace('.html', ''));
+                    newItem['link'] = list[i];
+                    newItem['len'] = separation.length;
+                    newBlockList.push(newItem);
+                } else if (separation.length == '4') {
+                    newItem['title'] = capitalizeName(separation[3].replace('.html', ''));
+                    newItem['link'] = list[i]
+                    newItem['len'] = separation.length;
+                    newBlockList.push(newItem);
+                }
+            }
+
+            var items = newBlockList;
+
+            var sortedList = items.sort(function (a, b) {
+                if (a.title > b.title) {
+                }
+                if (a.title < b.title) {
+                    return -1;
+                }
+                return 0;
+            });
+
+            console.log(sortedList)
+            return sortedList;
+        }
+
+        function separatePillars(list) {
+            languages = [];
+            community = [];
+            learn = [];
+            technologies = [];
+
+            for (i = 0; i < list.length; i++) {
+                category = list[i].split('/');
+
+                if (category[1] == 'community') {
+                    community.push(list[i]);
+                } else if (category[1] == 'languages') {
+                    languages.push(list[i]);
+                } else if (category[1] == 'learn') {
+                    learn.push(list[i]);
+                } else if (category[1] == 'technologies') {
+                    technologies.push(list[i]);
+                }
+            }
+
+            var languagesList = createBlocks(languages);
+            var communityList = createBlocks(community);
+            var learnList = createBlocks(learn);
+            var technologiesList = createBlocks(technologies);
+
+            generateCode(languagesList, communityList, learnList, technologiesList);
+
+            document.getElementById('demo').innerText = generateCode(languagesList, communityList, learnList, technologiesList)
+
+        }
+
+        function myFunction(xml) {
+            var link, priority, i, xmlDoc, txt;
+
+            xmlDoc = xml.responseXML;
+            txt = "";
+            link = xmlDoc.getElementsByTagName("loc");
+            priority = xmlDoc.getElementsByTagName("priority");
+
+            linksList = [];
+            for (i = 0; i < link.length; i++) {
+                linksList.push(link[i].childNodes[0].nodeValue.replace('https://orasitesdev-prodapp.cec.ocp.oraclecloud.com', ''));
+            }
+            //document.getElementById("demo").innerHTML = linksList;
+            separatePillars(linksList);
+        }
+
+    </script>
+
+</body>
+
+</html>

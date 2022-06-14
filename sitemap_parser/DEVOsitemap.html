@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Map</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .category {
+
+
+            border-bottom: solid #2B3244 1px;
+        }
+
+        .links {
+            margin-bottom: 5rem;
+            display: grid;
+            
+            gap: 22px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+
+
+        .sitemapContainer a {
+            text-decoration: none;
+        }
+
+        .sitemapContainer a:hover {
+            text-decoration: underline;
+        }
+
+        .categoryTitle {
+            margin-top: 5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .categoryTitle a {
+            font-family: "Oracle Sans Semi Bold", sans-serif;
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .parentLink,
+        .childLink {
+            font-family: "Oracle Sans Regular", sans-serif;
+            color: #34e7ce;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        @media (max-width: 1199px) {
+            .links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 767px) {
+            .links {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <section class="sitemapContainer">
+        <div class="contentGrid">
+            <div class="technologies category">
+                <h3 class="categoryTitle"><a href="/technologies.html">Technologies</a></h3>
+                <div class="links">
+                    <a href="/technologies/ai-ml.html" class="parentLink">Ai Ml</a>
+                    <a href="/technologies/api.html" class="parentLink">Api</a>
+                    <a href="/technologies/oracle-cloud-infrastructure/arm.html" class="childLink">Arm</a>
+                    <a href="/technologies/blockchain.html" class="parentLink">Blockchain</a>
+                    <a href="/technologies/chatbots.html" class="parentLink">Chatbots</a>
+                    <a href="/technologies/content-management.html" class="parentLink">Content Management</a>
+                    <a href="/technologies/databases.html" class="parentLink">Databases</a>
+                    <a href="/technologies/devops.html" class="parentLink">Devops</a>
+                    <a href="/technologies/oracle-cloud-infrastructure/getting-started.html" class="childLink">Getting
+                        Started</a>
+                    <a href="/technologies/infrastructure-as-code.html" class="parentLink">Infrastructure As Code</a>
+                    <a href="/technologies/linux.html" class="parentLink">Linux</a>
+                    <a href="/technologies/low-code.html" class="parentLink">Low Code</a>
+                    <a href="/technologies/microservices.html" class="parentLink">Microservices</a>
+                    <a href="/technologies/oci-quick-reference.html" class="parentLink">Oci Quick Reference</a>
+                    <a href="/technologies/oracle-cloud-infrastructure.html" class="parentLink">Oracle Cloud
+                        Infrastructure</a>
+                    <a href="/technologies/visual-builder.html" class="parentLink">Visual Builder</a>
+
+                </div>
+            </div>
+            <div class="languages category">
+                <h3 class="categoryTitle"><a href="/languages.html">Languages</a></h3>
+                <div class="links">
+                    <a href="/languages/dotnet.html" class="parentLink">Dotnet</a>
+                    <a href="/languages/graalvm/graal-cloud-native.html" class="childLink">Graal Cloud Native</a>
+                    <a href="/languages/graalvm.html" class="parentLink">Graalvm</a>
+                    <a href="/languages/java.html" class="parentLink">Java</a>
+                    <a href="/languages/java-11.html" class="parentLink">Java 11</a>
+                    <a href="/languages/java/java-microservices.html" class="childLink">Java Microservices</a>
+                    <a href="/languages/javascript.html" class="parentLink">Javascript</a>
+                    <a href="/languages/javascript/node-js.html" class="childLink">Node Js</a>
+                    <a href="/languages/php.html" class="parentLink">Php</a>
+                    <a href="/languages/python.html" class="parentLink">Python</a>
+                    <a href="/languages/ruby.html" class="parentLink">Ruby</a>
+
+                </div>
+            </div>
+            <div class="learn category">
+                <h3 class="categoryTitle"><a href="/learn.html">Learn</a></h3>
+                <div class="links">
+                    <a href="/learn/build-microservice-app.html" class="parentLink">Build Microservice App</a>
+                    <a href="/learn/create-apps-from-a-spreadsheet.html" class="parentLink">Create Apps From A
+                        Spreadsheet</a>
+                    <a href="/learn/deploy-weblogic-cloud-app.html" class="parentLink">Deploy Weblogic Cloud App</a>
+                    <a href="/learn/dev-tutorials.html" class="parentLink">Dev Tutorials</a>
+                    <a href="/learn/developer-live-cloud-native-replays.html" class="parentLink">Developer Live Cloud
+                        Native Replays</a>
+                    <a href="/learn/devsimple.html" class="parentLink">Devsimple</a>
+                    <a href="/learn/headless-cms-tutorials.html" class="parentLink">Headless Cms Tutorials</a>
+                    <a href="/learn/java-and-databases.html" class="parentLink">Java And Databases</a>
+                    <a href="/learn/learning-videos.html" class="parentLink">Learning Videos</a>
+                    <a href="/learn/oracle-content-management-tutorials.html" class="parentLink">Oracle Content
+                        Management Tutorials</a>
+                    <a href="/learn/self-guided-hands-on-labs.html" class="parentLink">Self Guided Hands On Labs</a>
+                    <a href="/learn/use-cases.html" class="parentLink">Use Cases</a>
+                    <a href="/learn/webcasts.html" class="parentLink">Webcasts</a>
+
+                </div>
+            </div>
+            <div class="community category">
+                <h3 class="categoryTitle"><a href="/community.html">Community</a></h3>
+                <div class="links">
+                    <a href="/community/ace.html" class="parentLink">Ace</a>
+                    <a href="/community/events/ai-ml-devlive-replays.html" class="childLink">Ai Ml Devlive Replays</a>
+                    <a href="/community/cloud-coaching.html" class="parentLink">Cloud Coaching</a>
+                    <a href="/community/code-innovate.html" class="parentLink">Code Innovate</a>
+                    <a href="/community/events/developer-live-2020-database-event.html" class="childLink">Developer Live
+                        2020 Database Event</a>
+                    <a href="/community/events/developer-live-event-replays.html" class="childLink">Developer Live Event
+                        Replays</a>
+                    <a href="/community/events/devlive-app-dev-database-recordings.html" class="childLink">Devlive App
+                        Dev Database Recordings</a>
+                    <a href="/community/events/devlive-java-recordings.html" class="childLink">Devlive Java
+                        Recordings</a>
+                    <a href="/community/events/devlive-mysql-replays.html" class="childLink">Devlive Mysql Replays</a>
+                    <a href="/community/events/devlive-simplifying-modern-app-dev.html" class="childLink">Devlive
+                        Simplifying Modern App Dev</a>
+                    <a href="/community/events.html" class="parentLink">Events</a>
+                    <a href="/community/events/java-innovations-mars-2021-replays.html" class="childLink">Java
+                        Innovations Mars 2021 Replays</a>
+                    <a href="/community/events/java-innovations-sept-2021-replays.html" class="childLink">Java
+                        Innovations Sept 2021 Replays</a>
+                    <a href="/community/lifestyle.html" class="parentLink">Lifestyle</a>
+                    <a href="/community/meet-the-devrel-team.html" class="parentLink">Meet The Devrel Team</a>
+                    <a href="/community/events/pi-day-2022-recordings.html" class="childLink">Pi Day 2022 Recordings</a>
+                    <a href="/community/events/reddit-ama-2022.html" class="childLink">Reddit Ama 2022</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
