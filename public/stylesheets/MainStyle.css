@@ -255,6 +255,7 @@
     aspect-ratio: 0;
   }
 
+    /*
   #aa1f3a6b-d995-4429-bb65-262db20abc7a > div > div > div > div > div {
     display: grid;
     justify-content: center;
@@ -264,10 +265,14 @@
     transition-duration: 0.5s;
     grid-template-columns: repeat(2, 1fr);
   }
+    */
+
 }
 
 @media (max-width: 480px) {
+  /*
   #aa1f3a6b-d995-4429-bb65-262db20abc7a > div > div > div > div > div {
     grid-template-columns: repeat(1, 1fr);
   }
+  */
 }
