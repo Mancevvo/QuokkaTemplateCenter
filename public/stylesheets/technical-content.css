@@ -207,6 +207,9 @@ p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
 }
 
 /*HERO MODIFICATIONS */
+
+/*
+
 .hero.heightShort {
   height: 12.5rem !important;
 }
@@ -218,6 +221,8 @@ p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
 .hero .content-container .content {
   max-width: 60% !important;
 }
+
+*/
 
 #c27e1038-2284-486c-8d50-cbdded31c492customComponentDiv
   > section
