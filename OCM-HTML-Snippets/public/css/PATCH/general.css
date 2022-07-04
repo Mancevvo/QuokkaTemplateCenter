@@ -23,7 +23,7 @@ ul {
 }
 */
 
-.feature .content-container .message-container {
+.feature .content-container .message-container, .banner .banner-content-container .body-content-def .banner-text-content .body {
   font-family: "Oracle Sans Regular" !important;
 }
 
