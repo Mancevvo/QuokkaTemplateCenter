@@ -15,17 +15,17 @@
 strong {
   font-family: "Oracle Sans Bold";
 }
+
 /*
 ul {
   margin: 0.5rem 0rem 0.5rem 0rem;
   line-height: 22px !important;
 }
-
+*/
 
 .feature .content-container .message-container {
   font-family: "Oracle Sans Regular" !important;
 }
-*/
 
 .feature .content-container {
   gap: 0rem !important;
@@ -47,10 +47,9 @@ ul {
   grid-template-columns: 1fr 1fr 1fr 1fr !important;
 }
 
-*/
-
 @media (max-width: 1199px) {
   .hero .bg.pinBackgroundCenter .bg-image {
     background-position: left!important;
   }
 }
+*/
