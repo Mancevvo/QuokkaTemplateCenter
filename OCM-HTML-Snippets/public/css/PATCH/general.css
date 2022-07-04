@@ -8,6 +8,10 @@
 }
 */
 
+.card-container p a:hover{
+  text-decoration: underline #fff;
+}
+
 strong {
   font-family: "Oracle Sans Bold";
 }
