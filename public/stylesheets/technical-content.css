@@ -111,6 +111,7 @@ strong {
 .cc01w1 ul li,
 .cc01w1 ol li {
   margin-bottom: 0.5em;
+  list-style-position: outside;
 }
 
 .cc01w1 ol {
