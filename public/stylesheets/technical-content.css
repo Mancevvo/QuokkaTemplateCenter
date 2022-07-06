@@ -241,6 +241,14 @@ directory > code {
 */
 
 /* Tables */
+
+.otable{
+  margin-top:0.5rem;
+
+
+
+}
+
 td {
   height: 2.5rem;
 }
@@ -262,9 +270,8 @@ td {
 
 .otable th {
   text-align: left;
-  background: rgba(122,115,110,0.12);
+  background: #EDEFF5;
   border-top-color: transparent;
-  font-size: 1.2rem;
 }
 
 .otable th {
@@ -277,8 +284,5 @@ td {
 
 .otable td {
   white-space: normal;
-  font-size: 1.6rem;
-  color: #161513;
-  padding-left: 1.1em;
-  padding: 1em;
+  padding: 1.385em;
 }
