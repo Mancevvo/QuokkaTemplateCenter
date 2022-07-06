@@ -113,7 +113,7 @@ strong {
   margin-bottom: 0.5em;
   list-style-position: outside;
   line-height: 1.375rem;
-  margin-left: -1.5rem;
+  margin-left: 2rem;
 }
 
 .cc01w1 ol {
@@ -242,18 +242,17 @@ directory > code {
 
 /* Tables */
 
-.otable{
-  margin-top:0.5rem;
-
-
-
+.otable {
+  margin-top: 0.5rem;
 }
 
 td {
-  height: 2.5rem;
+  min-height: 2.5rem;
+  padding: 1.385em;
 }
 
-.cpad .cwidth, .cpad .cwidth>:last-child {
+.cpad .cwidth,
+.cpad .cwidth > :last-child {
   margin-bottom: 0;
 }
 
@@ -265,18 +264,18 @@ td {
 }
 
 .otable tr {
-  border-bottom: 1px solidrgba(22,21,19,0.1);
+  border-bottom: 1px solidrgba(22, 21, 19, 0.1);
 }
 
 .otable th {
   text-align: left;
-  background: #EDEFF5;
+  background: #edeff5;
   border-top-color: transparent;
 }
 
 .otable th {
   padding: 1.385em;
-  font-family: 'Oracle Sans Bold';
+  font-family: "Oracle Sans Bold";
 }
 
 .otable tr td:first-child {
