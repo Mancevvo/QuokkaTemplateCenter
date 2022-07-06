@@ -109,7 +109,7 @@ strong {
 }
 
 .cc01w1 ul li,
-.cc01w1 ol li {
+.cc01w1 ol li, .obullets {
     margin-bottom: 0.5em;
     list-style-position: outside;
     line-height: 1.375rem;
