@@ -1,4 +1,3 @@
-
 /*Modification to space between Title and Article's content */
 .content-container .technical-content {
   gap: 2rem;
@@ -76,7 +75,7 @@ strong {
 
 .obttns a:hover,
 .obttns button {
-  text-decoration:underline;
+  text-decoration: underline;
   background-color: #004f59;
 }
 
@@ -109,11 +108,12 @@ strong {
 }
 
 .cc01w1 ul li,
-.cc01w1 ol li, .obullets li{
-    margin-bottom: 0.5em;
-    list-style-position: outside;
-    line-height: 1.375rem;
-    margin-left: -1.5rem;
+.cc01w1 ol li,
+.obullets li {
+  margin-bottom: 0.5em;
+  list-style-position: outside;
+  line-height: 1.375rem;
+  margin-left: -1.5rem;
 }
 
 .cc01w1 ol {
@@ -164,16 +164,20 @@ p > img {
   background-color: #2b3244;
 }
 
-p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
+p > .ocode,
+td > .ocode,
+strong > .ocode,
+li > code,
+directory > code {
   position: relative;
   width: 100%;
   padding: 0.1em 0.25em 0.1em 0.25em;
-  background-color: #efefef!important;
+  background-color: #efefef !important;
 }
 
 .ocode pre {
   font-style: normal;
-  padding: 0px 0px 0px 0px !important;
+  padding: 0 24px 24px 24px;
   overflow: auto;
   line-height: 22px;
   color: #fff;
@@ -235,3 +239,8 @@ p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
   line-height: 26px;
 }
 */
+
+/* Tables */
+td {
+  height: 2.5rem;
+}
