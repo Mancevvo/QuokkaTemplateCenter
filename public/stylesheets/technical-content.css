@@ -276,6 +276,7 @@ td {
 
 .otable th {
   padding: 1.385em;
+  font-family: 'Oracle Sans Bold';
 }
 
 .otable tr td:first-child {
