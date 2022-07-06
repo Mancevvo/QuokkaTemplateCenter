@@ -173,7 +173,7 @@ p > .ocode, td > .ocode, strong > .ocode, li > code, directory > code {
 
 .ocode pre {
   font-style: normal;
-  padding: 0px 24px 24px 24px;
+  padding: 0px 0px 0px 0px !important;
   overflow: auto;
   line-height: 22px;
   color: #fff;
