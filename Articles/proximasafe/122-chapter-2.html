@@ -94,8 +94,8 @@
             environment of choice and follow the rest of this articles as a reference.</p>
 
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-1.jpg" alt="dev-promima-safe-chapter2-1"
-                style="margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-1.jpg"
+                alt="dev-promima-safe-chapter2-1" style="margin-bottom: 25px;"></p>
 
         <p>In addition to the ESP32 family, we'll use an ESP8266-based smart badge that will act as a wearable
             device.</p>
@@ -104,8 +104,8 @@
             environments. This pocketable Linux device will be crucial in bridging the local MQTT instance to the OCI
             Cloud instance described and set up in the previous chapter.</p>
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-2.jpg" alt="dev-promima-safe-chapter2-2"
-                style=" margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-2.jpg"
+                alt="dev-promima-safe-chapter2-2" style=" margin-bottom: 25px;"></p>
 
     </div>
 </section>
@@ -152,8 +152,8 @@ preset: enabled)
             instance). In our case we'll just configure the bridge, so using our
             favorite editor of choice, even if your favorite search engine suggests otherwise(!):</p>
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-3.jpg" alt="dev-promima-safe-chapter2-3"
-                style="margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-3.jpg"
+                alt="dev-promima-safe-chapter2-3" style="margin-bottom: 25px;"></p>
 
         <p>and reaching the Bridges section:</p>
 
@@ -328,8 +328,8 @@ Sympathetic resonance
             emitters (MQTT publishers), some receivers (MQTT subscribers) and the Gateway:</p>
 
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-4.jpg" alt="dev-promima-safe-chapter2-4"
-                style="margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-4.jpg"
+                alt="dev-promima-safe-chapter2-4" style="margin-bottom: 25px;"></p>
     </div>
 </section>
 
@@ -451,8 +451,8 @@ void DisplayCallback(char* topic, byte* payload, unsigned int len)
         <p>As described in the previous Episode, our approach will be as the following:
         </p>
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-5.jpg" alt="dev-promima-safe-chapter2-5"
-                style="margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-5.jpg"
+                alt="dev-promima-safe-chapter2-5" style="margin-bottom: 25px;"></p>
 
 
         <p>thus we (thankfully) need to tinker with Oracle Functions.</p>
@@ -561,8 +561,8 @@ paho-mqtt
         </p>
 
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-6.jpg" alt="dev-promima-safe-chapter2-6"
-                style="margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-6.jpg"
+                alt="dev-promima-safe-chapter2-6" style="margin-bottom: 25px;"></p>
 
 
         <p>Once the application is created, we can deploy the function (this time we'll leverage the good-ole CLI) using
@@ -648,8 +648,8 @@ ocid1.fnfunc.oc1.eu-frankfurt
         </p>
 
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-7.jpg" alt="dev-promima-safe-chapter2-7"
-                style="margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-7.jpg"
+                alt="dev-promima-safe-chapter2-7" style="margin-bottom: 25px;"></p>
 
 
         <p>specifying your Mosquitto username, password and the alarm topic edge/alarm. Note those parameters,
@@ -680,8 +680,8 @@ ocid1.fnfunc.oc1.eu-frankfurt
 
         </ul>
 
-        <p><img src="/a/devo/images/dev-promima-safe-chapter2-8.jpg" alt="dev-promima-safe-chapter2-8"
-                style="margin-bottom: 25px;"></p>
+        <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-8.jpg"
+                alt="dev-promima-safe-chapter2-8" style="margin-bottom: 25px;"></p>
 
         <p>Hitting the blue <strong>Create</strong> button starts the magic, and creation is quick. Then, we can proceed
             to shape our
@@ -694,8 +694,8 @@ ocid1.fnfunc.oc1.eu-frankfurt
             <li>Providing the name, the prefix, and additional Policies such as Authentication, CORS, Rate Limiting
                 (quite important if API is exposed to the cruel external world)</li>
 
-            <p><img src="/a/devo/images/dev-promima-safe-chapter2-9.jpg" alt="dev-promima-safe-chapter2-9"
-                    style="margin-bottom: 25px;"></p>
+            <p><img src="https://oracle-devrel.github.io/devo-image-repository/images/dev-promima-safe-chapter2-9.jpg"
+                    alt="dev-promima-safe-chapter2-9" style="margin-bottom: 25px;"></p>
 
             <li>Provide the Routing logic with the path, method (we'll use POST), the type (Oracle Functions), the
                 Application and the Function name we previously deployed
@@ -737,21 +737,23 @@ ocid1.fnfunc.oc1.eu-frankfurt
     </div>
 </section>
 
+
 <!-- CC01v0 -->
 <section class="cc01 cc01v0 cpad" id="about">
-    <div class="cc01w1 cwidth">
+    <div class="cc01w1 cwidth" style="display: flex; gap: 25px;">
 
         <div class="cc01w2 cc01fl">
-            <img src="/a/devo/images/bio-gabriele-provinciali.jpg">
+            <img src="https://oracle-devrel.github.io/devo-image-repository/images/bio-gabriele-provinciali.jpg">
         </div>
 
         <div class="cc01w2">
 
             <h2>About the Author</h2>
+
+
             <p>Gabriele Provinciali works as Solution Architect in Rome, Italy - passionate about everything that is
                 tinkerable!</p>
         </div>
-
     </div>
 </section>
 <!-- /CC01v0 -->

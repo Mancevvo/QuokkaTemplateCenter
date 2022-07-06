@@ -258,7 +258,7 @@ td {
 
 .otable .otable-w2 {
   width: 100%;
-  margin-bottom: 0.5em;
+  margin-bottom: 2rem;
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -280,9 +280,16 @@ td {
 
 .otable tr td:first-child {
   border-left-color: transparent;
+  
+
 }
 
 .otable td {
   white-space: normal;
   padding: 1.385em;
+  border-bottom: solid #edeff5 1px;
 }
+
+
+
+/* Download BTN */
