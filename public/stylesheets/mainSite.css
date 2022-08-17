@@ -18,11 +18,9 @@
 }
 
 @media (min-width: 1450px) {
-
   #backgroundIMGB1 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-
 }
 
 #backgroundIMGB2 {
@@ -41,6 +39,25 @@
   background-image: url("https://cpano.github.io/QuokkaTemplateCenter/public/images/Backgrounds/B4.png");
   background-size: cover;
   background-position: center center;
+}
+
+@media (max-width: 991px) {
+  #h3-Banner1,
+  #h1-Banner1,
+  #hbold-Banner1,
+  #text-Banner1 {
+    text-align: center;
+    padding-right: 0% !important;
+  }
+
+  #backgroundIMGB1{
+    background-position: 100px -90px;
+    background-repeat: no-repeat;
+  }
+
+  .hideBTNS {
+    display: none;
+  }
 }
 
 #text-Banner1 {
