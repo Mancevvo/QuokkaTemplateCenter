@@ -11,26 +11,34 @@
 }
 
 #backgroundIMGB1 {
-  background-image: url("/images/Backgrounds/B1.jpg");
+  background-image: url("/public/images/Backgrounds/B1.jpg");
   background-size: cover;
   background-position: center right;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
+@media (min-width: 1450px) {
+
+  #backgroundIMGB1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+}
+
 #backgroundIMGB2 {
-  background-image: url("/images/Backgrounds/B2.png");
+  background-image: url("/public/images/Backgrounds/B2.png");
   background-size: cover;
   background-position: center center;
 }
 
 #backgroundIMGB3 {
-  background-image: url("/images/Backgrounds/B3.png");
+  background-image: url("/public/images/Backgrounds/B3.png");
   background-size: cover;
   background-position: center center;
 }
 
 #backgroundIMGB4 {
-  background-image: url("/images/Backgrounds/B4.png");
+  background-image: url("/public/images/Backgrounds/B4.png");
   background-size: cover;
   background-position: center center;
 }

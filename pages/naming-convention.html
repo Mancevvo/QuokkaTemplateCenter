@@ -3,13 +3,13 @@
 
 <head>
     <title>
-        Name Generator Test
+        Naming convention
     </title>
 
     <!--JS Scripts-->
 
-    <script src="https://cpano.github.io/QuokkaTemplateCenter/public/javascripts/bannerHeight.js"></script>
-    <script src="https://cpano.github.io/QuokkaTemplateCenter/public/javascripts/createNameOfComponent.js"></script>
+    <script src="/public/javascripts/bannerHeight.js"></script>
+    <script src="/public/javascripts/createNameOfComponent.js"></script>
 
     <!--CSS sheets-->
     <!-- Bootstrap CSS -->
@@ -17,24 +17,65 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
-    <link rel='stylesheet' href='https://cpano.github.io/QuokkaTemplateCenter/public/stylesheets/style.css' />
-    <link rel='stylesheet' href='https://cpano.github.io/QuokkaTemplateCenter/public/stylesheets/spacers.css' />
-    <link rel='stylesheet' href='https://cpano.github.io/QuokkaTemplateCenter/public/stylesheets/colors.css' />
-    <link rel='stylesheet' href='https://cpano.github.io/QuokkaTemplateCenter/public/stylesheets/BTNs.css' />
-    <link rel='stylesheet' href='https://cpano.github.io/QuokkaTemplateCenter/public/stylesheets/gradients.css' />
+    <link rel='stylesheet' href='/public/stylesheets/style.css' />
+    <link rel='stylesheet' href='/public/stylesheets/spacers.css' />
+    <link rel='stylesheet' href='/public/stylesheets/colors.css' />
+    <link rel='stylesheet' href='/public/stylesheets/BTNs.css' />
+    <link rel='stylesheet' href='/public/stylesheets/gradients.css' />
 
 
-    <link rel="icon" type="image/png" href="https://cpano.github.io/QuokkaTemplateCenter/public/images/Logo/Devo.png"
-        sizes="512x512">
+    <link rel="icon" type="image/png" href="/public/images/Logo/Devo.png" sizes="512x512">
 
 
-    <link rel='stylesheet' href='https://cpano.github.io/QuokkaTemplateCenter/public/stylesheets/mainSite.css' />
+    <link rel='stylesheet' href='/public/stylesheets/mainSite.css' />
 
 </head>
 
 <body>
-    <div style='background-image: url("https://cpano.github.io/QuokkaTemplateCenter/public/images/Backgrounds/B3.png");'
-        id="backgroundIMGB3" class="adjustPaddingBanner">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light QuokkaCustom"
+            style="z-index: 1; margin-bottom: -100px;">
+            <div class="container">
+
+                <a href="/">
+                    <img src="/public/images/Logo/DevRel_mascot_white_Oracle.svg" width="100px" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#34E7CE" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 30px;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/naming-convention.html">Naming convention</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/manual.html">OCM components</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" id="searchBar">
+                        <input class="form-control me-2" type="search" placeholder="Components" aria-label="Search">
+
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style='background-image: url("/public/images/Backgrounds/B3.png");' id="backgroundIMGB3"
+        class="adjustPaddingBanner">
         <div class="container" style="
             padding-top: 5%;
             padding-bottom: 5%;">
@@ -47,8 +88,6 @@
                 magnam ut, culpa cupiditate non vitae voluptatum laudantium, obcaecati quo cum, perferendis aut odio
                 in
                 perspiciatis officiis! Minima, rerum.</p>
-            <div class="spacer-3"></div>
-            <a href="#componentPageIndex" class="BTN-1">See Devo tags</a>
         </div>
     </div>
 
@@ -69,7 +108,7 @@
                             <option selected>Select template</option>
                             <option value='HEADER'>HEADER</option>
                             <option value='FOOTER'>FOOTER</option>
-                               <option value='0TECHCONTENT'>0TECHCONTENT</option>
+                            <option value='0TECHCONTENT'>0TECHCONTENT</option>
                             <option value='GITHUBTUTORIAL'>GITHUBTUTORIAL</option>
                             <option value='1HOME'>1HOME</option>
                             <option value='2JAVA'>2JAVA</option>
@@ -269,7 +308,7 @@
                             <option value="AL01">AL01</option>
                             <option value="AL02">AL02</option>
                             <option value="AL03">AL03</option>
-                            
+
 
 
                         </select>
