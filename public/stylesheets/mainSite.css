@@ -50,7 +50,7 @@
     padding-right: 0% !important;
   }
 
-  #backgroundIMGB1{
+  #backgroundIMGB1 {
     background-position: 100px -90px;
     background-repeat: no-repeat;
   }
@@ -96,7 +96,18 @@ li {
   font-weight: 100;
   font-size: 0.8rem;
 }
+@media (max-width: 1500px) {
+  #nameFields, #resultsComponentsNaming {
+    display: flex;
+    flex-direction: column;
+  }
 
+
+  
+  .fieldNameCom{
+    margin: 15px 0px;
+  }
+}
 /*
 .iconBackground{
     width: 110px;
