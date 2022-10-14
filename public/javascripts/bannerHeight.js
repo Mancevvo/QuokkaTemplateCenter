@@ -1,12 +1,22 @@
+function changeSH() {
+  let languageImage = document.querySelector(
+    "#c20303b7-0bf3-4cc2-bb8b-5533c692de92 > div > div > div > div.background > img"
+  );
+  languageImage.setAttribute(
+    "src",
+    "https://orasites-prodapp.cec.ocp.oraclecloud.com/content/management/api/v1.1/assets/CONT907B9D2AB33448F986E1C2A30E139C01/native"
+  );
+}
 
-window.addEventListener('load', function(){
-    let navBar = document.querySelector('.QuokkaCustom');
-    let navBarHeight = navBar.clientHeight;
-    console.log('NavBar height is: ' + navBarHeight);
+window.onload = (event) => {
+  async function reloadDEVO() {
+    await sleep(3000);
+    changeSH();
+  }
 
-    let bannerPadding = document.querySelector('.adjustPaddingBanner')
-    bannerPadding.style.paddingBottom = '90px';
-    let newPaddingTop = 75 + navBarHeight
-
-    bannerPadding.style.paddingTop = (newPaddingTop + 'px');
-});
+  try {
+    changeSH();
+  } catch (error) {
+    reloadDEVO();
+  }
+};

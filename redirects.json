@@ -1,384 +1,4042 @@
 {
   "redirectRules": [
-    {"type": "string","comment": "WCS to OCM","expression": "/ace/","location": "/community/ace.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/ace","location": "/community/ace.html"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/cloudcoach/","location": "/community/cloud-coaching.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/cloudcoach","location": "/community/cloud-coaching.html"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/code-innovate/","location": "/community/code-innovate.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/code-innovate","location": "/community/code-innovate.html"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/events/","location": "/community/events.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/events","location": "/community/events.html"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/ai-ml-enterprise/","location": "/community/events/ai-ml-devlive-replays.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/ai-ml-enterprise","location": "/community/events/ai-ml-devlive-replays.html"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/database/","location": "/community/events/developer-live-2020-database-event.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/database","location": "/community/events/developer-live-2020-database-event.html"},
-   
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/","location": "/community/events/developer-live-event-replays.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live","location": "/community/events/developer-live-event-replays.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/app-dev-database/","location": "/community/events/devlive-app-dev-database-recordings.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/app-dev-database","location": "/community/events/devlive-app-dev-database-recordings.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/java/","location": "/community/events/devlive-java-recordings.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/java","location": "/community/events/devlive-java-recordings.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/mysql/","location": "/community/events/devlive-mysql-replays.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/mysql","location": "/community/events/devlive-mysql-replays.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/simplifying-modern-app-dev/","location": "/community/events/devlive-simplifying-modern-app-dev.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/simplifying-modern-app-dev","location": "/community/events/devlive-simplifying-modern-app-dev.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/java-innovations/","location": "/community/events/java-innovations-mars-2021-replays.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/java-innovations","location": "/community/events/java-innovations-mars-2021-replays.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/community/events/java-innovations-sept-2021-replays/","location": "/community/events/java-innovations-sept-2021-replays.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/community/events/java-innovations-sept-2021-replays","location": "/community/events/java-innovations-sept-2021-replays.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/pi-day/","location": "/community/events/pi-day-2022-recordings.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/pi-day","location": "/community/events/pi-day-2022-recordings.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/ama/","location": "/community/events/reddit-ama-2022.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/ama","location": "/community/events/reddit-ama-2022.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/lifestyle/","location": "/community/lifestyle.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/lifestyle","location": "/community/lifestyle.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/team/","location": "/community/meet-the-devrel-team.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/team","location": "/community/meet-the-devrel-team.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dotnet/","location": "/languages/dotnet.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dotnet","location": "/languages/dotnet.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/graalvm/","location": "/languages/graalvm.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/graalvm","location": "/languages/graalvm.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/graalvm/cloud-native/","location": "/languages/graalvm/graal-cloud-native.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/graalvm/cloud-native","location": "/languages/graalvm/graal-cloud-native.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java11/","location": "/languages/java-11.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java11","location": "/languages/java-11.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/","location": "/languages/java.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java","location": "/languages/java.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/cloud/","location": "/languages/java/java-microservices.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/cloud","location": "/languages/java/java-microservices.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/javascript/","location": "/languages/javascript.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/javascript","location": "/languages/javascript.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/nodejs/","location": "/languages/javascript/node-js.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/nodejs","location": "/languages/javascript/node-js.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/php/","location": "/languages/php.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/php","location": "/languages/php.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/python/","location": "/languages/python.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/python","location": "/languages/python.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/ruby/","location": "/languages/ruby.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/ruby","location": "/languages/ruby.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/agile-methodology-success.html/","location": "/learn/agile-methodology-success"},
-    {"type": "string","comment": "WCS to OCM","expression": "/agile-methodology-success.html","location": "/learn/agile-methodology-success"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/create-app-from-spreadsheet/","location": "/learn/create-apps-from-a-spreadsheet.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/create-app-from-spreadsheet","location": "/learn/create-apps-from-a-spreadsheet.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/cloud-native/","location": "/learn/developer-live-cloud-native-replays.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/developer-live/cloud-native","location": "/learn/developer-live-cloud-native-replays.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/devsimple/","location": "/learn/devsimple.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/devsimple","location": "/learn/devsimple.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/content-management/headless-cms/","location": "/learn/headless-cms-tutorials.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/content-management/headless-cms","location": "/learn/headless-cms-tutorials.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/database/","location": "/learn/java-and-databases.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/database","location": "/learn/java-and-databases.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/videos/","location": "/learn/learning-videos.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/videos","location": "/learn/learning-videos.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/content-management/site-builder/","location": "/learn/oracle-content-management-tutorials.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/content-management/site-builder","location": "/learn/oracle-content-management-tutorials.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/react-js/","location": "/learn/react-js"},
-    {"type": "string","comment": "WCS to OCM","expression": "/react-js","location": "/learn/react-js"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/hols/","location": "/learn/self-guided-hands-on-labs.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/hols","location": "/learn/self-guided-hands-on-labs.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/build-microservice-app/","location": "/learn/technical-articles/build-microservice-app"},
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/build-microservice-app","location": "/learn/technical-articles/build-microservice-app"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/id/solutions/build-microservice-app/","location": "/learn/technical-articles/build-microservice-app"},
-    {"type": "string","comment": "WCS to OCM","expression": "/id/solutions/build-microservice-app","location": "/learn/technical-articles/build-microservice-app"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/sg/solutions/build-microservice-app/","location": "/learn/technical-articles/build-microservice-app"},
-    {"type": "string","comment": "WCS to OCM","expression": "/sg/solutions/build-microservice-app","location": "/learn/technical-articles/build-microservice-app"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/build-microservice-app-post-reg/","location": "/learn/technical-articles/build-microservice-app-post-reg"},
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/build-microservice-app-post-reg","location": "/learn/technical-articles/build-microservice-app-post-reg"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/building-apps-odb12c-apex-part1.html/","location": "/learn/technical-articles/building-apps-odb12c-apex-part1"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/building-apps-odb12c-apex-part1.html","location": "/learn/technical-articles/building-apps-odb12c-apex-part1"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/building-apps-odb12c-apex-part2.html/","location": "/learn/technical-articles/building-apps-odb12c-apex-part2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/building-apps-odb12c-apex-part2.html","location": "/learn/technical-articles/building-apps-odb12c-apex-part2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/building-jet-crud-apps-odb12c.html/","location": "/learn/technical-articles/building-jet-crud-apps-odb12c"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/building-jet-crud-apps-odb12c.html","location": "/learn/technical-articles/building-jet-crud-apps-odb12c"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/bullet-time.html/","location": "/learn/technical-articles/bullet-time"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/bullet-time.html","location": "/learn/technical-articles/bullet-time"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe/chapter-1/","location": "/learn/technical-articles/chapter-1"},
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe/chapter-1","location": "/learn/technical-articles/chapter-1"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe/chapter-2/","location": "/learn/technical-articles/chapter-2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe/chapter-2","location": "/learn/technical-articles/chapter-2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/combining-r-with-sql-for-data-analysis.html/","location": "/learn/technical-articles/combining-r-with-sql-for-data-analysis"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/combining-r-with-sql-for-data-analysis.html","location": "/learn/technical-articles/combining-r-with-sql-for-data-analysis"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/oracle-cloud-infrastructure/compute-vm-simple-tutorial/","location": "/learn/technical-articles/compute-vm-simple-tutorial"},
-    {"type": "string","comment": "WCS to OCM","expression": "/oracle-cloud-infrastructure/compute-vm-simple-tutorial","location": "/learn/technical-articles/compute-vm-simple-tutorial"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/create-app-from-spreadsheet-post-reg/","location": "/learn/technical-articles/create-app-from-spreadsheet-post-reg"},
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/create-app-from-spreadsheet-post-reg","location": "/learn/technical-articles/create-app-from-spreadsheet-post-reg"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/database-for-python-developers-1.html","location": "/learn/technical-articles/database-for-python-developers-1"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/database-for-python-developers-1.html/","location": "/learn/technical-articles/database-for-python-developers-1"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/deep-learning-on-clients.html/","location": "/learn/technical-articles/deep-learning-on-clients"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/deep-learning-on-clients.html","location": "/learn/technical-articles/deep-learning-on-clients"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/oracle-cloud-infrastructure/deploy-micro-service-application-tutorial/","location": "/learn/technical-articles/deploy-micro-service-application-tutorial"},
-    {"type": "string","comment": "WCS to OCM","expression": "/oracle-cloud-infrastructure/deploy-micro-service-application-tutorial","location": "/learn/technical-articles/deploy-micro-service-application-tutorial"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/deploy-weblogic-cloud-app/","location": "/learn/technical-articles/deploy-weblogic-cloud-app"},
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/deploy-weblogic-cloud-app","location": "/learn/technical-articles/deploy-weblogic-cloud-app"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/deploy-weblogic-cloud-app-post-reg/","location": "/learn/technical-articles/deploy-weblogic-cloud-app-post-reg"},
-    {"type": "string","comment": "WCS to OCM","expression": "/solutions/deploy-weblogic-cloud-app-post-reg","location": "/learn/technical-articles/deploy-weblogic-cloud-app-post-reg"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/github/","location": "/learn/technical-articles/github/"},
-    {"type": "string","comment": "WCS to OCM","expression": "/github","location": "/learn/technical-articles/github/"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/federated-deep-learning-using-java.html/","location": "/learn/technical-articles/federated-deep-learning-using-java"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/federated-deep-learning-using-java.html","location": "/learn/technical-articles/federated-deep-learning-using-java"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/inside-java-mobile-app-part1.html/","location": "/learn/technical-articles/inside-java-mobile-app-part1"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/inside-java-mobile-app-part1.html","location": "/learn/technical-articles/inside-java-mobile-app-part1"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/inside-java-mobile-app-part2.html/","location": "/learn/technical-articles/inside-java-mobile-app-part2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/inside-java-mobile-app-part2.html","location": "/learn/technical-articles/inside-java-mobile-app-part2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/jdk-10-local-variable-type-inference.html/","location": "/learn/technical-articles/jdk-10-local-variable-type-inference"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/jdk-10-local-variable-type-inference.html","location": "/learn/technical-articles/jdk-10-local-variable-type-inference"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/microservices/jellema_microservice_design/","location": "/learn/technical-articles/jellema_microservice_design"},
-    {"type": "string","comment": "WCS to OCM","expression": "/microservices/jellema_microservice_design","location": "/learn/technical-articles/jellema_microservice_design"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/kubernetes.html/","location": "/learn/technical-articles/kubernetes"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/kubernetes.html","location": "/learn/technical-articles/kubernetes"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/learning-r-for-pl-sql-developers-part-1.html/","location": "/learn/technical-articles/learning-r-for-pl-sql-developers-part-1"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/learning-r-for-pl-sql-developers-part-1.html","location": "/learn/technical-articles/learning-r-for-pl-sql-developers-part-1"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/learning-r-for-pl-sql-developers-part-2.html/","location": "/learn/technical-articles/learning-r-for-pl-sql-developers-part-2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/learning-r-for-pl-sql-developers-part-2.html","location": "/learn/technical-articles/learning-r-for-pl-sql-developers-part-2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/learning-r-for-pl-sql-developers-part-3.html/","location": "/learn/technical-articles/learning-r-for-pl-sql-developers-part-3"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/learning-r-for-pl-sql-developers-part-3.html","location": "/learn/technical-articles/learning-r-for-pl-sql-developers-part-3"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/machine-learning-and-neural-networks.html/","location": "/learn/technical-articles/machine-learning-and-neural-networks"},
-    {"type": "string","comment": "WCS to OCM","expression": "/machine-learning-and-neural-networks.html","location": "/learn/technical-articles/machine-learning-and-neural-networks"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/modular-reusable-javaee-architecture-with-docker.html/","location": "/learn/technical-articles/modular-reusable-javaee-architecture-with-docker"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/modular-reusable-javaee-architecture-with-docker.html","location": "/learn/technical-articles/modular-reusable-javaee-architecture-with-docker"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/my-sql-is-stuck.html/","location": "/learn/technical-articles/my-sql-is-stuck"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/my-sql-is-stuck.html","location": "/learn/technical-articles/my-sql-is-stuck"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/nashorn-javascript-part1.html/","location": "/learn/technical-articles/nashorn-javascript-part1"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/nashorn-javascript-part1.html","location": "/learn/technical-articles/nashorn-javascript-part1"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/nashorn-javascript-part2.html/","location": "/learn/technical-articles/nashorn-javascript-part2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/nashorn-javascript-part2.html","location": "/learn/technical-articles/nashorn-javascript-part2"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/nashorn-javascript-part3.html/","location": "/learn/technical-articles/nashorn-javascript-part3"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/nashorn-javascript-part3.html","location": "/learn/technical-articles/nashorn-javascript-part3"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/neural-network-machine-learning.html/","location": "/learn/technical-articles/neural-network-machine-learning"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/neural-network-machine-learning.html","location": "/learn/technical-articles/neural-network-machine-learning"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/containers/nodevops.html/","location": "/learn/technical-articles/nodevops"},
-    {"type": "string","comment": "WCS to OCM","expression": "/containers/nodevops.html","location": "/learn/technical-articles/nodevops"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/oci-key-concepts/","location": "/learn/technical-articles/oci-key-concepts"},
-    {"type": "string","comment": "WCS to OCM","expression": "/oci-key-concepts","location": "/learn/technical-articles/oci-key-concepts"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/odb-browser-apps-js-rest.html/","location": "/learn/technical-articles/odb-browser-apps-js-rest"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/odb-browser-apps-js-rest.html","location": "/learn/technical-articles/odb-browser-apps-js-rest"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/odb-browser-apps-js-rest-p2.html/","location": "/learn/technical-articles/odb-browser-apps-js-rest-p2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/odb-browser-apps-js-rest-p2.html","location": "/learn/technical-articles/odb-browser-apps-js-rest-p2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/oracle-java-zend-server.html/","location": "/learn/technical-articles/oracle-java-zend-server"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/oracle-java-zend-server.html","location": "/learn/technical-articles/oracle-java-zend-server"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-r-advanced-analytics-for-hadoop-part-1.html/","location": "/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-1"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-r-advanced-analytics-for-hadoop-part-1.html","location": "/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-1"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-r-advanced-analytics-for-hadoop-part-2.html/","location": "/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-r-advanced-analytics-for-hadoop-part-2.html","location": "/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-rest-data-services-for-python-developers.html/","location": "/learn/technical-articles/oracle-rest-data-services-for-python-developers"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-rest-data-services-for-python-developers.html","location": "/learn/technical-articles/oracle-rest-data-services-for-python-developers"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-rest-data-services-for-python-developers-part2.html/","location": "/learn/technical-articles/oracle-rest-data-services-for-python-developers-part2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/oracle-rest-data-services-for-python-developers-part2.html","location": "/learn/technical-articles/oracle-rest-data-services-for-python-developers-part2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/php-web-auditing.html/","location": "/learn/technical-articles/php-web-auditing"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/php-web-auditing.html","location": "/learn/technical-articles/php-web-auditing"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe-intro/","location": "/learn/technical-articles/proximasafe-intro"},
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe-intro","location": "/learn/technical-articles/proximasafe-intro"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe-part-3/","location": "/learn/technical-articles/proximasafe-part-2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe-part-3","location": "/learn/technical-articles/proximasafe-part-2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe-part-2/","location": "/learn/technical-articles/proximasafe-part-2"},
-    {"type": "string","comment": "WCS to OCM","expression": "/proximasafe-part-2","location": "/learn/technical-articles/proximasafe-part-2"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/java/quantum-computing.html/","location": "/learn/technical-articles/quantum-computing"},
-    {"type": "string","comment": "WCS to OCM","expression": "/java/quantum-computing.html","location": "/learn/technical-articles/quantum-computing"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/opensource/serverless-with-fn-project.html/","location": "/learn/technical-articles/serverless-with-fn-project"},
-    {"type": "string","comment": "WCS to OCM","expression": "/opensource/serverless-with-fn-project.html","location": "/learn/technical-articles/serverless-with-fn-project"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/technote-php-instant.html/","location": "/learn/technical-articles/technote-php-instant"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/technote-php-instant.html","location": "/learn/technical-articles/technote-php-instant"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/tuininga-cx-oracle.html/","location": "/learn/technical-articles/tuininga-cx-oracle"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dsl/tuininga-cx-oracle.html","location": "/learn/technical-articles/tuininga-cx-oracle"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/microservices/what-are-microservices/","location": "/learn/technical-articles/what-are-microservices"},
-    {"type": "string","comment": "WCS to OCM","expression": "/microservices/what-are-microservices","location": "/learn/technical-articles/what-are-microservices"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/what-is-iac/","location": "/learn/technical-articles/what-is-iac"},
-    {"type": "string","comment": "WCS to OCM","expression": "/what-is-iac","location": "/learn/technical-articles/what-is-iac"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/javascript/what-is-javascript/","location": "/learn/technical-articles/what-is-javascript"},
-    {"type": "string","comment": "WCS to OCM","expression": "/javascript/what-is-javascript","location": "/learn/technical-articles/what-is-javascript"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/lowcode/what-is-lowcode/","location": "/learn/technical-articles/what-is-lowcode"},
-    {"type": "string","comment": "WCS to OCM","expression": "/lowcode/what-is-lowcode","location": "/learn/technical-articles/what-is-lowcode"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/nodejs/what-is-node-js/","location": "/learn/technical-articles/what-is-node-js"},
-    {"type": "string","comment": "WCS to OCM","expression": "/nodejs/what-is-node-js","location": "/learn/technical-articles/what-is-node-js"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/open-source/what-is-open-source/","location": "/learn/technical-articles/what-is-open-source"},
-    {"type": "string","comment": "WCS to OCM","expression": "/open-source/what-is-open-source","location": "/learn/technical-articles/what-is-open-source"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/python/what-is-python/","location": "/learn/technical-articles/what-is-python"},
-    {"type": "string","comment": "WCS to OCM","expression": "/python/what-is-python","location": "/learn/technical-articles/what-is-python"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/what-is-pytorch/","location": "/learn/technical-articles/what-is-pytorch"},
-    {"type": "string","comment": "WCS to OCM","expression": "/what-is-pytorch","location": "/learn/technical-articles/what-is-pytorch"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/ruby/what-is-ruby/","location": "/learn/technical-articles/what-is-ruby"},
-    {"type": "string","comment": "WCS to OCM","expression": "/ruby/what-is-ruby","location": "/learn/technical-articles/what-is-ruby"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/what-is-tensorflow/","location": "/learn/technical-articles/what-is-tensorflow"},
-    {"type": "string","comment": "WCS to OCM","expression": "/what-is-tensorflow","location": "/learn/technical-articles/what-is-tensorflow"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/dotnet/williams-refcursors.html/","location": "/learn/technical-articles/williams-refcursors"},
-    {"type": "string","comment": "WCS to OCM","expression": "/dotnet/williams-refcursors.html","location": "/learn/technical-articles/williams-refcursors"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/use-cases/","location": "/learn/use-cases.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/use-cases","location": "/learn/use-cases.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/modern-appdev/","location": "/learn/webcasts.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/modern-appdev","location": "/learn/webcasts.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/open-source/","location": "/open-source.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/open-source","location": "/open-source.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/redbull/","location": "/redbull.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/redbull","location": "/redbull.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/ai-ml/","location": "/technologies/ai-ml.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/ai-ml","location": "/technologies/ai-ml.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/api/","location": "/technologies/api.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/api","location": "/technologies/api.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/blockchain/","location": "/technologies/blockchain.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/blockchain","location": "/technologies/blockchain.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/chatbots/","location": "/technologies/chatbots.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/chatbots","location": "/technologies/chatbots.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/content-management/","location": "/technologies/content-management.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/content-management","location": "/technologies/content-management.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/databases/","location": "/technologies/databases.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/databases","location": "/technologies/databases.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/devops/","location": "/technologies/devops.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/devops","location": "/technologies/devops.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/infrastructure-as-code/","location": "/technologies/infrastructure-as-code.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/infrastructure-as-code","location": "/technologies/infrastructure-as-code.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/linux/","location": "/technologies/linux.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/linux","location": "/technologies/linux.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/lowcode/","location": "/technologies/low-code.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/lowcode","location": "/technologies/low-code.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/microservices/","location": "/technologies/microservices.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/microservices","location": "/technologies/microservices.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/quick-reference/","location": "/technologies/oci-quick-reference.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/quick-reference","location": "/technologies/oci-quick-reference.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/oracle-cloud-infrastructure/","location": "/technologies/oracle-cloud-infrastructure.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/oracle-cloud-infrastructure","location": "/technologies/oracle-cloud-infrastructure.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/arm/","location": "/technologies/oracle-cloud-infrastructure/arm.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/arm","location": "/technologies/oracle-cloud-infrastructure/arm.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/arm/tools/","location": "/technologies/oracle-cloud-infrastructure/arm/tools.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/arm/tools","location": "/technologies/oracle-cloud-infrastructure/arm/tools.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/getting-started/","location": "/technologies/oracle-cloud-infrastructure/getting-started.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/getting-started","location": "/technologies/oracle-cloud-infrastructure/getting-started.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/visual-builder/","location": "/technologies/visual-builder.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/visual-builder","location": "/technologies/visual-builder.html"},
-  
-    {"type": "string","comment": "WCS to OCM","expression": "/tutorials/","location": "learn/dev-tutorials.html"},
-    {"type": "string","comment": "WCS to OCM","expression": "/tutorials","location": "learn/dev-tutorials.html"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/technologies.html","location": "/"},
-    {"type": "string","comment": "WCS to OCM","expression": "/technologies.html/","location": "/"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/learn.html","location": "/"},
-    {"type": "string","comment": "WCS to OCM","expression": "/learn.html/","location": "/"},
-
-    {"type": "string","comment": "WCS to OCM","expression": "/languages.html/","location": "/"},
-    {"type": "string","comment": "WCS to OCM","expression": "/languages.html","location": "/"}
-  
-    ]
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw",
+      "location": "/tw-TW"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/ace/",
+      "location": "/zh-TW/community/ace.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/cloudcoach/",
+      "location": "/zh-TW/community/cloud-coaching.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/code-innovate/",
+      "location": "/zh-TW/community/code-innovate.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/events/",
+      "location": "/zh-TW/community/events.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/ai-ml-enterprise/",
+      "location": "/zh-TW/community/events/ai-ml-devlive-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/database/",
+      "location": "/zh-TW/community/events/developer-live-2020-database-event.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/",
+      "location": "/zh-TW/community/events/developer-live-event-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/app-dev-database/",
+      "location": "/zh-TW/community/events/devlive-app-dev-database-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/java/",
+      "location": "/zh-TW/community/events/devlive-java-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/mysql/",
+      "location": "/zh-TW/community/events/devlive-mysql-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/simplifying-modern-app-dev/",
+      "location": "/zh-TW/community/events/devlive-simplifying-modern-app-dev.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/java-innovations/",
+      "location": "/zh-TW/community/events/java-innovations-mars-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tworasitestest-prodapp.cec.ocp.oraclecloud.com/sites/preview/devo/en/community/events/java-innovations-sept-2021-replays",
+      "location": "/zh-TW/community/events/java-innovations-sept-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/pi-day/",
+      "location": "/zh-TW/community/events/pi-day-2022-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/ama/",
+      "location": "/zh-TW/community/events/reddit-ama-2022.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/lifestyle/",
+      "location": "/zh-TW/community/lifestyle.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/team/",
+      "location": "/zh-TW/community/meet-the-devrel-team.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dotnet",
+      "location": "/zh-TW/languages/dotnet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/graalvm/",
+      "location": "/zh-TW/languages/graalvm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/graalvm/cloud-native/",
+      "location": "/zh-TW/languages/graalvm/graal-cloud-native.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java11/",
+      "location": "/zh-TW/languages/java-11.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/",
+      "location": "/zh-TW/languages/java.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/cloud/",
+      "location": "/zh-TW/languages/java/java-microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/javascript/",
+      "location": "/zh-TW/languages/javascript.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/nodejs/",
+      "location": "/zh-TW/languages/javascript/node-js.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/php/",
+      "location": "/zh-TW/languages/php.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/python/",
+      "location": "/zh-TW/languages/python.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/ruby/",
+      "location": "/zh-TW/languages/ruby.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/containers/agile-methodology-success.html",
+      "location": "/zh-TW/learn/agile-methodology-success"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/solutions/create-app-from-spreadsheet/",
+      "location": "/zh-TW/learn/create-apps-from-a-spreadsheet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/developer-live/cloud-native/",
+      "location": "/zh-TW/learn/developer-live-cloud-native-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/devsimple/",
+      "location": "/zh-TW/learn/devsimple.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/content-management/headless-cms/",
+      "location": "/zh-TW/learn/headless-cms-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/database/",
+      "location": "/zh-TW/learn/java-and-databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/videos/",
+      "location": "/zh-TW/learn/learning-videos.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/content-management/site-builder/",
+      "location": "/zh-TW/learn/oracle-content-management-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/react-js/",
+      "location": "/zh-TW/learn/react-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/hols/",
+      "location": "/zh-TW/learn/self-guided-hands-on-labs.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/solutions/build-microservice-app/",
+      "location": "/zh-TW/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/id/solutions/build-microservice-app/",
+      "location": "/zh-TW/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/sg/solutions/build-microservice-app/",
+      "location": "/zh-TW/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/solutions/build-microservice-app-post-reg/",
+      "location": "/zh-TW/learn/technical-articles/build-microservice-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/building-apps-odb12c-apex-part1.html",
+      "location": "/zh-TW/learn/technical-articles/building-apps-odb12c-apex-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/building-apps-odb12c-apex-part2.html",
+      "location": "/zh-TW/learn/technical-articles/building-apps-odb12c-apex-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/building-jet-crud-apps-odb12c.html",
+      "location": "/zh-TW/learn/technical-articles/building-jet-crud-apps-odb12c"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/bullet-time.html",
+      "location": "/zh-TW/learn/technical-articles/bullet-time"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/proximasafe/chapter-1/",
+      "location": "/zh-TW/learn/technical-articles/chapter-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/proximasafe/chapter-2/",
+      "location": "/zh-TW/learn/technical-articles/chapter-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/combining-r-with-sql-for-data-analysis.html",
+      "location": "/zh-TW/learn/technical-articles/combining-r-with-sql-for-data-analysis"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/oracle-cloud-infrastructure/compute-vm-simple-tutorial/",
+      "location": "/zh-TW/learn/technical-articles/compute-vm-simple-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/solutions/create-app-from-spreadsheet-post-reg/",
+      "location": "/zh-TW/learn/technical-articles/create-app-from-spreadsheet-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/database-for-python-developers-1.html",
+      "location": "/zh-TW/learn/technical-articles/database-for-python-developers-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/deep-learning-on-clients.html",
+      "location": "/zh-TW/learn/technical-articles/deep-learning-on-clients"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/oracle-cloud-infrastructure/deploy-micro-service-application-tutorial/",
+      "location": "/zh-TW/learn/technical-articles/deploy-micro-service-application-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/solutions/deploy-weblogic-cloud-app/",
+      "location": "/zh-TW/learn/technical-articles/deploy-weblogic-cloud-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/solutions/deploy-weblogic-cloud-app-post-reg/",
+      "location": "/zh-TW/learn/technical-articles/deploy-weblogic-cloud-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/github/",
+      "location": "/zh-TW/learn/technical-articles//github/"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/federated-deep-learning-using-java.html",
+      "location": "/zh-TW/learn/technical-articles/federated-deep-learning-using-java"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/inside-java-mobile-app-part1.html",
+      "location": "/zh-TW/learn/technical-articles/inside-java-mobile-app-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/inside-java-mobile-app-part2.html",
+      "location": "/zh-TW/learn/technical-articles/inside-java-mobile-app-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/jdk-10-local-variable-type-inference.html",
+      "location": "/zh-TW/learn/technical-articles/jdk-10-local-variable-type-inference"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/microservices/jellema_microservice_design/",
+      "location": "/zh-TW/learn/technical-articles/jellema_microservice_design"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/kubernetes.html",
+      "location": "/zh-TW/learn/technical-articles/kubernetes"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/learning-r-for-pl-sql-developers-part-1.html",
+      "location": "/zh-TW/learn/technical-articles/learning-r-for-pl-sql-developers-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/learning-r-for-pl-sql-developers-part-2.html",
+      "location": "/zh-TW/learn/technical-articles/learning-r-for-pl-sql-developers-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/learning-r-for-pl-sql-developers-part-3.html",
+      "location": "/zh-TW/learn/technical-articles/learning-r-for-pl-sql-developers-part-3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/machine-learning-and-neural-networks.html",
+      "location": "/zh-TW/learn/technical-articles/machine-learning-and-neural-networks"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/modular-reusable-javaee-architecture-with-docker.html",
+      "location": "/zh-TW/learn/technical-articles/modular-reusable-javaee-architecture-with-docker"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/my-sql-is-stuck.html",
+      "location": "/zh-TW/learn/technical-articles/my-sql-is-stuck"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/nashorn-javascript-part1.html",
+      "location": "/zh-TW/learn/technical-articles/nashorn-javascript-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/nashorn-javascript-part2.html",
+      "location": "/zh-TW/learn/technical-articles/nashorn-javascript-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/nashorn-javascript-part3.html",
+      "location": "/zh-TW/learn/technical-articles/nashorn-javascript-part3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/neural-network-machine-learning.html",
+      "location": "/zh-TW/learn/technical-articles/neural-network-machine-learning"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/containers/nodevops.html",
+      "location": "/zh-TW/learn/technical-articles/nodevops"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/oci-key-concepts/",
+      "location": "/zh-TW/learn/technical-articles/oci-key-concepts"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dsl/odb-browser-apps-js-rest.html",
+      "location": "/zh-TW/learn/technical-articles/odb-browser-apps-js-rest"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dsl/odb-browser-apps-js-rest-p2.html",
+      "location": "/zh-TW/learn/technical-articles/odb-browser-apps-js-rest-p2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dsl/oracle-java-zend-server.html",
+      "location": "/zh-TW/learn/technical-articles/oracle-java-zend-server"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/oracle-r-advanced-analytics-for-hadoop-part-1.html",
+      "location": "/zh-TW/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/oracle-r-advanced-analytics-for-hadoop-part-2.html",
+      "location": "/zh-TW/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/oracle-rest-data-services-for-python-developers.html",
+      "location": "/zh-TW/learn/technical-articles/oracle-rest-data-services-for-python-developers"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/oracle-rest-data-services-for-python-developers-part2.html",
+      "location": "/zh-TW/learn/technical-articles/oracle-rest-data-services-for-python-developers-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dsl/php-web-auditing.html",
+      "location": "/zh-TW/learn/technical-articles/php-web-auditing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/proximasafe-intro/",
+      "location": "/zh-TW/learn/technical-articles/proximasafe-intro"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/proximasafe-part-3/",
+      "location": "/zh-TW/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/proximasafe-part-2/",
+      "location": "/zh-TW/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/java/quantum-computing.html",
+      "location": "/zh-TW/learn/technical-articles/quantum-computing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/opensource/serverless-with-fn-project.html",
+      "location": "/zh-TW/learn/technical-articles/serverless-with-fn-project"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dsl/technote-php-instant.html",
+      "location": "/zh-TW/learn/technical-articles/technote-php-instant"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dsl/tuininga-cx-oracle.html",
+      "location": "/zh-TW/learn/technical-articles/tuininga-cx-oracle"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/microservices/what-are-microservices/",
+      "location": "/zh-TW/learn/technical-articles/what-are-microservices"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/what-is-iac/",
+      "location": "/zh-TW/learn/technical-articles/what-is-iac"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/javascript/what-is-javascript/",
+      "location": "/zh-TW/learn/technical-articles/what-is-javascript"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/lowcode/what-is-lowcode/",
+      "location": "/zh-TW/learn/technical-articles/what-is-lowcode"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/nodejs/what-is-node-js/",
+      "location": "/zh-TW/learn/technical-articles/what-is-node-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/open-source/what-is-open-source/",
+      "location": "/zh-TW/learn/technical-articles/what-is-open-source"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/python/what-is-python/",
+      "location": "/zh-TW/learn/technical-articles/what-is-python"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/what-is-pytorch/",
+      "location": "/zh-TW/learn/technical-articles/what-is-pytorch"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/ruby/what-is-ruby/",
+      "location": "/zh-TW/learn/technical-articles/what-is-ruby"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/what-is-tensorflow/",
+      "location": "/zh-TW/learn/technical-articles/what-is-tensorflow"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/dotnet/williams-refcursors.html",
+      "location": "/zh-TW/learn/technical-articles/williams-refcursors"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/use-cases/",
+      "location": "/zh-TW/learn/use-cases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/modern-appdev/",
+      "location": "/zh-TW/learn/webcasts.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/open-source/",
+      "location": "/zh-TW/open-source.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/redbull/",
+      "location": "/zh-TW/redbull.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/ai-ml/",
+      "location": "/zh-TW/technologies/ai-ml.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/api/",
+      "location": "/zh-TW/technologies/api.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/blockchain/",
+      "location": "/zh-TW/technologies/blockchain.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/chatbots/",
+      "location": "/zh-TW/technologies/chatbots.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/content-management/",
+      "location": "/zh-TW/technologies/content-management.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/databases/",
+      "location": "/zh-TW/technologies/databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/devops/",
+      "location": "/zh-TW/technologies/devops.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/infrastructure-as-code/",
+      "location": "/zh-TW/technologies/infrastructure-as-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/linux/",
+      "location": "/zh-TW/technologies/linux.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/lowcode/",
+      "location": "/zh-TW/technologies/low-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/microservices/",
+      "location": "/zh-TW/technologies/microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/quick-reference/",
+      "location": "/zh-TW/technologies/oci-quick-reference.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/oracle-cloud-infrastructure/",
+      "location": "/zh-TW/technologies/oracle-cloud-infrastructure.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/arm/",
+      "location": "/zh-TW/technologies/oracle-cloud-infrastructure/arm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/arm/tools/",
+      "location": "/zh-TW/technologies/oracle-cloud-infrastructure/arm/tools.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/getting-started/",
+      "location": "/zh-TW/technologies/oracle-cloud-infrastructure/getting-started.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/visual-builder/",
+      "location": "/zh-TW/technologies/visual-builder.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/tw/tutorials/",
+      "location": "/zh-TW/learn/dev-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn",
+      "location": "/zh"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/ace/",
+      "location": "/zh/community/ace.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/cloudcoach/",
+      "location": "/zh/community/cloud-coaching.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/code-innovate/",
+      "location": "/zh/community/code-innovate.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/events/",
+      "location": "/zh/community/events.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/ai-ml-enterprise/",
+      "location": "/zh/community/events/ai-ml-devlive-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/database/",
+      "location": "/zh/community/events/developer-live-2020-database-event.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/",
+      "location": "/zh/community/events/developer-live-event-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/app-dev-database/",
+      "location": "/zh/community/events/devlive-app-dev-database-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/java/",
+      "location": "/zh/community/events/devlive-java-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/mysql/",
+      "location": "/zh/community/events/devlive-mysql-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/simplifying-modern-app-dev/",
+      "location": "/zh/community/events/devlive-simplifying-modern-app-dev.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/java-innovations/",
+      "location": "/zh/community/events/java-innovations-mars-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cnorasitestest-prodapp.cec.ocp.oraclecloud.com/sites/preview/devo/en/community/events/java-innovations-sept-2021-replays",
+      "location": "/zh/community/events/java-innovations-sept-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/pi-day/",
+      "location": "/zh/community/events/pi-day-2022-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/ama/",
+      "location": "/zh/community/events/reddit-ama-2022.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/lifestyle/",
+      "location": "/zh/community/lifestyle.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/team/",
+      "location": "/zh/community/meet-the-devrel-team.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dotnet",
+      "location": "/zh/languages/dotnet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/graalvm/",
+      "location": "/zh/languages/graalvm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/graalvm/cloud-native/",
+      "location": "/zh/languages/graalvm/graal-cloud-native.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java11/",
+      "location": "/zh/languages/java-11.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/",
+      "location": "/zh/languages/java.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/cloud/",
+      "location": "/zh/languages/java/java-microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/javascript/",
+      "location": "/zh/languages/javascript.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/nodejs/",
+      "location": "/zh/languages/javascript/node-js.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/php/",
+      "location": "/zh/languages/php.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/python/",
+      "location": "/zh/languages/python.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/ruby/",
+      "location": "/zh/languages/ruby.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/containers/agile-methodology-success.html",
+      "location": "/zh/learn/agile-methodology-success"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/solutions/create-app-from-spreadsheet/",
+      "location": "/zh/learn/create-apps-from-a-spreadsheet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/developer-live/cloud-native/",
+      "location": "/zh/learn/developer-live-cloud-native-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/devsimple/",
+      "location": "/zh/learn/devsimple.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/content-management/headless-cms/",
+      "location": "/zh/learn/headless-cms-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/database/",
+      "location": "/zh/learn/java-and-databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/videos/",
+      "location": "/zh/learn/learning-videos.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/content-management/site-builder/",
+      "location": "/zh/learn/oracle-content-management-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/react-js/",
+      "location": "/zh/learn/react-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/hols/",
+      "location": "/zh/learn/self-guided-hands-on-labs.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/solutions/build-microservice-app/",
+      "location": "/zh/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/id/solutions/build-microservice-app/",
+      "location": "/zh/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/sg/solutions/build-microservice-app/",
+      "location": "/zh/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/solutions/build-microservice-app-post-reg/",
+      "location": "/zh/learn/technical-articles/build-microservice-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/building-apps-odb12c-apex-part1.html",
+      "location": "/zh/learn/technical-articles/building-apps-odb12c-apex-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/building-apps-odb12c-apex-part2.html",
+      "location": "/zh/learn/technical-articles/building-apps-odb12c-apex-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/building-jet-crud-apps-odb12c.html",
+      "location": "/zh/learn/technical-articles/building-jet-crud-apps-odb12c"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/bullet-time.html",
+      "location": "/zh/learn/technical-articles/bullet-time"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/proximasafe/chapter-1/",
+      "location": "/zh/learn/technical-articles/chapter-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/proximasafe/chapter-2/",
+      "location": "/zh/learn/technical-articles/chapter-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/combining-r-with-sql-for-data-analysis.html",
+      "location": "/zh/learn/technical-articles/combining-r-with-sql-for-data-analysis"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/oracle-cloud-infrastructure/compute-vm-simple-tutorial/",
+      "location": "/zh/learn/technical-articles/compute-vm-simple-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/solutions/create-app-from-spreadsheet-post-reg/",
+      "location": "/zh/learn/technical-articles/create-app-from-spreadsheet-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/database-for-python-developers-1.html",
+      "location": "/zh/learn/technical-articles/database-for-python-developers-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/deep-learning-on-clients.html",
+      "location": "/zh/learn/technical-articles/deep-learning-on-clients"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/oracle-cloud-infrastructure/deploy-micro-service-application-tutorial/",
+      "location": "/zh/learn/technical-articles/deploy-micro-service-application-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/solutions/deploy-weblogic-cloud-app/",
+      "location": "/zh/learn/technical-articles/deploy-weblogic-cloud-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/solutions/deploy-weblogic-cloud-app-post-reg/",
+      "location": "/zh/learn/technical-articles/deploy-weblogic-cloud-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/github/",
+      "location": "/zh/learn/technical-articles//github/"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/federated-deep-learning-using-java.html",
+      "location": "/zh/learn/technical-articles/federated-deep-learning-using-java"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/inside-java-mobile-app-part1.html",
+      "location": "/zh/learn/technical-articles/inside-java-mobile-app-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/inside-java-mobile-app-part2.html",
+      "location": "/zh/learn/technical-articles/inside-java-mobile-app-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/jdk-10-local-variable-type-inference.html",
+      "location": "/zh/learn/technical-articles/jdk-10-local-variable-type-inference"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/microservices/jellema_microservice_design/",
+      "location": "/zh/learn/technical-articles/jellema_microservice_design"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/kubernetes.html",
+      "location": "/zh/learn/technical-articles/kubernetes"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/learning-r-for-pl-sql-developers-part-1.html",
+      "location": "/zh/learn/technical-articles/learning-r-for-pl-sql-developers-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/learning-r-for-pl-sql-developers-part-2.html",
+      "location": "/zh/learn/technical-articles/learning-r-for-pl-sql-developers-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/learning-r-for-pl-sql-developers-part-3.html",
+      "location": "/zh/learn/technical-articles/learning-r-for-pl-sql-developers-part-3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/machine-learning-and-neural-networks.html",
+      "location": "/zh/learn/technical-articles/machine-learning-and-neural-networks"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/modular-reusable-javaee-architecture-with-docker.html",
+      "location": "/zh/learn/technical-articles/modular-reusable-javaee-architecture-with-docker"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/my-sql-is-stuck.html",
+      "location": "/zh/learn/technical-articles/my-sql-is-stuck"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/nashorn-javascript-part1.html",
+      "location": "/zh/learn/technical-articles/nashorn-javascript-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/nashorn-javascript-part2.html",
+      "location": "/zh/learn/technical-articles/nashorn-javascript-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/nashorn-javascript-part3.html",
+      "location": "/zh/learn/technical-articles/nashorn-javascript-part3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/neural-network-machine-learning.html",
+      "location": "/zh/learn/technical-articles/neural-network-machine-learning"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/containers/nodevops.html",
+      "location": "/zh/learn/technical-articles/nodevops"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/oci-key-concepts/",
+      "location": "/zh/learn/technical-articles/oci-key-concepts"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dsl/odb-browser-apps-js-rest.html",
+      "location": "/zh/learn/technical-articles/odb-browser-apps-js-rest"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dsl/odb-browser-apps-js-rest-p2.html",
+      "location": "/zh/learn/technical-articles/odb-browser-apps-js-rest-p2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dsl/oracle-java-zend-server.html",
+      "location": "/zh/learn/technical-articles/oracle-java-zend-server"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/oracle-r-advanced-analytics-for-hadoop-part-1.html",
+      "location": "/zh/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/oracle-r-advanced-analytics-for-hadoop-part-2.html",
+      "location": "/zh/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/oracle-rest-data-services-for-python-developers.html",
+      "location": "/zh/learn/technical-articles/oracle-rest-data-services-for-python-developers"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/oracle-rest-data-services-for-python-developers-part2.html",
+      "location": "/zh/learn/technical-articles/oracle-rest-data-services-for-python-developers-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dsl/php-web-auditing.html",
+      "location": "/zh/learn/technical-articles/php-web-auditing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/proximasafe-intro/",
+      "location": "/zh/learn/technical-articles/proximasafe-intro"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/proximasafe-part-3/",
+      "location": "/zh/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/proximasafe-part-2/",
+      "location": "/zh/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/java/quantum-computing.html",
+      "location": "/zh/learn/technical-articles/quantum-computing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/opensource/serverless-with-fn-project.html",
+      "location": "/zh/learn/technical-articles/serverless-with-fn-project"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dsl/technote-php-instant.html",
+      "location": "/zh/learn/technical-articles/technote-php-instant"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dsl/tuininga-cx-oracle.html",
+      "location": "/zh/learn/technical-articles/tuininga-cx-oracle"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/microservices/what-are-microservices/",
+      "location": "/zh/learn/technical-articles/what-are-microservices"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/what-is-iac/",
+      "location": "/zh/learn/technical-articles/what-is-iac"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/javascript/what-is-javascript/",
+      "location": "/zh/learn/technical-articles/what-is-javascript"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/lowcode/what-is-lowcode/",
+      "location": "/zh/learn/technical-articles/what-is-lowcode"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/nodejs/what-is-node-js/",
+      "location": "/zh/learn/technical-articles/what-is-node-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/open-source/what-is-open-source/",
+      "location": "/zh/learn/technical-articles/what-is-open-source"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/python/what-is-python/",
+      "location": "/zh/learn/technical-articles/what-is-python"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/what-is-pytorch/",
+      "location": "/zh/learn/technical-articles/what-is-pytorch"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/ruby/what-is-ruby/",
+      "location": "/zh/learn/technical-articles/what-is-ruby"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/what-is-tensorflow/",
+      "location": "/zh/learn/technical-articles/what-is-tensorflow"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/dotnet/williams-refcursors.html",
+      "location": "/zh/learn/technical-articles/williams-refcursors"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/use-cases/",
+      "location": "/zh/learn/use-cases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/modern-appdev/",
+      "location": "/zh/learn/webcasts.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/open-source/",
+      "location": "/zh/open-source.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/redbull/",
+      "location": "/zh/redbull.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/ai-ml/",
+      "location": "/zh/technologies/ai-ml.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/api/",
+      "location": "/zh/technologies/api.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/blockchain/",
+      "location": "/zh/technologies/blockchain.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/chatbots/",
+      "location": "/zh/technologies/chatbots.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/content-management/",
+      "location": "/zh/technologies/content-management.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/databases/",
+      "location": "/zh/technologies/databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/devops/",
+      "location": "/zh/technologies/devops.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/infrastructure-as-code/",
+      "location": "/zh/technologies/infrastructure-as-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/linux/",
+      "location": "/zh/technologies/linux.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/lowcode/",
+      "location": "/zh/technologies/low-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/microservices/",
+      "location": "/zh/technologies/microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/quick-reference/",
+      "location": "/zh/technologies/oci-quick-reference.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/oracle-cloud-infrastructure/",
+      "location": "/zh/technologies/oracle-cloud-infrastructure.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/arm/",
+      "location": "/zh/technologies/oracle-cloud-infrastructure/arm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/arm/tools/",
+      "location": "/zh/technologies/oracle-cloud-infrastructure/arm/tools.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/getting-started/",
+      "location": "/zh/technologies/oracle-cloud-infrastructure/getting-started.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/visual-builder/",
+      "location": "/zh/technologies/visual-builder.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cn/tutorials/",
+      "location": "/zh/learn/dev-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br",
+      "location": "/pt-BR"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/ace/",
+      "location": "/pt-BR/community/ace.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/cloudcoach/",
+      "location": "/pt-BR/community/cloud-coaching.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/code-innovate/",
+      "location": "/pt-BR/community/code-innovate.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/events/",
+      "location": "/pt-BR/community/events.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/ai-ml-enterprise/",
+      "location": "/pt-BR/community/events/ai-ml-devlive-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/database/",
+      "location": "/pt-BR/community/events/developer-live-2020-database-event.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/",
+      "location": "/pt-BR/community/events/developer-live-event-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/app-dev-database/",
+      "location": "/pt-BR/community/events/devlive-app-dev-database-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/java/",
+      "location": "/pt-BR/community/events/devlive-java-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/mysql/",
+      "location": "/pt-BR/community/events/devlive-mysql-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/simplifying-modern-app-dev/",
+      "location": "/pt-BR/community/events/devlive-simplifying-modern-app-dev.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/java-innovations/",
+      "location": "/pt-BR/community/events/java-innovations-mars-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/brorasitestest-prodapp.cec.ocp.oraclecloud.com/sites/preview/devo/en/community/events/java-innovations-sept-2021-replays",
+      "location": "/pt-BR/community/events/java-innovations-sept-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/pi-day/",
+      "location": "/pt-BR/community/events/pi-day-2022-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/ama/",
+      "location": "/pt-BR/community/events/reddit-ama-2022.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/lifestyle/",
+      "location": "/pt-BR/community/lifestyle.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/team/",
+      "location": "/pt-BR/community/meet-the-devrel-team.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dotnet",
+      "location": "/pt-BR/languages/dotnet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/graalvm/",
+      "location": "/pt-BR/languages/graalvm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/graalvm/cloud-native/",
+      "location": "/pt-BR/languages/graalvm/graal-cloud-native.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java11/",
+      "location": "/pt-BR/languages/java-11.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/",
+      "location": "/pt-BR/languages/java.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/cloud/",
+      "location": "/pt-BR/languages/java/java-microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/javascript/",
+      "location": "/pt-BR/languages/javascript.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/nodejs/",
+      "location": "/pt-BR/languages/javascript/node-js.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/php/",
+      "location": "/pt-BR/languages/php.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/python/",
+      "location": "/pt-BR/languages/python.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/ruby/",
+      "location": "/pt-BR/languages/ruby.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/containers/agile-methodology-success.html",
+      "location": "/pt-BR/learn/agile-methodology-success"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/solutions/create-app-from-spreadsheet/",
+      "location": "/pt-BR/learn/create-apps-from-a-spreadsheet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/developer-live/cloud-native/",
+      "location": "/pt-BR/learn/developer-live-cloud-native-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/devsimple/",
+      "location": "/pt-BR/learn/devsimple.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/content-management/headless-cms/",
+      "location": "/pt-BR/learn/headless-cms-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/database/",
+      "location": "/pt-BR/learn/java-and-databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/videos/",
+      "location": "/pt-BR/learn/learning-videos.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/content-management/site-builder/",
+      "location": "/pt-BR/learn/oracle-content-management-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/react-js/",
+      "location": "/pt-BR/learn/react-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/hols/",
+      "location": "/pt-BR/learn/self-guided-hands-on-labs.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/solutions/build-microservice-app/",
+      "location": "/pt-BR/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/id/solutions/build-microservice-app/",
+      "location": "/pt-BR/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/sg/solutions/build-microservice-app/",
+      "location": "/pt-BR/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/solutions/build-microservice-app-post-reg/",
+      "location": "/pt-BR/learn/technical-articles/build-microservice-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/building-apps-odb12c-apex-part1.html",
+      "location": "/pt-BR/learn/technical-articles/building-apps-odb12c-apex-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/building-apps-odb12c-apex-part2.html",
+      "location": "/pt-BR/learn/technical-articles/building-apps-odb12c-apex-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/building-jet-crud-apps-odb12c.html",
+      "location": "/pt-BR/learn/technical-articles/building-jet-crud-apps-odb12c"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/bullet-time.html",
+      "location": "/pt-BR/learn/technical-articles/bullet-time"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/proximasafe/chapter-1/",
+      "location": "/pt-BR/learn/technical-articles/chapter-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/proximasafe/chapter-2/",
+      "location": "/pt-BR/learn/technical-articles/chapter-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/combining-r-with-sql-for-data-analysis.html",
+      "location": "/pt-BR/learn/technical-articles/combining-r-with-sql-for-data-analysis"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/oracle-cloud-infrastructure/compute-vm-simple-tutorial/",
+      "location": "/pt-BR/learn/technical-articles/compute-vm-simple-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/solutions/create-app-from-spreadsheet-post-reg/",
+      "location": "/pt-BR/learn/technical-articles/create-app-from-spreadsheet-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/database-for-python-developers-1.html",
+      "location": "/pt-BR/learn/technical-articles/database-for-python-developers-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/deep-learning-on-clients.html",
+      "location": "/pt-BR/learn/technical-articles/deep-learning-on-clients"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/oracle-cloud-infrastructure/deploy-micro-service-application-tutorial/",
+      "location": "/pt-BR/learn/technical-articles/deploy-micro-service-application-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/solutions/deploy-weblogic-cloud-app/",
+      "location": "/pt-BR/learn/technical-articles/deploy-weblogic-cloud-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/solutions/deploy-weblogic-cloud-app-post-reg/",
+      "location": "/pt-BR/learn/technical-articles/deploy-weblogic-cloud-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/github/",
+      "location": "/pt-BR/learn/technical-articles//github/"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/federated-deep-learning-using-java.html",
+      "location": "/pt-BR/learn/technical-articles/federated-deep-learning-using-java"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/inside-java-mobile-app-part1.html",
+      "location": "/pt-BR/learn/technical-articles/inside-java-mobile-app-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/inside-java-mobile-app-part2.html",
+      "location": "/pt-BR/learn/technical-articles/inside-java-mobile-app-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/jdk-10-local-variable-type-inference.html",
+      "location": "/pt-BR/learn/technical-articles/jdk-10-local-variable-type-inference"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/microservices/jellema_microservice_design/",
+      "location": "/pt-BR/learn/technical-articles/jellema_microservice_design"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/kubernetes.html",
+      "location": "/pt-BR/learn/technical-articles/kubernetes"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/learning-r-for-pl-sql-developers-part-1.html",
+      "location": "/pt-BR/learn/technical-articles/learning-r-for-pl-sql-developers-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/learning-r-for-pl-sql-developers-part-2.html",
+      "location": "/pt-BR/learn/technical-articles/learning-r-for-pl-sql-developers-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/learning-r-for-pl-sql-developers-part-3.html",
+      "location": "/pt-BR/learn/technical-articles/learning-r-for-pl-sql-developers-part-3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/machine-learning-and-neural-networks.html",
+      "location": "/pt-BR/learn/technical-articles/machine-learning-and-neural-networks"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/modular-reusable-javaee-architecture-with-docker.html",
+      "location": "/pt-BR/learn/technical-articles/modular-reusable-javaee-architecture-with-docker"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/my-sql-is-stuck.html",
+      "location": "/pt-BR/learn/technical-articles/my-sql-is-stuck"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/nashorn-javascript-part1.html",
+      "location": "/pt-BR/learn/technical-articles/nashorn-javascript-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/nashorn-javascript-part2.html",
+      "location": "/pt-BR/learn/technical-articles/nashorn-javascript-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/nashorn-javascript-part3.html",
+      "location": "/pt-BR/learn/technical-articles/nashorn-javascript-part3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/neural-network-machine-learning.html",
+      "location": "/pt-BR/learn/technical-articles/neural-network-machine-learning"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/containers/nodevops.html",
+      "location": "/pt-BR/learn/technical-articles/nodevops"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/oci-key-concepts/",
+      "location": "/pt-BR/learn/technical-articles/oci-key-concepts"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dsl/odb-browser-apps-js-rest.html",
+      "location": "/pt-BR/learn/technical-articles/odb-browser-apps-js-rest"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dsl/odb-browser-apps-js-rest-p2.html",
+      "location": "/pt-BR/learn/technical-articles/odb-browser-apps-js-rest-p2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dsl/oracle-java-zend-server.html",
+      "location": "/pt-BR/learn/technical-articles/oracle-java-zend-server"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/oracle-r-advanced-analytics-for-hadoop-part-1.html",
+      "location": "/pt-BR/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/oracle-r-advanced-analytics-for-hadoop-part-2.html",
+      "location": "/pt-BR/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/oracle-rest-data-services-for-python-developers.html",
+      "location": "/pt-BR/learn/technical-articles/oracle-rest-data-services-for-python-developers"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/oracle-rest-data-services-for-python-developers-part2.html",
+      "location": "/pt-BR/learn/technical-articles/oracle-rest-data-services-for-python-developers-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dsl/php-web-auditing.html",
+      "location": "/pt-BR/learn/technical-articles/php-web-auditing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/proximasafe-intro/",
+      "location": "/pt-BR/learn/technical-articles/proximasafe-intro"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/proximasafe-part-3/",
+      "location": "/pt-BR/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/proximasafe-part-2/",
+      "location": "/pt-BR/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/java/quantum-computing.html",
+      "location": "/pt-BR/learn/technical-articles/quantum-computing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/opensource/serverless-with-fn-project.html",
+      "location": "/pt-BR/learn/technical-articles/serverless-with-fn-project"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dsl/technote-php-instant.html",
+      "location": "/pt-BR/learn/technical-articles/technote-php-instant"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dsl/tuininga-cx-oracle.html",
+      "location": "/pt-BR/learn/technical-articles/tuininga-cx-oracle"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/microservices/what-are-microservices/",
+      "location": "/pt-BR/learn/technical-articles/what-are-microservices"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/what-is-iac/",
+      "location": "/pt-BR/learn/technical-articles/what-is-iac"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/javascript/what-is-javascript/",
+      "location": "/pt-BR/learn/technical-articles/what-is-javascript"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/lowcode/what-is-lowcode/",
+      "location": "/pt-BR/learn/technical-articles/what-is-lowcode"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/nodejs/what-is-node-js/",
+      "location": "/pt-BR/learn/technical-articles/what-is-node-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/open-source/what-is-open-source/",
+      "location": "/pt-BR/learn/technical-articles/what-is-open-source"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/python/what-is-python/",
+      "location": "/pt-BR/learn/technical-articles/what-is-python"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/what-is-pytorch/",
+      "location": "/pt-BR/learn/technical-articles/what-is-pytorch"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/ruby/what-is-ruby/",
+      "location": "/pt-BR/learn/technical-articles/what-is-ruby"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/what-is-tensorflow/",
+      "location": "/pt-BR/learn/technical-articles/what-is-tensorflow"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/dotnet/williams-refcursors.html",
+      "location": "/pt-BR/learn/technical-articles/williams-refcursors"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/use-cases/",
+      "location": "/pt-BR/learn/use-cases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/modern-appdev/",
+      "location": "/pt-BR/learn/webcasts.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/open-source/",
+      "location": "/pt-BR/open-source.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/redbull/",
+      "location": "/pt-BR/redbull.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/ai-ml/",
+      "location": "/pt-BR/technologies/ai-ml.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/api/",
+      "location": "/pt-BR/technologies/api.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/blockchain/",
+      "location": "/pt-BR/technologies/blockchain.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/chatbots/",
+      "location": "/pt-BR/technologies/chatbots.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/content-management/",
+      "location": "/pt-BR/technologies/content-management.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/databases/",
+      "location": "/pt-BR/technologies/databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/devops/",
+      "location": "/pt-BR/technologies/devops.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/infrastructure-as-code/",
+      "location": "/pt-BR/technologies/infrastructure-as-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/linux/",
+      "location": "/pt-BR/technologies/linux.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/lowcode/",
+      "location": "/pt-BR/technologies/low-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/microservices/",
+      "location": "/pt-BR/technologies/microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/quick-reference/",
+      "location": "/pt-BR/technologies/oci-quick-reference.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/oracle-cloud-infrastructure/",
+      "location": "/pt-BR/technologies/oracle-cloud-infrastructure.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/arm/",
+      "location": "/pt-BR/technologies/oracle-cloud-infrastructure/arm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/arm/tools/",
+      "location": "/pt-BR/technologies/oracle-cloud-infrastructure/arm/tools.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/getting-started/",
+      "location": "/pt-BR/technologies/oracle-cloud-infrastructure/getting-started.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/visual-builder/",
+      "location": "/pt-BR/technologies/visual-builder.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/br/tutorials/",
+      "location": "/pt-BR/learn/dev-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/ace/",
+      "location": "/ko/community/ace.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/cloudcoach/",
+      "location": "/ko/community/cloud-coaching.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/code-innovate/",
+      "location": "/ko/community/code-innovate.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/events/",
+      "location": "/ko/community/events.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/ai-ml-enterprise/",
+      "location": "/ko/community/events/ai-ml-devlive-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/database/",
+      "location": "/ko/community/events/developer-live-2020-database-event.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/",
+      "location": "/ko/community/events/developer-live-event-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/app-dev-database/",
+      "location": "/ko/community/events/devlive-app-dev-database-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/java/",
+      "location": "/ko/community/events/devlive-java-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/mysql/",
+      "location": "/ko/community/events/devlive-mysql-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/simplifying-modern-app-dev/",
+      "location": "/ko/community/events/devlive-simplifying-modern-app-dev.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/java-innovations/",
+      "location": "/ko/community/events/java-innovations-mars-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/krorasitestest-prodapp.cec.ocp.oraclecloud.com/sites/preview/devo/en/community/events/java-innovations-sept-2021-replays",
+      "location": "/ko/community/events/java-innovations-sept-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/pi-day/",
+      "location": "/ko/community/events/pi-day-2022-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/ama/",
+      "location": "/ko/community/events/reddit-ama-2022.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/lifestyle/",
+      "location": "/ko/community/lifestyle.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/team/",
+      "location": "/ko/community/meet-the-devrel-team.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dotnet",
+      "location": "/ko/languages/dotnet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/graalvm/",
+      "location": "/ko/languages/graalvm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/graalvm/cloud-native/",
+      "location": "/ko/languages/graalvm/graal-cloud-native.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java11/",
+      "location": "/ko/languages/java-11.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/",
+      "location": "/ko/languages/java.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/cloud/",
+      "location": "/ko/languages/java/java-microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/javascript/",
+      "location": "/ko/languages/javascript.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/nodejs/",
+      "location": "/ko/languages/javascript/node-js.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/php/",
+      "location": "/ko/languages/php.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/python/",
+      "location": "/ko/languages/python.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/ruby/",
+      "location": "/ko/languages/ruby.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/containers/agile-methodology-success.html",
+      "location": "/ko/learn/agile-methodology-success"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/solutions/create-app-from-spreadsheet/",
+      "location": "/ko/learn/create-apps-from-a-spreadsheet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/developer-live/cloud-native/",
+      "location": "/ko/learn/developer-live-cloud-native-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/devsimple/",
+      "location": "/ko/learn/devsimple.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/content-management/headless-cms/",
+      "location": "/ko/learn/headless-cms-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/database/",
+      "location": "/ko/learn/java-and-databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/videos/",
+      "location": "/ko/learn/learning-videos.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/content-management/site-builder/",
+      "location": "/ko/learn/oracle-content-management-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/react-js/",
+      "location": "/ko/learn/react-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/hols/",
+      "location": "/ko/learn/self-guided-hands-on-labs.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/solutions/build-microservice-app/",
+      "location": "/ko/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/id/solutions/build-microservice-app/",
+      "location": "/ko/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/sg/solutions/build-microservice-app/",
+      "location": "/ko/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/solutions/build-microservice-app-post-reg/",
+      "location": "/ko/learn/technical-articles/build-microservice-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/building-apps-odb12c-apex-part1.html",
+      "location": "/ko/learn/technical-articles/building-apps-odb12c-apex-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/building-apps-odb12c-apex-part2.html",
+      "location": "/ko/learn/technical-articles/building-apps-odb12c-apex-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/building-jet-crud-apps-odb12c.html",
+      "location": "/ko/learn/technical-articles/building-jet-crud-apps-odb12c"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/bullet-time.html",
+      "location": "/ko/learn/technical-articles/bullet-time"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/proximasafe/chapter-1/",
+      "location": "/ko/learn/technical-articles/chapter-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/proximasafe/chapter-2/",
+      "location": "/ko/learn/technical-articles/chapter-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/combining-r-with-sql-for-data-analysis.html",
+      "location": "/ko/learn/technical-articles/combining-r-with-sql-for-data-analysis"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/oracle-cloud-infrastructure/compute-vm-simple-tutorial/",
+      "location": "/ko/learn/technical-articles/compute-vm-simple-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/solutions/create-app-from-spreadsheet-post-reg/",
+      "location": "/ko/learn/technical-articles/create-app-from-spreadsheet-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/database-for-python-developers-1.html",
+      "location": "/ko/learn/technical-articles/database-for-python-developers-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/deep-learning-on-clients.html",
+      "location": "/ko/learn/technical-articles/deep-learning-on-clients"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/oracle-cloud-infrastructure/deploy-micro-service-application-tutorial/",
+      "location": "/ko/learn/technical-articles/deploy-micro-service-application-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/solutions/deploy-weblogic-cloud-app/",
+      "location": "/ko/learn/technical-articles/deploy-weblogic-cloud-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/solutions/deploy-weblogic-cloud-app-post-reg/",
+      "location": "/ko/learn/technical-articles/deploy-weblogic-cloud-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/github/",
+      "location": "/ko/learn/technical-articles//github/"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/federated-deep-learning-using-java.html",
+      "location": "/ko/learn/technical-articles/federated-deep-learning-using-java"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/inside-java-mobile-app-part1.html",
+      "location": "/ko/learn/technical-articles/inside-java-mobile-app-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/inside-java-mobile-app-part2.html",
+      "location": "/ko/learn/technical-articles/inside-java-mobile-app-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/jdk-10-local-variable-type-inference.html",
+      "location": "/ko/learn/technical-articles/jdk-10-local-variable-type-inference"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/microservices/jellema_microservice_design/",
+      "location": "/ko/learn/technical-articles/jellema_microservice_design"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/kubernetes.html",
+      "location": "/ko/learn/technical-articles/kubernetes"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/learning-r-for-pl-sql-developers-part-1.html",
+      "location": "/ko/learn/technical-articles/learning-r-for-pl-sql-developers-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/learning-r-for-pl-sql-developers-part-2.html",
+      "location": "/ko/learn/technical-articles/learning-r-for-pl-sql-developers-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/learning-r-for-pl-sql-developers-part-3.html",
+      "location": "/ko/learn/technical-articles/learning-r-for-pl-sql-developers-part-3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/machine-learning-and-neural-networks.html",
+      "location": "/ko/learn/technical-articles/machine-learning-and-neural-networks"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/modular-reusable-javaee-architecture-with-docker.html",
+      "location": "/ko/learn/technical-articles/modular-reusable-javaee-architecture-with-docker"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/my-sql-is-stuck.html",
+      "location": "/ko/learn/technical-articles/my-sql-is-stuck"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/nashorn-javascript-part1.html",
+      "location": "/ko/learn/technical-articles/nashorn-javascript-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/nashorn-javascript-part2.html",
+      "location": "/ko/learn/technical-articles/nashorn-javascript-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/nashorn-javascript-part3.html",
+      "location": "/ko/learn/technical-articles/nashorn-javascript-part3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/neural-network-machine-learning.html",
+      "location": "/ko/learn/technical-articles/neural-network-machine-learning"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/containers/nodevops.html",
+      "location": "/ko/learn/technical-articles/nodevops"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/oci-key-concepts/",
+      "location": "/ko/learn/technical-articles/oci-key-concepts"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dsl/odb-browser-apps-js-rest.html",
+      "location": "/ko/learn/technical-articles/odb-browser-apps-js-rest"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dsl/odb-browser-apps-js-rest-p2.html",
+      "location": "/ko/learn/technical-articles/odb-browser-apps-js-rest-p2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dsl/oracle-java-zend-server.html",
+      "location": "/ko/learn/technical-articles/oracle-java-zend-server"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/oracle-r-advanced-analytics-for-hadoop-part-1.html",
+      "location": "/ko/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/oracle-r-advanced-analytics-for-hadoop-part-2.html",
+      "location": "/ko/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/oracle-rest-data-services-for-python-developers.html",
+      "location": "/ko/learn/technical-articles/oracle-rest-data-services-for-python-developers"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/oracle-rest-data-services-for-python-developers-part2.html",
+      "location": "/ko/learn/technical-articles/oracle-rest-data-services-for-python-developers-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dsl/php-web-auditing.html",
+      "location": "/ko/learn/technical-articles/php-web-auditing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/proximasafe-intro/",
+      "location": "/ko/learn/technical-articles/proximasafe-intro"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/proximasafe-part-3/",
+      "location": "/ko/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/proximasafe-part-2/",
+      "location": "/ko/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/java/quantum-computing.html",
+      "location": "/ko/learn/technical-articles/quantum-computing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/opensource/serverless-with-fn-project.html",
+      "location": "/ko/learn/technical-articles/serverless-with-fn-project"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dsl/technote-php-instant.html",
+      "location": "/ko/learn/technical-articles/technote-php-instant"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dsl/tuininga-cx-oracle.html",
+      "location": "/ko/learn/technical-articles/tuininga-cx-oracle"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/microservices/what-are-microservices/",
+      "location": "/ko/learn/technical-articles/what-are-microservices"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/what-is-iac/",
+      "location": "/ko/learn/technical-articles/what-is-iac"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/javascript/what-is-javascript/",
+      "location": "/ko/learn/technical-articles/what-is-javascript"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/lowcode/what-is-lowcode/",
+      "location": "/ko/learn/technical-articles/what-is-lowcode"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/nodejs/what-is-node-js/",
+      "location": "/ko/learn/technical-articles/what-is-node-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/open-source/what-is-open-source/",
+      "location": "/ko/learn/technical-articles/what-is-open-source"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/python/what-is-python/",
+      "location": "/ko/learn/technical-articles/what-is-python"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/what-is-pytorch/",
+      "location": "/ko/learn/technical-articles/what-is-pytorch"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/ruby/what-is-ruby/",
+      "location": "/ko/learn/technical-articles/what-is-ruby"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/what-is-tensorflow/",
+      "location": "/ko/learn/technical-articles/what-is-tensorflow"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/dotnet/williams-refcursors.html",
+      "location": "/ko/learn/technical-articles/williams-refcursors"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/use-cases/",
+      "location": "/ko/learn/use-cases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/modern-appdev/",
+      "location": "/ko/learn/webcasts.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/open-source/",
+      "location": "/ko/open-source.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/redbull/",
+      "location": "/ko/redbull.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/ai-ml/",
+      "location": "/ko/technologies/ai-ml.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/api/",
+      "location": "/ko/technologies/api.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/blockchain/",
+      "location": "/ko/technologies/blockchain.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/chatbots/",
+      "location": "/ko/technologies/chatbots.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/content-management/",
+      "location": "/ko/technologies/content-management.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/databases/",
+      "location": "/ko/technologies/databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/devops/",
+      "location": "/ko/technologies/devops.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/infrastructure-as-code/",
+      "location": "/ko/technologies/infrastructure-as-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/linux/",
+      "location": "/ko/technologies/linux.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/lowcode/",
+      "location": "/ko/technologies/low-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/microservices/",
+      "location": "/ko/technologies/microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/quick-reference/",
+      "location": "/ko/technologies/oci-quick-reference.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/oracle-cloud-infrastructure/",
+      "location": "/ko/technologies/oracle-cloud-infrastructure.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/arm/",
+      "location": "/ko/technologies/oracle-cloud-infrastructure/arm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/arm/tools/",
+      "location": "/ko/technologies/oracle-cloud-infrastructure/arm/tools.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/getting-started/",
+      "location": "/ko/technologies/oracle-cloud-infrastructure/getting-started.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/visual-builder/",
+      "location": "/ko/technologies/visual-builder.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/kr/tutorials/",
+      "location": "/ko/learn/dev-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp",
+      "location": "/ja"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/ace/",
+      "location": "/ja/community/ace.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/cloudcoach/",
+      "location": "/ja/community/cloud-coaching.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/code-innovate/",
+      "location": "/ja/community/code-innovate.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/events/",
+      "location": "/ja/community/events.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/ai-ml-enterprise/",
+      "location": "/ja/community/events/ai-ml-devlive-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/database/",
+      "location": "/ja/community/events/developer-live-2020-database-event.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/",
+      "location": "/ja/community/events/developer-live-event-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/app-dev-database/",
+      "location": "/ja/community/events/devlive-app-dev-database-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/java/",
+      "location": "/ja/community/events/devlive-java-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/mysql/",
+      "location": "/ja/community/events/devlive-mysql-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/simplifying-modern-app-dev/",
+      "location": "/ja/community/events/devlive-simplifying-modern-app-dev.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/java-innovations/",
+      "location": "/ja/community/events/java-innovations-mars-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jporasitestest-prodapp.cec.ocp.oraclecloud.com/sites/preview/devo/en/community/events/java-innovations-sept-2021-replays",
+      "location": "/ja/community/events/java-innovations-sept-2021-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/pi-day/",
+      "location": "/ja/community/events/pi-day-2022-recordings.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/ama/",
+      "location": "/ja/community/events/reddit-ama-2022.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/lifestyle/",
+      "location": "/ja/community/lifestyle.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/team/",
+      "location": "/ja/community/meet-the-devrel-team.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dotnet",
+      "location": "/ja/languages/dotnet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/graalvm/",
+      "location": "/ja/languages/graalvm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/graalvm/cloud-native/",
+      "location": "/ja/languages/graalvm/graal-cloud-native.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java11/",
+      "location": "/ja/languages/java-11.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/",
+      "location": "/ja/languages/java.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/cloud/",
+      "location": "/ja/languages/java/java-microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/javascript/",
+      "location": "/ja/languages/javascript.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/nodejs/",
+      "location": "/ja/languages/javascript/node-js.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/php/",
+      "location": "/ja/languages/php.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/python/",
+      "location": "/ja/languages/python.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/ruby/",
+      "location": "/ja/languages/ruby.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/containers/agile-methodology-success.html",
+      "location": "/ja/learn/agile-methodology-success"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/solutions/create-app-from-spreadsheet/",
+      "location": "/ja/learn/create-apps-from-a-spreadsheet.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-live/cloud-native/",
+      "location": "/ja/learn/developer-live-cloud-native-replays.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/devsimple/",
+      "location": "/ja/learn/devsimple.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/content-management/headless-cms/",
+      "location": "/ja/learn/headless-cms-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/database/",
+      "location": "/ja/learn/java-and-databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/videos/",
+      "location": "/ja/learn/learning-videos.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/content-management/site-builder/",
+      "location": "/ja/learn/oracle-content-management-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/react-js/",
+      "location": "/ja/learn/react-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/hols/",
+      "location": "/ja/learn/self-guided-hands-on-labs.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/solutions/build-microservice-app/",
+      "location": "/ja/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/id/solutions/build-microservice-app/",
+      "location": "/ja/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/sg/solutions/build-microservice-app/",
+      "location": "/ja/learn/technical-articles/build-microservice-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/solutions/build-microservice-app-post-reg/",
+      "location": "/ja/learn/technical-articles/build-microservice-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/building-apps-odb12c-apex-part1.html",
+      "location": "/ja/learn/technical-articles/building-apps-odb12c-apex-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/building-apps-odb12c-apex-part2.html",
+      "location": "/ja/learn/technical-articles/building-apps-odb12c-apex-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/building-jet-crud-apps-odb12c.html",
+      "location": "/ja/learn/technical-articles/building-jet-crud-apps-odb12c"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/bullet-time.html",
+      "location": "/ja/learn/technical-articles/bullet-time"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/proximasafe/chapter-1/",
+      "location": "/ja/learn/technical-articles/chapter-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/proximasafe/chapter-2/",
+      "location": "/ja/learn/technical-articles/chapter-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/combining-r-with-sql-for-data-analysis.html",
+      "location": "/ja/learn/technical-articles/combining-r-with-sql-for-data-analysis"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-cloud-infrastructure/compute-vm-simple-tutorial/",
+      "location": "/ja/learn/technical-articles/compute-vm-simple-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/solutions/create-app-from-spreadsheet-post-reg/",
+      "location": "/ja/learn/technical-articles/create-app-from-spreadsheet-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/database-for-python-developers-1.html",
+      "location": "/ja/learn/technical-articles/database-for-python-developers-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/deep-learning-on-clients.html",
+      "location": "/ja/learn/technical-articles/deep-learning-on-clients"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-cloud-infrastructure/deploy-micro-service-application-tutorial/",
+      "location": "/ja/learn/technical-articles/deploy-micro-service-application-tutorial"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/solutions/deploy-weblogic-cloud-app/",
+      "location": "/ja/learn/technical-articles/deploy-weblogic-cloud-app"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/solutions/deploy-weblogic-cloud-app-post-reg/",
+      "location": "/ja/learn/technical-articles/deploy-weblogic-cloud-app-post-reg"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/github/",
+      "location": "/ja/learn/technical-articles//github/"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/federated-deep-learning-using-java.html",
+      "location": "/ja/learn/technical-articles/federated-deep-learning-using-java"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/inside-java-mobile-app-part1.html",
+      "location": "/ja/learn/technical-articles/inside-java-mobile-app-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/inside-java-mobile-app-part2.html",
+      "location": "/ja/learn/technical-articles/inside-java-mobile-app-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/jdk-10-local-variable-type-inference.html",
+      "location": "/ja/learn/technical-articles/jdk-10-local-variable-type-inference"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/microservices/jellema_microservice_design/",
+      "location": "/ja/learn/technical-articles/jellema_microservice_design"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/kubernetes.html",
+      "location": "/ja/learn/technical-articles/kubernetes"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/learning-r-for-pl-sql-developers-part-1.html",
+      "location": "/ja/learn/technical-articles/learning-r-for-pl-sql-developers-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/learning-r-for-pl-sql-developers-part-2.html",
+      "location": "/ja/learn/technical-articles/learning-r-for-pl-sql-developers-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/learning-r-for-pl-sql-developers-part-3.html",
+      "location": "/ja/learn/technical-articles/learning-r-for-pl-sql-developers-part-3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/machine-learning-and-neural-networks.html",
+      "location": "/ja/learn/technical-articles/machine-learning-and-neural-networks"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/modular-reusable-javaee-architecture-with-docker.html",
+      "location": "/ja/learn/technical-articles/modular-reusable-javaee-architecture-with-docker"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/my-sql-is-stuck.html",
+      "location": "/ja/learn/technical-articles/my-sql-is-stuck"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/nashorn-javascript-part1.html",
+      "location": "/ja/learn/technical-articles/nashorn-javascript-part1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/nashorn-javascript-part2.html",
+      "location": "/ja/learn/technical-articles/nashorn-javascript-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/nashorn-javascript-part3.html",
+      "location": "/ja/learn/technical-articles/nashorn-javascript-part3"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/neural-network-machine-learning.html",
+      "location": "/ja/learn/technical-articles/neural-network-machine-learning"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/containers/nodevops.html",
+      "location": "/ja/learn/technical-articles/nodevops"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oci-key-concepts/",
+      "location": "/ja/learn/technical-articles/oci-key-concepts"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dsl/odb-browser-apps-js-rest.html",
+      "location": "/ja/learn/technical-articles/odb-browser-apps-js-rest"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dsl/odb-browser-apps-js-rest-p2.html",
+      "location": "/ja/learn/technical-articles/odb-browser-apps-js-rest-p2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dsl/oracle-java-zend-server.html",
+      "location": "/ja/learn/technical-articles/oracle-java-zend-server"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/oracle-r-advanced-analytics-for-hadoop-part-1.html",
+      "location": "/ja/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-1"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/oracle-r-advanced-analytics-for-hadoop-part-2.html",
+      "location": "/ja/learn/technical-articles/oracle-r-advanced-analytics-for-hadoop-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/oracle-rest-data-services-for-python-developers.html",
+      "location": "/ja/learn/technical-articles/oracle-rest-data-services-for-python-developers"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/oracle-rest-data-services-for-python-developers-part2.html",
+      "location": "/ja/learn/technical-articles/oracle-rest-data-services-for-python-developers-part2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dsl/php-web-auditing.html",
+      "location": "/ja/learn/technical-articles/php-web-auditing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/proximasafe-intro/",
+      "location": "/ja/learn/technical-articles/proximasafe-intro"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/proximasafe-part-3/",
+      "location": "/ja/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/proximasafe-part-2/",
+      "location": "/ja/learn/technical-articles/proximasafe-part-2"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/java/quantum-computing.html",
+      "location": "/ja/learn/technical-articles/quantum-computing"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/opensource/serverless-with-fn-project.html",
+      "location": "/ja/learn/technical-articles/serverless-with-fn-project"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dsl/technote-php-instant.html",
+      "location": "/ja/learn/technical-articles/technote-php-instant"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dsl/tuininga-cx-oracle.html",
+      "location": "/ja/learn/technical-articles/tuininga-cx-oracle"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/microservices/what-are-microservices/",
+      "location": "/ja/learn/technical-articles/what-are-microservices"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/what-is-iac/",
+      "location": "/ja/learn/technical-articles/what-is-iac"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/javascript/what-is-javascript/",
+      "location": "/ja/learn/technical-articles/what-is-javascript"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/lowcode/what-is-lowcode/",
+      "location": "/ja/learn/technical-articles/what-is-lowcode"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/nodejs/what-is-node-js/",
+      "location": "/ja/learn/technical-articles/what-is-node-js"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/open-source/what-is-open-source/",
+      "location": "/ja/learn/technical-articles/what-is-open-source"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/python/what-is-python/",
+      "location": "/ja/learn/technical-articles/what-is-python"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/what-is-pytorch/",
+      "location": "/ja/learn/technical-articles/what-is-pytorch"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/ruby/what-is-ruby/",
+      "location": "/ja/learn/technical-articles/what-is-ruby"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/what-is-tensorflow/",
+      "location": "/ja/learn/technical-articles/what-is-tensorflow"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/dotnet/williams-refcursors.html",
+      "location": "/ja/learn/technical-articles/williams-refcursors"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/use-cases/",
+      "location": "/ja/learn/use-cases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/modern-appdev/",
+      "location": "/ja/learn/webcasts.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/open-source/",
+      "location": "/ja/open-source.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/redbull/",
+      "location": "/ja/redbull.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/ai-ml/",
+      "location": "/ja/technologies/ai-ml.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/api/",
+      "location": "/ja/technologies/api.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/blockchain/",
+      "location": "/ja/technologies/blockchain.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/chatbots/",
+      "location": "/ja/technologies/chatbots.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/content-management/",
+      "location": "/ja/technologies/content-management.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/databases/",
+      "location": "/ja/technologies/databases.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/devops/",
+      "location": "/ja/technologies/devops.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/infrastructure-as-code/",
+      "location": "/ja/technologies/infrastructure-as-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/linux/",
+      "location": "/ja/technologies/linux.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/lowcode/",
+      "location": "/ja/technologies/low-code.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/microservices/",
+      "location": "/ja/technologies/microservices.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/quick-reference/",
+      "location": "/ja/technologies/oci-quick-reference.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-cloud-infrastructure/",
+      "location": "/ja/technologies/oracle-cloud-infrastructure.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/arm/",
+      "location": "/ja/technologies/oracle-cloud-infrastructure/arm.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/arm/tools/",
+      "location": "/ja/technologies/oracle-cloud-infrastructure/arm/tools.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/getting-started/",
+      "location": "/ja/technologies/oracle-cloud-infrastructure/getting-started.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/visual-builder/",
+      "location": "/ja/technologies/visual-builder.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/tutorials/",
+      "location": "/ja/learn/dev-tutorials.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/big-data-jam-session.html",
+      "location": "/ja/big-data-jam-session.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/blockchain-gig.html",
+      "location": "/ja/blockchain-gig.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/cloud-hangout-cafe.html",
+      "location": "/ja/cloud-hangout-cafe.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/oracle-code-night.html",
+      "location": "/ja/oracle-code-night.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/oracle-cloud-hangout-cafe-premium.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-premium.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/cloud-hangout-cafe-seasons-1-2.html",
+      "location": "/ja/cloud-hangout-cafe-seasons-1-2.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/oracle-cloud-hangout-cafe-season3.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-season3.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/oracle-cloud-hangout-cafe-season4.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-season4.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/oracle-cloud-hangout-cafe-season5.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-season5.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/database-technology-night.html",
+      "location": "/ja/database-technology-night.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/developer-days.html",
+      "location": "/ja/developer-days.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/developer-days-2021.html",
+      "location": "/ja/developer-days-2021.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/developer-days-2021-on-demand.html",
+      "location": "/ja/developer-days-2021-on-demand.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/developer-days-2022-may.html",
+      "location": "/ja/developer-days-2022-may.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/developer-days-2022-may/on-demand.html",
+      "location": "/ja/developer-days-2022-may/on-demand.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/mysql-technology-cafe.html",
+      "location": "/ja/mysql-technology-cafe.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/oci-skillup-seminar.html",
+      "location": "/ja/oci-skillup-seminar.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/en/oracle-apex-workshop.html",
+      "location": "/ja/oracle-apex-workshop.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/big-data-jam-session.html",
+      "location": "/ja/big-data-jam-session.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/blockchain-gig.html",
+      "location": "/ja/blockchain-gig.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/cloud-hangout-cafe.html",
+      "location": "/ja/cloud-hangout-cafe.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-code-night.html",
+      "location": "/ja/oracle-code-night.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-cloud-hangout-cafe-premium.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-premium.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/cloud-hangout-cafe-seasons-1-2.html",
+      "location": "/ja/cloud-hangout-cafe-seasons-1-2.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-cloud-hangout-cafe-season3.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-season3.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-cloud-hangout-cafe-season4.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-season4.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-cloud-hangout-cafe-season5.html",
+      "location": "/ja/oracle-cloud-hangout-cafe-season5.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/database-technology-night.html",
+      "location": "/ja/database-technology-night.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-days.html",
+      "location": "/ja/developer-days.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-days-2021.html",
+      "location": "/ja/developer-days-2021.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-days-2021-on-demand.html",
+      "location": "/ja/developer-days-2021-on-demand.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-days-2022-may.html",
+      "location": "/ja/developer-days-2022-may.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/developer-days-2022-may/on-demand.html",
+      "location": "/ja/developer-days-2022-may/on-demand.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/mysql-technology-cafe.html",
+      "location": "/ja/mysql-technology-cafe.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oci-skillup-seminar.html",
+      "location": "/ja/oci-skillup-seminar.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/jp/oracle-apex-workshop.html",
+      "location": "/ja/oracle-apex-workshop.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/dz/code-explore-online/",
+      "location": "/en/code-explore-online.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/gh/code-explore-online/",
+      "location": "/en/code-explore-online.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/ke/code-explore-online/",
+      "location": "/en/code-explore-online.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/ma/code-explore-online/",
+      "location": "/en/code-explore-online.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/ng/code-explore-online/",
+      "location": "/en/code-explore-online.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/africa/code-explore-online/",
+      "location": "/en/code-explore-online.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/sn/code-explore-online/",
+      "location": "/en/code-explore-online.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/in/developer-days/",
+      "location": "/en/developer-day-india.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/ar/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cl/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/co/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/cr/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/mx/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/pe/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/lad/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/uy/groundbreakers-tour.html",
+      "location": "/community.html"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/max",
+      "location": "/redbull-live-labs/max"
+    },
+    {
+      "type": "string",
+      "comment": "this rule is applied first",
+      "expression": "/free",
+      "location": "/free.html"
+    }
+  ]
 }
-
-
