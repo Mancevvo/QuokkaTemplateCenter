@@ -4030,7 +4030,7 @@
       "type": "string",
       "comment": "this rule is applied first",
       "expression": "/max",
-      "location": "/redbull-live-labs/max"
+      "location": "/en/redbull-live-laps/max"
     },
     {
       "type": "string",
