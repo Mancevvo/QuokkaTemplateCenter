@@ -1,6 +1,23 @@
 .headerTest {
   background-color: #6f6f6f;
-  margin-bottom: 24px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+.sequoiaGrid12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 24px;
+}
+
+.sequoiaGrid0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 24px;
 }
 
 .sequoiaGrid {
@@ -10,10 +27,60 @@
   gap: 0px 24px;
 }
 
+.sequoiaGrid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 24px;
+}
+
+.sequoiaGrid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 24px;
+}
+
+.sequoiaGrid-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 24px;
+}
+
+.space-25 {
+  height: 25px;
+}
+
 .sequoiaGrid-content {
   background-color: #00747a;
   height: 100px;
 }
+
+.sequoiaGrid-content2 {
+  background-color: #00357a;
+  height: 100px;
+}
+
+.sequoiaGrid-content3 {
+  background-color: #7a002d;
+  height: 100px;
+}
+
+.sequoiaGrid-content4 {
+  background-color: #707a00;
+  height: 100px;
+}
+
+.sequoiaGrid-content0 {
+  background-color: #78007a;
+  height: 100px;
+}
+
+.sequoiaGrid-content12 {
+    background-color: #000000;
+    height: 50px
+  }
 
 .textGrid {
   color: aliceblue;
@@ -23,8 +90,13 @@
 
 .sequoiaGrid-container-s1,
 .headerContainer {
-  max-width: 1280px;
+  padding: 0px 60px;
   margin: auto;
+  max-width: 1800px;
+}
+.sequoiaGrid-container-s1 {
+  background-color: aliceblue;
+
 }
 
 .currentSize {
@@ -51,16 +123,12 @@
   body {
     background-color: rgb(161, 255, 127);
   }
-
-
 }
 
 @media (max-width: 1200px) {
   body {
     background-color: aquamarine;
   }
-
-
   .sequoiaGrid-container-s1,
   .headerContainer {
     padding: 0px 60px;
@@ -76,6 +144,27 @@
   .headerContainer {
     padding: 0px 48px;
   }
+
+  .sequoiaGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px 16px;
+  }
+
+  .sequoiaGrid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px 16px;
+  }
+
+  .sequoiaGrid-3 {
+    gap: 16px 16px;
+  }
+
+  
+
 }
 
 @media (max-width: 360px) {
@@ -85,5 +174,23 @@
   .sequoiaGrid-container-s1,
   .headerContainer {
     padding: 0px 24px;
+  }
+  .sequoiaGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px 16px;
+  }
+
+  .sequoiaGrid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .sequoiaGrid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
