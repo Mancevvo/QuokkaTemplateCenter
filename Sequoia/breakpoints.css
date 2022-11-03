@@ -1,0 +1,89 @@
+.headerTest {
+  background-color: #6f6f6f;
+  margin-bottom: 24px;
+}
+
+.sequoiaGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 24px;
+}
+
+.sequoiaGrid-content {
+  background-color: #00747a;
+  height: 100px;
+}
+
+.textGrid {
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sequoiaGrid-container-s1,
+.headerContainer {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.currentSize {
+  background-color: red;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 3840px) {
+  body {
+    background-color: rgb(161, 127, 255);
+  }
+}
+
+@media (max-width: 2560px) {
+  body {
+    background-color: rgb(255, 168, 127);
+  }
+}
+
+@media (max-width: 1920px) {
+  body {
+    background-color: rgb(161, 255, 127);
+  }
+
+
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: aquamarine;
+  }
+
+
+  .sequoiaGrid-container-s1,
+  .headerContainer {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(127, 195, 255);
+  }
+
+  .sequoiaGrid-container-s1,
+  .headerContainer {
+    padding: 0px 48px;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    background-color: rgb(232, 127, 255);
+  }
+  .sequoiaGrid-container-s1,
+  .headerContainer {
+    padding: 0px 24px;
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakpoints Exploration</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./breakpoints.css">
+
+</head>
+
+<body>
+
+    <div class="currentSize" id="windowWidth">
+        <p id="textSize3">Size</p>
+    </div>
+
+    <div class="currentSize" id="windowWidth">
+        <p id="textSize2">Size</p>
+    </div>
+    <header class="headerTest">
+        <div class="headerContainer">
+            <p>ORACLE</p>
+        </div>
+
+    </header>
+
+    <section></section>
+
+    <section class="sequoiaGrid-container-s1">
+        <div class="currentSize">
+            <p id="textSize">Size</p>
+        </div>
+
+        <div class="sequoiaGrid" id="gridContainerSize">
+            <div class="sequoiaGrid-content">
+                <p class="textGrid">Block 1</p>
+            </div>
+            <div class="sequoiaGrid-content">
+                <p class="textGrid">Block 2</p>
+            </div>
+            <div class="sequoiaGrid-content">
+                <p class="textGrid">Block 3</p>
+            </div>
+            <div class="sequoiaGrid-content">
+                <p class="textGrid">Block 4</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script>
+    function getSize() {
+        let measureText = document.getElementById("textSize");
+        let gridContainerSize = document.getElementById("gridContainerSize");
+        measureText.innerHTML = gridContainerSize.offsetWidth
+
+        let measureText2 = document.getElementById("textSize2");
+        let gridContainerSize2 = document.getElementById("windowWidth");
+        measureText2.innerHTML = gridContainerSize2.offsetWidth
+
+        let measureText3 = document.getElementById("textSize3");
+        measureText3.innerHTML = "LEFT / RIGHT MARGIN: " + (gridContainerSize2.offsetWidth - gridContainerSize.offsetWidth)/2
+    }
+
+    getSize()
+
+    window.addEventListener('resize', function (event) {
+        getSize()
+    }, true);
+</script>
+
+</html>
