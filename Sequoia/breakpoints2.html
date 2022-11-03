@@ -17,6 +17,10 @@
         <p id="textSize2">Size</p>
     </div>
 
+    <div class="currentSize" id="windowWidth">
+        <p id="breakpoint">Breakpoint</p>
+    </div>
+
     <div class="currentSize" id="marginWidth">
         <p id="textSize3">Size</p>
     </div>
@@ -179,7 +183,22 @@
 
         let measureText2 = document.getElementById("textSize2");
         let gridContainerSize2 = document.getElementById("windowWidth");
+        let breakpoint = document.getElementById("breakpoint");
+
         measureText2.innerHTML = "Viewport width: " + gridContainerSize2.offsetWidth + "px"
+
+        if(gridContainerSize2.offsetWidth<768){
+            breakpoint.innerHTML = "Mobile";
+        }else if(gridContainerSize2.offsetWidth>=768 & gridContainerSize2.offsetWidth<=1200){
+            breakpoint.innerHTML = "Tablet";
+        }else if(gridContainerSize2.offsetWidth>1200 & gridContainerSize2.offsetWidth<2560){
+            breakpoint.innerHTML = "Desktop";
+        }else if(gridContainerSize2.offsetWidth>=2560){
+            breakpoint.innerHTML = "High Resolution";
+        }
+
+
+      
 
         let measureText3 = document.getElementById("textSize3");
         let marginDiv = document.getElementById("marginWidth");
@@ -195,5 +214,11 @@
         getSize()
     }, true);
 </script>
+
+<style>
+    .headerContainer {
+  max-width: none!important;
+}
+</style>
 
 </html>
