@@ -113,6 +113,10 @@
   body {
     background-color: rgb(161, 127, 255);
   }
+  .sequoiaGrid-container-s1,
+  .headerContainer {
+    padding: 0px 60px;
+  }
 }
 
 @media (max-width: 1200px) {
