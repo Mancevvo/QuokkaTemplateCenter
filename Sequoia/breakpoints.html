@@ -13,6 +13,44 @@
 
 <body>
 
+    <div class="formContainer">
+        <div class="formContainer-inputs">
+            <span class="formElement">
+                <label for="activeArea" class="formContainer-label">Max. Active Area (px):</label>
+                <input type="text" name="activeArea" id="activeArea" value="1600">
+            </span>
+            <span class="formElement two">
+                <div>
+                    <label for="desktopPadding" class="formContainer-label">Desktop L/R Padding:</label>
+                    <input type="text" name="desktopPadding" id="desktopPadding" value="60">
+                </div>
+                <div>
+                    <label for="gridDesktop" class="formContainer-label">Desktop Grid Gap:</label>
+                    <input type="text" name="gridDesktop" id="gridDesktop" value="24">
+                </div>
+            </span>
+            <span class="formElement two">
+                <div>
+                    <label for="tabletPadding" class="formContainer-label">Tablet L/R Padding:</label>
+                    <input type="text" name="tabletPadding" id="tabletPadding" value="48">
+                </div>
+                <div>
+                    <label for="gridtablet" class="formContainer-label">Tablet/Mobile Grid Gap:</label>
+                    <input type="text" name="gridtablet" id="gridtablet" value="24">
+                </div>
+            </span>
+            <span class="formElemen two">
+                <div>
+                    <label for="mobilePadding" class="formContainer-label">Mobile L/R Padding (px):</label>
+                    <input type="text" name="mobilePadding" id="mobilePadding" value="24">
+                </div>
+            </span>
+
+            <p><br><strong>Resize window to update values</strong></p>
+
+        </div>
+    </div>
+
     <div class="currentSize" id="windowWidth">
         <p id="textSize2">Size</p>
     </div>
@@ -28,7 +66,8 @@
 
     <header class="headerTest">
         <div class="headerContainer">
-            <p>ORACLE</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" alt="" width="160px"
+                height="auto">
         </div>
 
     </header>
@@ -40,138 +79,121 @@
             <p id="textSize">Size</p>
         </div>
 
-        <div class="space-25"></div>
-
-        <div class="sequoiaGrid12" id="gridContainerSize">
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-            <div class="sequoiaGrid-content12">
-
-            </div>
-        </div>
     </section>
-    <!--
     <section class="sequoiaGrid-container-s1">
-
-
-        <div class="space-25"></div>
-
-        <div class="sequoiaGrid0" id="gridContainerSize">
-            <div class="sequoiaGrid-content0">
-                <p class="textGrid">Block 1</p>
-            </div>
-            <div class="sequoiaGrid-content0">
-                <p class="textGrid">Block 2</p>
-            </div>
-            <div class="sequoiaGrid-content0">
-                <p class="textGrid">Block 3</p>
-            </div>
-            <div class="sequoiaGrid-content0">
-                <p class="textGrid">Block 4</p>
-            </div>
-            <div class="sequoiaGrid-content0">
-                <p class="textGrid">Block 5</p>
-            </div>
-            <div class="sequoiaGrid-content0">
-                <p class="textGrid">Block 6</p>
-            </div>
-        </div>
-    </section>
-
--->
-    <section class="sequoiaGrid-container-s1">
-
-
-        <div class="space-25"></div>
-
         <div class="sequoiaGrid" id="gridContainerSize">
             <div class="sequoiaGrid-content">
-                <p class="textGrid">Block 1</p>
+                <div class="card-Container">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title" id="demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
             </div>
             <div class="sequoiaGrid-content">
-                <p class="textGrid">Block 2</p>
+                <p class="textGrid">
+                <div class="card-Container">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
+                </p>
             </div>
             <div class="sequoiaGrid-content">
-                <p class="textGrid">Block 3</p>
+                <p class="textGrid">
+                <div class="card-Container">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
+                </p>
             </div>
             <div class="sequoiaGrid-content">
-                <p class="textGrid">Block 4</p>
+                <p class="textGrid">
+                <div class="card-Container">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="space-25"></div>
+
+    <section class="sequoiaGrid-container-s1 trans">
+        <div class="sequoiaGrid" id="gridContainerSize">
+            <div class="sequoiaGrid-content">
+                <div class="card-Container">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title" id="demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sequoiaGrid-content">
+                <div class="card-Container">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sequoiaGrid-content">
+                <div class="card-Container trans">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sequoiaGrid-content">
+                <div class="card-Container">
+                    <img src="/Sequoia/Preview.jpg" alt="" class="img-Card">
+                    <p class="card-Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-paragraph">Praesent sed diam interdum, posuere quam sed, faucibus justo. Aliquam nec
+                        orci ullamcorper, feugiat tellus et, accumsan neque. Aliquam sapien mauris, ornare ut tortor et,
+                        eleifend molestie ante. Vestibulum purus urna, sodales in laoreet nec, vehicula quis nisl. </p>
+                    <div class="btn-cont">
+                        <a href="" class="card-link">Tertiary CTA</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="sequoiaGrid-container-s1">
-
-        <div class="space-25"></div>
-
-        <div class="sequoiaGrid-2">
-            <div class="sequoiaGrid-content2">
-                <p class="textGrid">Block 1</p>
-            </div>
-            <div class="sequoiaGrid-content2">
-                <p class="textGrid">Block 2</p>
-            </div>
-            <div class="sequoiaGrid-content2">
-                <p class="textGrid">Block 3</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="sequoiaGrid-container-s1">
-
-        <div class="space-25"></div>
-
-        <div class="sequoiaGrid-3">
-            <div class="sequoiaGrid-content3">
-                <p class="textGrid">Block 1</p>
-            </div>
-            <div class="sequoiaGrid-content3">
-                <p class="textGrid">Block 2</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="sequoiaGrid-container-s1">
-
-        <div class="space-25"></div>
-
-        <div class="sequoiaGrid-4">
-            <div class="sequoiaGrid-content4">
-                <p class="textGrid">Block 1</p>
-            </div>
-        </div>
-    </section>
+    <div class="space-100"></div>
 
 </body>
 
@@ -187,23 +209,70 @@
 
         measureText2.innerHTML = "Viewport width: " + gridContainerSize2.offsetWidth + "px"
 
-        if(gridContainerSize2.offsetWidth<768){
+        if (gridContainerSize2.offsetWidth < 768) {
             breakpoint.innerHTML = "Mobile";
-        }else if(gridContainerSize2.offsetWidth>=768 & gridContainerSize2.offsetWidth<=1200){
+        } else if (gridContainerSize2.offsetWidth >= 768 & gridContainerSize2.offsetWidth <= 1200) {
             breakpoint.innerHTML = "Tablet";
-        }else if(gridContainerSize2.offsetWidth>1200 & gridContainerSize2.offsetWidth<2560){
+        } else if (gridContainerSize2.offsetWidth > 1200 & gridContainerSize2.offsetWidth < 2560) {
             breakpoint.innerHTML = "Desktop";
-        }else if(gridContainerSize2.offsetWidth>=2560){
+        } else if (gridContainerSize2.offsetWidth >= 2560) {
             breakpoint.innerHTML = "High Resolution";
         }
 
-
-      
 
         let measureText3 = document.getElementById("textSize3");
         let marginDiv = document.getElementById("marginWidth");
         let sumMargin = (gridContainerSize2.offsetWidth - gridContainerSize.offsetWidth) / 2
         marginDiv.style.width = measureText3.innerHTML = sumMargin + "px";
+
+
+        //Fields
+        let maxWidthField = document.getElementById('activeArea').value
+
+        let DP = document.getElementById('desktopPadding').value
+        let TP = document.getElementById('tabletPadding').value
+        let MP = document.getElementById('mobilePadding').value
+
+        let DG = document.getElementById('gridDesktop').value
+        let TG = document.getElementById('gridtablet').value
+
+        let cont1 = document.querySelectorAll(".sequoiaGrid-container-s1");
+
+        for (let i = 0; i < cont1.length; i++) {
+            cont1[i].style.maxWidth = maxWidthField + "px"
+
+            if (window.matchMedia("(max-width: 3840px)").matches) {
+                cont1[i].style.padding = '0px ' + DP + 'px';
+            }
+            if (window.matchMedia("(max-width: 1200px)").matches) {
+                cont1[i].style.padding = '0px ' + TP + 'px';
+            }
+
+            if (window.matchMedia("(max-width: 767px)").matches) {
+                cont1[i].style.padding = '0px ' + MP + 'px';
+            }
+        }
+
+        let seqGrid = document.querySelectorAll(".sequoiaGrid");
+        console.log("j")
+        for (let j = 0; j < seqGrid.length; j++) {
+
+            if (window.matchMedia("(max-width: 3840px)").matches) {
+                seqGrid[j].style.gap = '0px ' + DG + 'px';
+            }
+            if (window.matchMedia("(max-width: 1200px)").matches) {
+                seqGrid[j].style.gap = '60px ' + TG + 'px';
+            }
+        }
+
+        let cont2 = document.querySelector(".headerContainer");
+        cont2.style.maxWidth = maxWidthField + "px"
+
+
+        //Desktop
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            document.querySelector('.foo').style.width = "15px";
+        }
 
     }
 
@@ -212,6 +281,7 @@
     window.addEventListener('resize', function (event) {
         getSize()
     }, true);
+
 </script>
 
 </html>
