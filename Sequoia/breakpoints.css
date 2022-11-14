@@ -1,3 +1,7 @@
+*{
+  font-family: 'Oracle Sans';
+}
+
 /* Form-Container */
 .formContainer {
   background-color: rgba(255, 255, 255, 0.5);
@@ -6,10 +10,11 @@
   border: 1px solig rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   position: fixed;
-  right: 24px;
+
+  left: 24px;
   bottom: 24px;
   padding: 10px;
-  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .formContainer-inputs,
@@ -65,7 +70,7 @@
 .card-Title {
   font-style: normal;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 20px;
   line-height: 32px;
   margin-bottom: 1rem;
 }
@@ -121,6 +126,13 @@
   grid-template-rows: 1fr;
 }
 
+.sequoiaGrid-2col {
+  gap: 0px 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
 .space-25 {
   height: 25px;
 }
@@ -137,6 +149,32 @@
   color: aliceblue;
   text-align: center;
   font-weight: bold;
+}
+
+.bannerWithImage {
+  min-height: 480px;
+  padding: auto;
+  background-size: cover;
+  background-position: center left;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+  color: #fff;
+}
+
+.desc-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.banner-cont{
+  max-width: 50%;
 }
 
 @media (max-width: 3840px) {
@@ -158,6 +196,16 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 16px 16px;
+  }
+
+  .banner-cont{
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .bannerWithImage {
+    background-size: cover;
+    background-position: center center;
   }
 
   .sequoiaGrid-container-s1,
@@ -184,6 +232,7 @@
     grid-template-rows: 1fr;
     gap: 16px 16px;
   }
+
 
   .formContainer {
     top: auto;
