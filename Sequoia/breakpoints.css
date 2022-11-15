@@ -4,8 +4,7 @@
 
 /* Form-Container */
 .formContainer {
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(20px);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border: 1px solig rgba(255, 255, 255, 0.18);
   border-radius: 8px;
